@@ -1,0 +1,99 @@
+description <http://example.com/LeaderOntology/description/strategiesDescrip#> as strategiesDescrip {
+	
+	extends <http://example.com/LeaderOntology/description/competenciesDescrip#> as competenciesDescrip
+	uses <http://example.com/LeaderOntology/vocabulary/strategies#> as strategies
+	uses <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
+	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
+	
+	// ESTRATÉGIAS DE DESENVOLVIMENTO (QP1)
+	
+	instance EST-001 : strategies:EstrategiaDesenvolvimento [
+		base:nome "Promoção de Práticas Habilitadas por IA"
+		base:id "EST-001"
+		base:descricao "Estratégia de implementar e promover práticas de trabalho que utilizam IA para desenvolver resiliência"
+		competencies:areaAplicacao "tecnologia"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Transforming work in the digital era (2025)"
+		strategies:desenvolveCompetencia competenciesDescrip:HAB-005
+	]
+	
+	instance EST-002 : strategies:EstrategiaDesenvolvimento [
+		base:nome "Fomento de Cultura de Inovação e Inovação sustentável"
+		base:id "EST-002"
+		base:descricao "Cultivo de ambiente organizacional que valoriza experimentação, criatividade e inovação"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Future Trends in Digital Leadership (2025), Digital Leadership, AI Integration (2025)"
+		strategies:desenvolveCompetencia competenciesDescrip:HAB-012, competenciesDescrip:MIND-002
+	]
+	
+	instance EST-003 : strategies:EstrategiaDesenvolvimento [
+		base:nome "Treinamento Contínuo, Desenvolvimento e Capacitação de Funcionários"
+		base:id "EST-003"
+		base:descricao "Programas estruturados de capacitação contínua em competências digitais e de IA, além da requalificação de colaboradores para lidar com automação e novas tecnologias"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Future Trends in Digital Leadership (2025), Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership(2022), Leading The Way (2023), Preparing for a New World of Work (2023)"
+		strategies:desenvolveCompetencia competenciesDescrip:HAB-001, competenciesDescrip:HAB-018, competenciesDescrip:CONH-001, competenciesDescrip:CONH-002
+	]
+	
+	instance EST-004 : strategies:EstrategiaDesenvolvimento [
+		base:nome "Promoção de Confiança na IA"
+		base:id "EST-005"
+		base:descricao "Construção de confiança organizacional nas capacidades e uso ético de sistemas de IA"
+		competencies:areaAplicacao "etica"
+		competencies:questaoPesquisa "QP1, QP4"
+		competencies:artigoReferencia "Adoption of Artificial Intelligence: TOP framework (2024), Artificial intelligence adoption in extended HR ecosystems (2024)"
+		strategies:desenvolveCompetencia competenciesDescrip:CONH-003, competenciesDescrip:CONH-004, competenciesDescrip:HAB-005, competenciesDescrip:MIND-005
+	]
+	
+	instance EST-005 : strategies:EstrategiaDesenvolvimento [
+		base:nome "Promoção de Colaboração Humano-Máquina"
+		base:id "EST-006"
+		base:descricao "Estratégia de fomentar colaboração harmoniosa entre pessoas e sistemas de IA"
+		competencies:areaAplicacao "tecnologia"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems (2024)"
+		strategies:desenvolveCompetencia competenciesDescrip:CONH-005, competenciesDescrip:HAB-009
+	]
+	
+	instance EST-006 : strategies:EstrategiaDesenvolvimento [
+		base:nome "Criação de Ambientes Psicologicamente Seguros"
+		base:id "EST-007"
+		base:descricao "Desenvolvimento de ambientes onde colaboradores se sintam seguros para experimentar e errar"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP4"
+		competencies:artigoReferencia "Digital Leadership, AI Integration (2025)"
+		strategies:desenvolveCompetencia competenciesDescrip:HAB-005, competenciesDescrip:HAB-014, competenciesDescrip:MIND-001, competenciesDescrip:MIND-002, competenciesDescrip:MIND-003
+	]
+	
+	instance EST-007 : strategies:EstrategiaDesenvolvimento [
+		base:nome "Uso de IA Parcialmente Automatizada"
+		base:id "EST-008"
+		base:descricao "Implementação de sistemas confirm-or-override para manter envolvimento humano na decisão"
+		competencies:areaAplicacao "tecnologia"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Safeguarding worker psychosocial well-being (2025)"
+		strategies:desenvolveCompetencia competenciesDescrip:MIND-001, competenciesDescrip:HAB-008, competenciesDescrip:HAB-009
+	]
+	
+	instance EST-008 : strategies:EstrategiaDesenvolvimento [
+		base:nome "Comunicação Transparente sobre IA"
+		base:id "EST-009"
+		base:descricao "Comunicação clara e aberta sobre implementação, benefícios e desafios da IA"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Transforming work in the digital era (2025), Facilitating digital work in public agencies through job design and digital communication management (2023)"
+		strategies:desenvolveCompetencia competenciesDescrip:HAB-013
+	]
+	
+	instance EST-009 : strategies:EstrategiaDesenvolvimento [
+		base:nome "Liderança pelo Exemplo"
+		base:id "EST-010"
+		base:descricao "Líderes demonstram pessoalmente a adoção e uso efetivo de tecnologias digitais"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)"
+		strategies:desenvolveCompetencia competenciesDescrip:HAB-001, competenciesDescrip:CONH-001
+	]
+}

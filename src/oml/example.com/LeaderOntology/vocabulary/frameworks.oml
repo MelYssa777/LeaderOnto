@@ -1,0 +1,20 @@
+vocabulary <http://example.com/LeaderOntology/vocabulary/frameworks#> as frameworks {
+	
+	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
+	extends <http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#> as dimensionsLeadership
+	
+	concept Framework < base:EntidadeBase [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	
+	concept FrameworkTOP < Framework
+	concept FrameworkCompetencias < Framework
+	concept ModeloAvaliacao < Framework
+	
+	relation baseadoEm [
+		from frameworks:Framework
+		to dimensionsLeadership:DimensaoLideranca
+		reverse fundamentoDeFramework
+	]
+}

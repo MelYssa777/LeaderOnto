@@ -1,0 +1,42 @@
+vocabulary <http://example.com/LeaderOntology/vocabulary/strategies#> as strategies {
+	
+	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
+	extends <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
+	extends <http://example.com/LeaderOntology/vocabulary/gapsTrends#> as gapsTrends
+	
+// ESTRATÉGIAS E ABORDAGENS (QP1)
+	aspect Estrategia < base:EntidadeBase
+		
+	concept EstrategiaDesenvolvimento < Estrategia [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	concept EstrategiaDiagnostico < Estrategia [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	concept EstrategiaAvaliacao < Estrategia [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	
+	concept DesenvolvimentoCompetencia < base:EntidadeBase
+	
+	relation desenvolveCompetencia [
+		from Estrategia
+		to competencies:Competencia
+		reverse competenciaDesenvolvidaPor
+	] 
+	
+	relation moderadoPor [
+		from strategies:Estrategia
+		to competencies:Competencia
+		reverse moderadorDe
+	]
+	
+	relation abordaLacuna [
+		from strategies:Estrategia
+		to gapsTrends:Lacuna
+		reverse lacunaAbordadaPor
+	]
+}

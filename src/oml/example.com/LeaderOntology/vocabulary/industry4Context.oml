@@ -1,0 +1,22 @@
+vocabulary <http://example.com/LeaderOntology/vocabulary/industry4Context#> as industry4Context {
+	
+	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
+	extends <http://example.com/LeaderOntology/vocabulary/gapsTrends#> as gapsTrends
+	
+	//CONTEXTO INDÚSTRIA 4.0
+	
+	concept ContextoIndustria4.0 < base:EntidadeBase [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	
+	concept TransformacaoDigital < ContextoIndustria4.0
+	concept IntegracaoIA < ContextoIndustria4.0
+	concept Industria5.0 < ContextoIndustria4.0
+	
+	relation indicaTendencia [
+		from industry4Context:ContextoIndustria4.0
+		to gapsTrends:Tendencia
+		reverse tendenciaIndicadaPor
+	]
+}

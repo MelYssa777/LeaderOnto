@@ -1,0 +1,45 @@
+vocabulary <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> as leadershipStyles {
+	
+	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
+	extends <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
+	extends <http://example.com/LeaderOntology/vocabulary/toolpractices#> as toolspractices
+	extends <http://example.com/LeaderOntology/vocabulary/impacts#> as impacts
+	extends <http://example.com/LeaderOntology/vocabulary/industry4Context#> as industry4Context
+	
+	// ESTILOS DE LIDERANÇA
+	concept EstiloLideranca < base:EntidadeBase [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	
+	concept LiderancaTransformacional < EstiloLideranca
+	concept LiderancaEmpoderadora < EstiloLideranca
+	concept LiderancaGenerativa < EstiloLideranca
+	concept LiderancaAgil < EstiloLideranca
+	concept LiderancaAutentica < EstiloLideranca
+	concept LiderancaTransacional < EstiloLideranca
+	
+	relation requerCompetencia [
+		from EstiloLideranca
+		to competencies:Competencia
+		reverse competenciaRequeridaPor
+	]
+	
+	relation aplicaPratica [
+		from EstiloLideranca
+		to toolspractices:Pratica
+		reverse praticaAplicadaPor
+	]
+	
+	relation causaImpacto [
+		from leadershipStyles:EstiloLideranca
+		to impacts:Impacto
+		reverse impactoCausadoPor
+	]
+	
+	relation integraIA [
+		from leadershipStyles:EstiloLideranca
+		to industry4Context:IntegracaoIA
+		reverse iaIntegradaEm
+	]
+}

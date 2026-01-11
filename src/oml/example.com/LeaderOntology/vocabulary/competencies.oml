@@ -1,0 +1,126 @@
+vocabulary <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies {
+	
+	extends <http://www.w3.org/2001/XMLSchema#> as xsd
+	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
+	extends <http://example.com/LeaderOntology/vocabulary/impacts#> as impacts
+
+	
+	
+	aspect Competencia < base:EntidadeBase 
+	
+	concept Conhecimento < Competencia [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	concept Habilidade < Competencia [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	concept Mindset < Competencia [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	
+	// Tipos específicos de Conhecimentos
+	concept ConhecimentoTecnico < Conhecimento [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	concept ConhecimentoEtico < Conhecimento [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	concept ConhecimentoEstrategico < Conhecimento [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	
+	// Tipos específicos de Habilidades
+	concept HabilidadeDigital < Habilidade [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	concept HabilidadeCognitiva < Habilidade [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	concept HabilidadeSocioemocional < Habilidade [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	concept HabilidadeGestao < Habilidade [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	
+	// Tipos específicos de Mindsets
+	concept MindsetCentradoHumano < Mindset [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	concept MindsetInovador < Mindset [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	concept MindsetEtico < Mindset [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	concept MindsetAgil < Mindset [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	
+	scalar TipoCompetencia [
+		oneOf "conhecimento", "habilidade", "mindset"
+	]
+	
+	scalar NivelMaturidade [
+		oneOf "inicial", "emergente", "desenvolvido", "maduro", "otimizado"
+	]
+	
+	scalar AreaAplicacao [
+		oneOf "gestao", "tecnologia", "pessoas", "estrategia", "etica"
+	]
+	
+	scalar FonteEvidencia [
+		oneOf "empirico", "teorico", "conceitual"
+	]
+	
+	scalar property tipoCompetencia [
+		domain Competencia
+		range TipoCompetencia
+		functional
+	]
+	
+	scalar property nivelMaturidade [
+		domain base:EntidadeBase
+		range NivelMaturidade
+	]
+	
+	scalar property areaAplicacao [
+		domain base:EntidadeBase
+		range AreaAplicacao
+	]
+	
+	scalar property fonteEvidencia [
+		domain base:EntidadeBase
+		range FonteEvidencia
+	]
+	
+	scalar property questaoPesquisa [
+		domain base:EntidadeBase
+		range xsd:string
+	]
+	
+	scalar property artigoReferencia [
+		domain base:EntidadeBase
+		range xsd:string
+	]
+	
+	relation mediaPor [
+		from Competencia
+		to impacts:Impacto
+		reverse impactoMediadoPor
+	]	
+}

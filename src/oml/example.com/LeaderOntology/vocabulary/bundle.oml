@@ -1,0 +1,13 @@
+vocabulary bundle <http://example.com/LeaderOntology/vocabulary/bundle#> as ^bundle {
+	
+	includes <http://example.com/LeaderOntology/vocabulary/base#>
+	includes <http://example.com/LeaderOntology/vocabulary/toolpractices#> 
+	includes <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> 
+	includes <http://example.com/LeaderOntology/vocabulary/industry4Context#> 
+	includes <http://example.com/LeaderOntology/vocabulary/impacts#> 
+	includes <http://example.com/LeaderOntology/vocabulary/gapsTrends#> 
+	includes <http://example.com/LeaderOntology/vocabulary/frameworks#> 
+	includes <http://example.com/LeaderOntology/vocabulary/estrategys#> 
+	includes <http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#> 
+	includes <http://example.com/LeaderOntology/vocabulary/activities#>
+}

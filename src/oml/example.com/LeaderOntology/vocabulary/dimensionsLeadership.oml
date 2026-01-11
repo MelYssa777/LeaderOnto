@@ -1,0 +1,13 @@
+vocabulary <http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#> as dimensionsLeadership {
+	
+	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
+	
+	concept DimensaoLideranca < base:EntidadeBase [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	
+	concept DimensaoHumana < DimensaoLideranca
+	concept DimensaoTecnologica < DimensaoLideranca
+	concept DimensaoOrganizacional < DimensaoLideranca
+}
