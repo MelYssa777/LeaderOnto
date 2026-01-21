@@ -13,7 +13,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:descricao "Estratégia de implementar e promover práticas de trabalho que utilizam IA para desenvolver resiliência"
 		competencies:areaAplicacao "tecnologia"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Transforming work in the digital era (2025)"
+		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-005
 	]
 	
@@ -23,7 +23,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:descricao "Cultivo de ambiente organizacional que valoriza experimentação, criatividade e inovação"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Future Trends in Digital Leadership (2025), Digital Leadership, AI Integration (2025)"
+		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Digital Leadership, AI Integration (2025)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-012, competenciesDescrip:MIND-002
 	]
 	
@@ -33,7 +33,8 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:descricao "Programas estruturados de capacitação contínua em competências digitais e de IA, além da requalificação de colaboradores para lidar com automação e novas tecnologias"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Future Trends in Digital Leadership (2025), Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership(2022), Leading The Way (2023), Preparing for a New World of Work (2023)"
+		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership(2022), Leading the Way: How Leaders Facilitate Digital Transformation
+in Organizations (2023), Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-001, competenciesDescrip:HAB-018, competenciesDescrip:CONH-001, competenciesDescrip:CONH-002
 	]
 	
@@ -43,8 +44,9 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:descricao "Construção de confiança organizacional nas capacidades e uso ético de sistemas de IA"
 		competencies:areaAplicacao "etica"
 		competencies:questaoPesquisa "QP1, QP4"
-		competencies:artigoReferencia "Adoption of Artificial Intelligence: TOP framework (2024), Artificial intelligence adoption in extended HR ecosystems (2024)"
+		competencies:artigoReferencia "Adoption of artificial intelligence: A TOP framework-based checklist for digital leaders (2024), Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
 		strategies:desenvolveCompetencia competenciesDescrip:CONH-003, competenciesDescrip:CONH-004, competenciesDescrip:HAB-005, competenciesDescrip:MIND-005
+		strategies:moderadoPor competenciesDescrip:HAB-018
 	]
 	
 	instance EST-005 : strategies:EstrategiaDesenvolvimento [
@@ -53,7 +55,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:descricao "Estratégia de fomentar colaboração harmoniosa entre pessoas e sistemas de IA"
 		competencies:areaAplicacao "tecnologia"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems (2024)"
+		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
 		strategies:desenvolveCompetencia competenciesDescrip:CONH-005, competenciesDescrip:HAB-009
 	]
 	
@@ -65,6 +67,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		competencies:questaoPesquisa "QP4"
 		competencies:artigoReferencia "Digital Leadership, AI Integration (2025)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-005, competenciesDescrip:HAB-014, competenciesDescrip:MIND-001, competenciesDescrip:MIND-002, competenciesDescrip:MIND-003
+		strategies:moderadoPor competenciesDescrip:HAB-010
 	]
 	
 	instance EST-007 : strategies:EstrategiaDesenvolvimento [
@@ -83,7 +86,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:descricao "Comunicação clara e aberta sobre implementação, benefícios e desafios da IA"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Transforming work in the digital era (2025), Facilitating digital work in public agencies through job design and digital communication management (2023)"
+		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025), Facilitating digital work in public agencies through job design and digital communication management (2023)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-013
 	]
 	
@@ -95,5 +98,6 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		competencies:questaoPesquisa "QP1"
 		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-001, competenciesDescrip:CONH-001
+		strategies:moderadoPor competenciesDescrip:HAB-001
 	]
 }

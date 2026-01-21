@@ -1,0 +1,642 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/LeaderOntology/vocabulary/competencies#"
+     xml:base="http://example.com/LeaderOntology/vocabulary/competencies"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:competencies="http://example.com/LeaderOntology/vocabulary/competencies#">
+    <owl:Ontology rdf:about="http://example.com/LeaderOntology/vocabulary/competencies">
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts"/>
+        <oml:namespace rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#"/>
+        <oml:prefix>competencies</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Vocabulary"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://opencaesar.io/oml#relationBase -->
+
+
+    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#relationBase"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#AreaAplicacao -->
+
+
+    <rdfs:Datatype rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#AreaAplicacao">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>estrategia</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>etica</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>gestao</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>pessoas</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>tecnologia</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#FonteEvidencia -->
+
+
+    <rdfs:Datatype rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#FonteEvidencia">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>conceitual</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>empirico</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>teorico</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#NivelMaturidade -->
+
+
+    <rdfs:Datatype rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#NivelMaturidade">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>desenvolvido</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>emergente</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>inicial</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>maduro</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>otimizado</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#TipoCompetencia -->
+
+
+    <rdfs:Datatype rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#TipoCompetencia">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>conhecimento</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>habilidade</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>mindset</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#impactoMediadoPor -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#impactoMediadoPor">
+        <owl:inverseOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#mediaPor"/>
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts#Impacto"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Competencia"/>
+        <oml:relationBase rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#mediaPor"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ReverseRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#mediaPor -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#mediaPor">
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Competencia"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts#Impacto"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#UnreifiedRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao">
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#AreaAplicacao"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia">
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#fonteEvidencia -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#fonteEvidencia">
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#FonteEvidencia"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#nivelMaturidade -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#nivelMaturidade">
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#NivelMaturidade"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa">
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#tipoCompetencia -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#tipoCompetencia">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Competencia"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#TipoCompetencia"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#Competencia -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#Competencia">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Aspect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Competencia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoEstrategico -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoEstrategico">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoEtico -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoEtico">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoTecnico -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoTecnico">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#Habilidade -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Competencia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeCognitiva -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeCognitiva">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeDigital -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeDigital">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeGestao -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeGestao">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeSocioemocional -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeSocioemocional">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#Mindset -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#Mindset">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Competencia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#MindsetAgil -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#MindsetAgil">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Mindset"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#MindsetCentradoHumano -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#MindsetCentradoHumano">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Mindset"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#MindsetEtico -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#MindsetEtico">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Mindset"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#MindsetInovador -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#MindsetInovador">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Mindset"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+

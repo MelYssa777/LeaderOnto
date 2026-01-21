@@ -1,10 +1,12 @@
 description <http://example.com/LeaderOntology/description/toolpracticesDescrip#> as toolpracticesDescrip {
 	
-	uses <http://example.com/LeaderOntology/vocabulary/toolpractices#> as toolpractices
+	extends <http://example.com/LeaderOntology/description/leaderstyleDescrip#> as leaderstyleDescrip
+	extends <http://example.com/LeaderOntology/description/activitiesDescrip#> as activitiesDescrip
+	uses <http://example.com/LeaderOntology/vocabulary/toolpractices#> as toolpractices 
 	uses <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
 	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
 	
-	// FERRAMENTAS DE AVALIAÇÃO (QP1)
+	//FERRAMENTAS DE AVALIAÇÃO (QP1)
 	
 	instance FERR-001 : toolpractices:FerramentaAvaliacao [
 		base:nome "Escala de Liderança Transformacional Aprimorada por IA"
@@ -12,61 +14,58 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 		base:descricao "Escala de 7 itens para avaliar liderança transformacional potencializada por IA"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Transforming work in the digital era (2025)"
+		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)"
+		toolpractices:avalia leaderstyleDescrip:LID-002
 	]
 	
 	instance FERR-002 : toolpractices:FerramentaAvaliacao [
-		base:nome "Framework TOP"
-		base:id "FERR-002"
-		base:descricao "Mapeamento do framework TOP (Tecnologia, Organização, Pessoas) para guiar adoção de IA"
-		competencies:areaAplicacao "estrategia"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Adoption of Artificial Inteligence: TOP framework (2024)"
-	]
-	
-	instance FERR-003 : toolpractices:FerramentaAvaliacao [
 		base:nome "Escala de Liderança Digital (6 itens)"
 		base:id "FERR-003"
 		base:descricao "Questionário de 6 itens para medir liderança digital e transformação digital"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Leading in the digital age (2025)"
+		competencies:artigoReferencia "Leading in the digital age: unlocking creative process engagement and maximizing agility performance (2025)"
+		toolpractices:avalia leaderstyleDescrip:LID-001, leaderstyleDescrip:LID-002, leaderstyleDescrip:LID-003, leaderstyleDescrip:LID-004, leaderstyleDescrip:LID-005, leaderstyleDescrip:LID-006
 	]
 	
-	instance FERR-004 : toolpractices:FerramentaAvaliacao [
+	instance FERR-003 : toolpractices:FerramentaAvaliacao [
 		base:nome "Escala de Liderança Transformacional (10 itens)"
 		base:id "FERR-004"
 		base:descricao "Questionário de 10 itens para avaliar dimensões da liderança transformacional"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Influence of AI on Engineering Management (2024)"
+		competencies:artigoReferencia "Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)"
+		toolpractices:avalia leaderstyleDescrip:LID-002
 	]
 	
 	instance FERR-005 : toolpractices:FerramentaAvaliacao [
 		base:nome "Escala de Dimensões Humanas da Liderança Digital"
 		base:id "FERR-005"
-		base:descricao "Ferramenta validada para medir dimensões humanas da liderança digital. Serve como base para uma ferramenta de autoavaliação, que incentiva os líderes a refletirem e melhorarem aspectos de sua liderança necessários para transformar digitalmente seus negócios. "
+		base:descricao "Ferramenta validada para medir dimensões humanas da liderança digital"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Assessing Digital Leadership (2023)"
+		competencies:artigoReferencia "Assessing Digital Leadership: Towards Developing a Scale to Measure the Human Dimensions of Digital Leaders (2023)"
+		toolpractices:avalia leaderstyleDescrip:LID-006
 	]
 	
 	instance FERR-006 : toolpractices:FerramentaAvaliacao [
 		base:nome "Escala de Liderança Digital Estudantil"
 		base:id "FERR-006"
-		base:descricao "Instrumento com 6 dimensões: planejamento, decisão, discussão, liberdade, confiança, responsabilidade"
+		base:descricao "Instrumento com 6 dimensões: Planejamento organizacional; Processo de tomada de decisão; Discussão em equipe; Liberdade de opinião; Confiança e Responsabilidade"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
 		competencies:artigoReferencia "Assessing Validity and Reliability (2022)"
+		toolpractices:avalia leaderstyleDescrip:LID-005
 	]
 	
 	instance FERR-007 : toolpractices:FerramentaAvaliacao [
 		base:nome "Escala de Liderança Generativa (27 itens)"
 		base:id "FERR-007"
-		base:descricao "Escala desenvolvida por Çetin e Demirbilek (2020) para avaliar características da liderança generativa"
+		base:descricao "Escala desenvolvida para avaliar características da liderança generativa"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Do Generative Leadership (2022)"
+		competencies:artigoReferencia "Do Generative Leadership and Digital Literacy of Executive Management Help Flourishing Micro and Small Business Digital Maturity? (2022)"
+		toolpractices:avalia leaderstyleDescrip:LID-004
 	]
 	
 	//FERRAMENTAS DE IA (QP3)
@@ -74,19 +73,21 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 	instance FERR-IA-001 : toolpractices:FerramentaIA [
 		base:nome "Sistemas de IA para Análise em Tempo Real"
 		base:id "FERR-IA-001"
-		base:descricao "Sistemas que realizam análise de dados e fornecem insights em tempo real para decisões"
+		base:descricao "Sistemas que realizam análise de dados e fornecem insights em tempo real para decisões informadas"
 		competencies:areaAplicacao "tecnologia"
 		competencies:questaoPesquisa "QP3"
-		competencies:artigoReferencia "Transforming work in the digital era (2025)"
+		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)"
+		toolpractices:apoiaProcesso activitiesDescrip:PROC-002
 	]
 	
 	instance FERR-IA-002 : toolpractices:FerramentaIA [
-		base:nome "Bot de Análise de Sentimentos para Decisões de RH"
+		base:nome "Bot de Análise de Sentimentos"
 		base:id "FERR-IA-002"
 		base:descricao "Bot baseado em IA que analisa dinamicamente sentimentos de funcionários e clima da equipe"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP3"
-		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems (2024)"
+		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
+		toolpractices:apoiaProcesso activitiesDescrip:PROC-003
 	]
 	
 	instance FERR-IA-003 : toolpractices:FerramentaIA [
@@ -95,25 +96,38 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 		base:descricao "IA utilizada como sistema de suporte em tarefas diárias, gestão de projetos e colaboração"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP3"
-		competencies:artigoReferencia "Adoption of Artificial Intelligence: TOP framework (2024)"
+		competencies:artigoReferencia "Adoption of artificial intelligence: A TOP framework-based checklist for digital leaders (2024)"
+		toolpractices:apoiaProcesso activitiesDescrip:PROC-002
 	]
 	
 	instance FERR-IA-004 : toolpractices:FerramentaIA [
-		base:nome "IA para Gestão Operacional"
-		base:id "FERR-IA-005"
-		base:descricao "Sistemas de IA para coleta de dados, automação, análise e previsão em operações"
-		competencies:areaAplicacao "gestao"
+		base:nome "IA para Decisões de RH"
+		base:id "FERR-IA-004"
+		base:descricao "Sistemas de IA para recrutamento, gestão de talentos e decisões críticas de recursos humanos"
+		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP3"
-		competencies:artigoReferencia "THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)"
+		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
+		toolpractices:apoiaProcesso activitiesDescrip:PROC-003
 	]
 	
 	instance FERR-IA-005 : toolpractices:FerramentaIA [
+		base:nome "IA para Gestão Operacional"
+		base:id "FERR-IA-005"
+		base:descricao "Sistemas de IA para coleta de dados, automação, análise e previsão para decisões estratégicas"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)"
+		toolpractices:apoiaProcesso activitiesDescrip:PROC-001, activitiesDescrip:PROC-005, activitiesDescrip:PROC-006
+	]
+	
+	instance FERR-IA-006 : toolpractices:FerramentaIA [
 		base:nome "IA em Gestão de Engenharia"
 		base:id "FERR-IA-006"
-		base:descricao "Tecnologias de IA para planejamento, avaliação de riscos, alocação de recursos e manutenção"
+		base:descricao "Tecnologias de IA para planejamento de projetos, avaliação de riscos, alocação de recursos e manutenção"
 		competencies:areaAplicacao "tecnologia"
 		competencies:questaoPesquisa "QP3"
-		competencies:artigoReferencia "Influence of AI on Engineering Management (2024)"
+		competencies:artigoReferencia "Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)"
+		toolpractices:apoiaProcesso activitiesDescrip:PROC-006
 	]
 	
 	//PRÁTICAS DE LIDERANÇA (QP1)
@@ -121,10 +135,10 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 	instance PRAT-001 : toolpractices:PraticaLideranca [
 		base:nome "Motivação Inspiracional"
 		base:id "PRAT-001"
-		base:descricao "Prática de inspirar e motivar equipes através de visão clara e comunicação efetiva, crucial para intregração bem-sucedida da IA"
+		base:descricao "Prática de inspirar e motivar equipes através de visão clara e comunicação efetiva"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1, QP4"
-		competencies:artigoReferencia "Transforming work in the digital era (2025), Influence of AI on Engineering Management (2024)"
+		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025), Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)"
 	]
 	
 	instance PRAT-002 : toolpractices:PraticaLideranca [
@@ -132,26 +146,26 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 		base:id "PRAT-002"
 		base:descricao "Atenção personalizada às necessidades e desenvolvimento individual de cada membro da equipe"
 		competencies:areaAplicacao "pessoas"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Transforming work in the digital era (2025)"
+		competencies:questaoPesquisa "QP1, QP4"
+		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)"
 	]
 	
 	instance PRAT-003 : toolpractices:PraticaLideranca [
 		base:nome "Influência Idealizada"
 		base:id "PRAT-003"
-		base:descricao "Ser modelo e referência através de comportamento ético e inspirador, crucial para intregração bem-sucedida da IA"
+		base:descricao "Ser modelo e referência através de comportamento ético e inspirador"
 		competencies:areaAplicacao "etica"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Influence of AI on Engineering Management (2024)"
+		competencies:artigoReferencia "Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)"
 	]
 	
 	instance PRAT-004 : toolpractices:PraticaLideranca [
 		base:nome "Estimulação Intelectual"
 		base:id "PRAT-004"
-		base:descricao "Encorajar pensamento crítico, criatividade e questionamento de suposições, crucial para intregração bem-sucedida da IA"
+		base:descricao "Encorajar pensamento crítico, criatividade e questionamento de suposições"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Influence of AI on Engineering Management (2024)"
+		competencies:artigoReferencia "Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)"
 	]
 	
 	instance PRAT-005 : toolpractices:PraticaLideranca [
@@ -160,7 +174,7 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 		base:descricao "Promover cultura de compartilhamento e disseminação de conhecimento na organização"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Exploring Digital Leadership Traits (2021)"
+		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2021)"
 	]
 	
 	instance PRAT-006 : toolpractices:PraticaLideranca [
@@ -169,7 +183,7 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 		base:descricao "Uso efetivo de narrativas para comunicar visão, valores e inspirar engajamento"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Exploring Digital Leadership Traits (2021)"
+		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2021)"
 	]
 	
 	instance PRAT-007 : toolpractices:PraticaLideranca [
@@ -178,7 +192,7 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 		base:descricao "Liderança autêntica que inspira comprometimento através de honestidade e transparência"
 		competencies:areaAplicacao "etica"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Exploring Digital Leadership Traits (2021)"
+		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2021)"
 	]
 	
 	instance PRAT-008 : toolpractices:PraticaLideranca [
@@ -191,21 +205,29 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 	]
 	
 	instance PRAT-009 : toolpractices:PraticaLideranca [
-		base:nome "Comunicação Participativa"
+		base:nome "Desenvolvimento dos Funcionários"
 		base:id "PRAT-009"
-		base:descricao "Comunicação que permite participação ativa e reduz receios sobre mudanças digitais"
-		competencies:areaAplicacao "pessoas"
+		base:descricao "Investir no desenvolvimento dos funcionários, aumentando assim a prontidão organizacional e a capacidade de inovação"
+		competencies:areaAplicacao "tecnologia"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Facilitating digital work in public agencies through job design and digital communication management (2023)"
+		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)"
 	]
 	
 	instance PRAT-010 : toolpractices:PraticaLideranca [
-		base:nome "Liderança por Persuasão"
+		base:nome "Comunicação Participativa"
 		base:id "PRAT-010"
+		base:descricao "Comunicação que permite participação ativa e reduz receios sobre mudanças digitais"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Facilitating digital work in public agencies through job design and digital communication management: Validating empirically and theoretically derived implications on digital leadership using expert interviews (2023)"
+	]
+	
+	instance PRAT-011 : toolpractices:PraticaLideranca [
+		base:nome "Liderança por Persuasão"
+		base:id "PRAT-011"
 		base:descricao "Liderar através de influência e persuasão em vez de autoridade hierárquica"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Facilitating digital work in public agencies through job design and digital communication management (2023)"
+		competencies:artigoReferencia "FaciFacilitating digital work in public agencies through job design and digital communication management: Validating empirically and theoretically derived implications on digital leadership using expert interviews (2023)"
 	]
-	
-}
+	}

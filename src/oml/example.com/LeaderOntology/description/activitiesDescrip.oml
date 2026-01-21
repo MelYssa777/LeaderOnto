@@ -1,0 +1,241 @@
+description <http://example.com/LeaderOntology/description/activitiesDescrip#> as activitiesDescrip {
+	
+	extends <http://example.com/LeaderOntology/description/toolpracticesDescrip#> as toolpracticesDescrip
+	
+	uses <http://example.com/LeaderOntology/vocabulary/activities#> as activities
+	uses <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
+	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
+	
+	//PROCESSOS DE TOMADA DE DECISÃO (QP3) 
+	
+	instance PROC-001 : activities:TomadaDecisaoEstrategica [
+		base:nome "Decisões Estratégicas de Negócio"
+		base:id "PROC-001"
+		base:descricao "Processo de tomada de decisões de alto nível sobre direção e futuro da organização"
+		competencies:areaAplicacao "estrategia"
+		competencies:questaoPesquisa "QP3, QP4"
+		competencies:artigoReferencia "THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)"
+	]
+	
+	instance PROC-002 : activities:TomadaDecisaoOperacional [
+		base:nome "Decisões Operacionais Diárias"
+		base:id "PROC-002"
+		base:descricao "Processo de tomada de decisões cotidianas sobre operações e execução de tarefas"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Adoption of AI: TOP framework (2024)"
+	]
+	
+	instance PROC-003 : activities:TomadaDecisaoEstrategica [
+		base:nome "Decisões de Recursos Humanos"
+		base:id "PROC-003"
+		base:descricao "Processo decisório crítico em recrutamento, gestão de talentos e desenvolvimento"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
+	]
+	
+	instance PROC-004 : activities:TomadaDecisaoOperacional [
+		base:nome "Seleção e Implementação de Ações"
+		base:id "PROC-004"
+		base:descricao "Processo de escolher e executar ações específicas em contexto de manufatura"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Safeguarding worker psychosocial well-being (2025)"
+	]
+	
+	instance PROC-005 : activities:TomadaDecisaoOrientadaDados [
+		base:nome "Tomada de Decisão Orientada por Dados (DDDM)"
+		base:id "PROC-005"
+		base:descricao "Processo de decisão baseado em análise de dados e evidências quantitativas"
+		competencies:areaAplicacao "tecnologia"
+		competencies:questaoPesquisa "QP1, QP3"
+		competencies:artigoReferencia "Enhancing Creativity (2022)"
+	]
+	
+	instance PROC-006 : activities:TomadaDecisaoEstrategica [
+		base:nome "Planejamento e Avaliação de Riscos"
+		base:id "PROC-006"
+		base:descricao "Processo de planejar projetos e avaliar riscos em gestão de engenharia"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Influence of AI on Engineering Management (2025)"
+	]
+	
+	instance PROC-007 : activities:TomadaDecisaoOperacional [
+		base:nome "Alocação de Recursos"
+		base:id "PROC-007"
+		base:descricao "Processo de distribuir recursos organizacionais de forma eficiente"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Influence of AI on Engineering Management (2025)"
+	]
+	
+	instance PROC-008 : activities:TomadaDecisaoEstrategica [
+		base:nome "Decisões Éticas sobre IA"
+		base:id "PROC-008"
+		base:descricao "Processo de resolver questões éticas e dilemas morais relacionados ao uso de IA"
+		competencies:areaAplicacao "etica"
+		competencies:questaoPesquisa "QP4"
+		competencies:artigoReferencia "THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)"
+	]
+	
+	// ==================== ATIVIDADES APOIADAS POR IA (QP3) ====================
+	
+	instance ATIV-001 : activities:AtividadeGestao [
+		base:nome "Análise em Tempo Real"
+		base:id "ATIV-001"
+		base:descricao "Atividade de análise contínua de dados e geração de insights instantâneos"
+		competencies:areaAplicacao "tecnologia"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)"
+		activities:utilizaFerramenta toolpracticesDescrip:FERR-IA-001
+	]
+	
+	instance ATIV-002 : activities:AtividadeGestao [
+		base:nome "Monitoramento de Clima Organizacional"
+		base:id "ATIV-002"
+		base:descricao "Análise dinâmica de sentimentos de funcionários para verificação periódica do clima da equipe"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
+		activities:utilizaFerramenta toolpracticesDescrip:FERR-IA-002
+	]
+	
+	instance ATIV-003 : activities:AtividadeGestao [
+		base:nome "Gestão de Projetos"
+		base:id "ATIV-003"
+		base:descricao "Planejamento, execução e controle de projetos com suporte de IA"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Adoption of AI: TOP framework (2024), Influence of AI on Engineering Management (2025)"
+		activities:utilizaFerramenta toolpracticesDescrip:FERR-IA-003, toolpracticesDescrip:FERR-IA-006
+	]
+	
+	instance ATIV-004 : activities:AtividadeGestao [
+		base:nome "Colaboração entre Equipes"
+		base:id "ATIV-004"
+		base:descricao "Facilitação de trabalho colaborativo com ferramentas de IA"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Adoption of AI: TOP framework (2024)"
+		activities:utilizaFerramenta toolpracticesDescrip:FERR-IA-003
+	]
+	
+	instance ATIV-005 : activities:AtividadeGestao [
+		base:nome "Recrutamento e Seleção"
+		base:id "ATIV-005"
+		base:descricao "Processo de identificar, avaliar e selecionar candidatos com apoio de IA"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
+		activities:utilizaFerramenta toolpracticesDescrip:FERR-IA-004
+	]
+	
+	instance ATIV-006 : activities:AtividadeGestao [
+		base:nome "Gestão de Talentos"
+		base:id "ATIV-006"
+		base:descricao "Identificação, desenvolvimento e retenção de talentos organizacionais"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
+		activities:utilizaFerramenta toolpracticesDescrip:FERR-IA-004
+	]
+	
+	instance ATIV-007 : activities:AtividadeGestao [
+		base:nome "Coleta e Automação de Dados"
+		base:id "ATIV-007"
+		base:descricao "Automatização de captura e processamento de dados operacionais"
+		competencies:areaAplicacao "tecnologia"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)"
+		activities:utilizaFerramenta toolpracticesDescrip:FERR-IA-005
+	]
+	
+	instance ATIV-008 : activities:AtividadeGestao [
+		base:nome "Análise Preditiva e Previsão"
+		base:id "ATIV-008"
+		base:descricao "Uso de IA para prever tendências e resultados futuros"
+		competencies:areaAplicacao "tecnologia"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)"
+		activities:utilizaFerramenta toolpracticesDescrip:FERR-IA-005
+	]
+	
+	instance ATIV-009 : activities:AtividadeGestao [
+		base:nome "Manutenção Preditiva"
+		base:id "ATIV-009"
+		base:descricao "Antecipação de necessidades de manutenção usando IA"
+		competencies:areaAplicacao "tecnologia"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Influence of AI on Engineering Management (2025)"
+		activities:utilizaFerramenta toolpracticesDescrip:FERR-IA-006
+	]
+	
+	instance ATIV-010 : activities:AtividadeGestao [
+		base:nome "Detecção de Erros"
+		base:id "ATIV-010"
+		base:descricao "Identificação automatizada de erros em processos de manufatura"
+		competencies:areaAplicacao "tecnologia"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Safeguarding worker psychosocial well-being (2025)"
+	]
+	
+	//ATIVIDADES DE TRANSFORMAÇÃO DIGITAL
+	
+	instance ATIV-TD-001 : activities:AtividadeTransformacaoDigital [
+		base:nome "Promoção de Transformação Digital"
+		base:id "ATIV-TD-001"
+		base:descricao "Realização proativa de processos de transformação digital na organização"
+		competencies:areaAplicacao "estrategia"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Leading in the digital age: unlocking creative process engagement and maximizing agility performance (2025)"
+	]
+	
+	instance ATIV-TD-002 : activities:AtividadeTransformacaoDigital [
+		base:nome "Incentivo à Adoção Digital"
+		base:id "ATIV-TD-002"
+		base:descricao "Motivação e encorajamento de funcionários sobre transformação digital"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Leading in the digital age: unlocking creative process engagement and maximizing agility performance (2025)"
+	]
+	
+	instance ATIV-TD-003 : activities:AtividadeTransformacaoDigital [
+		base:nome "Redesenho de Processos Centrados na Pessoa"
+		base:id "ATIV-TD-003"
+		base:descricao "Reestruturação de processos digitais priorizando necessidades humanas"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Facilitating digital work (2023)"
+	]
+	
+	//ATIVIDADES DE INOVAÇÃO
+	
+	instance ATIV-IN-001 : activities:AtividadeInovacao [
+		base:nome "Engajamento em Processo Criativo"
+		base:id "ATIV-IN-001"
+		base:descricao "Envolvimento ativo em atividades criativas e inovadoras"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Leading in the digital age: unlocking creative process engagement and maximizing agility performance (2025)"
+	]
+	
+	instance ATIV-IN-002 : activities:AtividadeInovacao [
+		base:nome "Fomento de Inovação Aberta"
+		base:id "ATIV-IN-002"
+		base:descricao "Promoção de colaboração externa para inovação"
+		competencies:areaAplicacao "estrategia"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Digital Leadership, AI Integration (2025)"
+	]
+	
+	instance ATIV-IN-003 : activities:AtividadeInovacao [
+		base:nome "Experimentação e Prototipagem"
+		base:id "ATIV-IN-003"
+		base:descricao "Testes práticos de novas ideias e desenvolvimento de protótipos"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
+	]
+}

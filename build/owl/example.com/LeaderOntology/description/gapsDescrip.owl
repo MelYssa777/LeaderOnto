@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/LeaderOntology/description/gapsDescrip#"
+     xml:base="http://example.com/LeaderOntology/description/gapsDescrip"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:base="http://example.com/LeaderOntology/vocabulary/base#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:gapsDescrip="http://example.com/LeaderOntology/description/gapsDescrip#"
+     xmlns:competencies="http://example.com/LeaderOntology/vocabulary/competencies#">
+    <owl:Ontology rdf:about="http://example.com/LeaderOntology/description/gapsDescrip">
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends"/>
+        <oml:namespace rdf:resource="http://example.com/LeaderOntology/description/gapsDescrip#"/>
+        <oml:prefix>gapsDescrip</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Description"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#descricao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#descricao"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#id -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#id"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#nome -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#nome"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/gapsDescrip#LAC-001 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/gapsDescrip#LAC-001">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaPesquisa"/>
+        <base:descricao>Ausência de estratégias práticas e detalhadas para líderes criarem e sustentarem cultura de inovação</base:descricao>
+        <base:id>LAC-001</base:id>
+        <base:nome>Falta de Estratégias Detalhadas para Cultura de Inovação</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Future Trends in Digital Leadership (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/gapsDescrip#LAC-002 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/gapsDescrip#LAC-002">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaPesquisa"/>
+        <base:descricao>Limitação de estudos sobre o impacto da IA e ML na tomada de decisão e gestão de riscos por líderes digitais</base:descricao>
+        <base:id>LAC-002</base:id>
+        <base:nome>Escassez de Pesquisa sobre IA/ML na Tomada de Decisão</base:nome>
+        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Future Trends in Digital Leadership (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/gapsDescrip#LAC-003 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/gapsDescrip#LAC-003">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaPesquisa"/>
+        <base:descricao>A interação entre IA, práticas de tomada de decisão e liderança transformacional não foi examinada profundamente</base:descricao>
+        <base:id>LAC-003</base:id>
+        <base:nome>Papel Mediador da Liderança não Examinado</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Influence of AI on Engineering Management (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/gapsDescrip#LAC-004 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/gapsDescrip#LAC-004">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaImplementacao"/>
+        <base:descricao>Estudos indicam que liderança empoderadora não teve efeito significativo na prontidão organizacional para IA</base:descricao>
+        <base:id>LAC-004</base:id>
+        <base:nome>Liderança Empoderadora sem Efeito na Prontidão para IA</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Maneuvering through the stormy seas (2021)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/gapsDescrip#LAC-005 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/gapsDescrip#LAC-005">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaPesquisa"/>
+        <base:descricao>Falta clareza sobre como líderes constroem credibilidade da IA com funcionários, clientes e sociedade</base:descricao>
+        <base:id>LAC-005</base:id>
+        <base:nome>Construção de Credibilidade da IA não Explicitada</base:nome>
+        <competencies:areaAplicacao>etica</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Ethical Considerations of AI (2022)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/gapsDescrip#TEND-001 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/gapsDescrip#TEND-001">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#TendenciaEmergente"/>
+        <base:descricao>Framework conceitual posiciona integração de IA como moderador das relações organizacionais, não como mediador</base:descricao>
+        <base:id>TEND-001</base:id>
+        <base:nome>IA como Moderador, não Mediador</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Digital Leadership, AI Integration (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/gapsDescrip#TEND-002 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/gapsDescrip#TEND-002">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#TendenciaEmergente"/>
+        <base:descricao>Distinção entre impactos de suporte decisório totalmente vs parcialmente automatizado no bem-estar dos trabalhadores</base:descricao>
+        <base:id>TEND-002</base:id>
+        <base:nome>Impactos Diferenciais da Automação</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Safeguarding worker psychosocial well-being (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/gapsDescrip#TEND-003 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/gapsDescrip#TEND-003">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#TendenciaTecnologica"/>
+        <base:descricao>Cultura digital emerge como fator mediador crucial entre capacidades digitais e inovação</base:descricao>
+        <base:id>TEND-003</base:id>
+        <base:nome>Cultura Digital como Mediador Crucial</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Digital capabilities in Vietnamese SMEs (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/gapsDescrip#TEND-004 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/gapsDescrip#TEND-004">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#TendenciaEmergente"/>
+        <base:descricao>Movimento em direção à IA centrada no ser humano, priorizando autonomia e bem-estar psicossocial</base:descricao>
+        <base:id>TEND-004</base:id>
+        <base:nome>Transição para Indústria 5.0 (Human-Centered AI)</base:nome>
+        <competencies:areaAplicacao>etica</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Safeguarding worker psychosocial well-being (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP2, QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+

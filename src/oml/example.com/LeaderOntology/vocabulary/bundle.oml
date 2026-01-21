@@ -7,7 +7,7 @@ vocabulary bundle <http://example.com/LeaderOntology/vocabulary/bundle#> as ^bun
 	includes <http://example.com/LeaderOntology/vocabulary/impacts#> 
 	includes <http://example.com/LeaderOntology/vocabulary/gapsTrends#> 
 	includes <http://example.com/LeaderOntology/vocabulary/frameworks#> 
-	includes <http://example.com/LeaderOntology/vocabulary/estrategys#> 
+	includes <http://example.com/LeaderOntology/vocabulary/strategies#> 
 	includes <http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#> 
 	includes <http://example.com/LeaderOntology/vocabulary/activities#>
 }

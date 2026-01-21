@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/LeaderOntology/description/toolpracticesDescrip#"
+     xml:base="http://example.com/LeaderOntology/description/toolpracticesDescrip"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:base="http://example.com/LeaderOntology/vocabulary/base#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:competencies="http://example.com/LeaderOntology/vocabulary/competencies#"
+     xmlns:toolpractices="http://example.com/LeaderOntology/vocabulary/toolpractices#"
+     xmlns:toolpracticesDescrip="http://example.com/LeaderOntology/description/toolpracticesDescrip#">
+    <owl:Ontology rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip">
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/description/leaderstyleDescrip"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices"/>
+        <oml:namespace rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#"/>
+        <oml:prefix>toolpracticesDescrip</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Description"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://opencaesar.io/oml#namespace -->
+
+
+    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#namespace"/>
+    
+
+
+    <!-- http://opencaesar.io/oml#prefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#prefix"/>
+    
+
+
+    <!-- http://opencaesar.io/oml#type -->
+
+
+    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#apoiaProcesso -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#apoiaProcesso"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#avalia -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#avalia"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#descricao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#descricao"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#id -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#id"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#nome -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#nome"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-001 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-001">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaAvaliacao"/>
+        <toolpractices:avalia rdf:resource="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-002"/>
+        <base:descricao>Escala de 7 itens para avaliar liderança transformacional potencializada por IA</base:descricao>
+        <base:id>FERR-001</base:id>
+        <base:nome>Escala de Liderança Transformacional Aprimorada por IA</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-002 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-002">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaAvaliacao"/>
+        <toolpractices:avalia rdf:resource="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-001"/>
+        <toolpractices:avalia rdf:resource="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-002"/>
+        <toolpractices:avalia rdf:resource="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-003"/>
+        <toolpractices:avalia rdf:resource="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-004"/>
+        <toolpractices:avalia rdf:resource="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-005"/>
+        <toolpractices:avalia rdf:resource="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-006"/>
+        <base:descricao>Questionário de 6 itens para medir liderança digital e transformação digital</base:descricao>
+        <base:id>FERR-003</base:id>
+        <base:nome>Escala de Liderança Digital (6 itens)</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Leading in the digital age (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-003 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-003">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaAvaliacao"/>
+        <toolpractices:avalia rdf:resource="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-002"/>
+        <base:descricao>Questionário de 10 itens para avaliar dimensões da liderança transformacional</base:descricao>
+        <base:id>FERR-004</base:id>
+        <base:nome>Escala de Liderança Transformacional (10 itens)</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-005 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-005">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaAvaliacao"/>
+        <toolpractices:avalia rdf:resource="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-006"/>
+        <base:descricao>Ferramenta validada para medir dimensões humanas da liderança digital</base:descricao>
+        <base:id>FERR-005</base:id>
+        <base:nome>Escala de Dimensões Humanas da Liderança Digital</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Assessing Digital Leadership: Towards Developing a Scale to Measure the Human Dimensions of Digital Leaders (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-006 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-006">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaAvaliacao"/>
+        <toolpractices:avalia rdf:resource="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-005"/>
+        <base:descricao>Instrumento com 6 dimensões: Planejamento organizacional; Processo de tomada de decisão; Discussão em equipe; Liberdade de opinião; Confiança e Responsabilidade</base:descricao>
+        <base:id>FERR-006</base:id>
+        <base:nome>Escala de Liderança Digital Estudantil</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Assessing Validity and Reliability (2022)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-007 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-007">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaAvaliacao"/>
+        <toolpractices:avalia rdf:resource="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-004"/>
+        <base:descricao>Escala desenvolvida para avaliar características da liderança generativa</base:descricao>
+        <base:id>FERR-007</base:id>
+        <base:nome>Escala de Liderança Generativa (27 itens)</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Do Generative Leadership and Digital Literacy of Executive Management Help Flourishing Micro and Small (2022)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-IA-001 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-IA-001">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaIA"/>
+        <toolpractices:apoiaProcesso rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#PROC-002"/>
+        <base:descricao>Sistemas que realizam análise de dados e fornecem insights em tempo real para decisões informadas</base:descricao>
+        <base:id>FERR-IA-001</base:id>
+        <base:nome>Sistemas de IA para Análise em Tempo Real</base:nome>
+        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP3</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-IA-002 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-IA-002">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaIA"/>
+        <toolpractices:apoiaProcesso rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#PROC-003"/>
+        <base:descricao>Bot baseado em IA que analisa dinamicamente sentimentos de funcionários e clima da equipe</base:descricao>
+        <base:id>FERR-IA-002</base:id>
+        <base:nome>Bot de Análise de Sentimentos</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP3</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-IA-003 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-IA-003">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaIA"/>
+        <toolpractices:apoiaProcesso rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#PROC-002"/>
+        <base:descricao>IA utilizada como sistema de suporte em tarefas diárias, gestão de projetos e colaboração</base:descricao>
+        <base:id>FERR-IA-003</base:id>
+        <base:nome>Sistemas de Suporte à Decisão Diária</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Adoption of artificial intelligence: A TOP framework-based checklist for digital leaders (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP3</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-IA-004 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-IA-004">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaIA"/>
+        <toolpractices:apoiaProcesso rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#PROC-003"/>
+        <base:descricao>Sistemas de IA para recrutamento, gestão de talentos e decisões críticas de recursos humanos</base:descricao>
+        <base:id>FERR-IA-004</base:id>
+        <base:nome>IA para Decisões de RH</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP3</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-IA-005 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-IA-005">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaIA"/>
+        <toolpractices:apoiaProcesso rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#PROC-001"/>
+        <toolpractices:apoiaProcesso rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#PROC-005"/>
+        <toolpractices:apoiaProcesso rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#PROC-006"/>
+        <base:descricao>Sistemas de IA para coleta de dados, automação, análise e previsão para decisões estratégicas</base:descricao>
+        <base:id>FERR-IA-005</base:id>
+        <base:nome>IA para Gestão Operacional</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP3</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-IA-006 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#FERR-IA-006">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaIA"/>
+        <toolpractices:apoiaProcesso rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#PROC-006"/>
+        <base:descricao>Tecnologias de IA para planejamento de projetos, avaliação de riscos, alocação de recursos e manutenção</base:descricao>
+        <base:id>FERR-IA-006</base:id>
+        <base:nome>IA em Gestão de Engenharia</base:nome>
+        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP3</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-001 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-001">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca"/>
+        <base:descricao>Prática de inspirar e motivar equipes através de visão clara e comunicação efetiva</base:descricao>
+        <base:id>PRAT-001</base:id>
+        <base:nome>Motivação Inspiracional</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025), Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1, QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-002 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-002">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca"/>
+        <base:descricao>Atenção personalizada às necessidades e desenvolvimento individual de cada membro da equipe</base:descricao>
+        <base:id>PRAT-002</base:id>
+        <base:nome>Consideração Individualizada</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1, QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-003 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-003">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca"/>
+        <base:descricao>Ser modelo e referência através de comportamento ético e inspirador</base:descricao>
+        <base:id>PRAT-003</base:id>
+        <base:nome>Influência Idealizada</base:nome>
+        <competencies:areaAplicacao>etica</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-004 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-004">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca"/>
+        <base:descricao>Encorajar pensamento crítico, criatividade e questionamento de suposições</base:descricao>
+        <base:id>PRAT-004</base:id>
+        <base:nome>Estimulação Intelectual</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-005 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-005">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca"/>
+        <base:descricao>Promover cultura de compartilhamento e disseminação de conhecimento na organização</base:descricao>
+        <base:id>PRAT-005</base:id>
+        <base:nome>Compartilhamento de Conhecimento</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2021)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-006 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-006">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca"/>
+        <base:descricao>Uso efetivo de narrativas para comunicar visão, valores e inspirar engajamento</base:descricao>
+        <base:id>PRAT-006</base:id>
+        <base:nome>Narrativa e Storytelling</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2021)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-007 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-007">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca"/>
+        <base:descricao>Liderança autêntica que inspira comprometimento através de honestidade e transparência</base:descricao>
+        <base:id>PRAT-007</base:id>
+        <base:nome>Honestidade e Inspiração de Engajamento</base:nome>
+        <competencies:areaAplicacao>etica</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2021)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-008 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-008">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca"/>
+        <base:descricao>Fomentar ativamente projetos e iniciativas de transformação digital</base:descricao>
+        <base:id>PRAT-008</base:id>
+        <base:nome>Promoção de Iniciativas Digitais</base:nome>
+        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-009 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-009">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca"/>
+        <base:descricao>Investir no desenvolvimento dos funcionários, aumentando assim a prontidão organizacional e a capacidade de inovação</base:descricao>
+        <base:id>PRAT-009</base:id>
+        <base:nome>Desenvolvimento dos Funcionários</base:nome>
+        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-010 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-010">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca"/>
+        <base:descricao>Comunicação que permite participação ativa e reduz receios sobre mudanças digitais</base:descricao>
+        <base:id>PRAT-010</base:id>
+        <base:nome>Comunicação Participativa</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Facilitating digital work in public agencies through job design and digital communication management: Validating empirically and theoretically derived implications on digital leadership using expert interviews (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-011 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-011">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca"/>
+        <base:descricao>Liderar através de influência e persuasão em vez de autoridade hierárquica</base:descricao>
+        <base:id>PRAT-011</base:id>
+        <base:nome>Liderança por Persuasão</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>FaciFacilitating digital work in public agencies through job design and digital communication management: Validating empirically and theoretically derived implications on digital leadership using expert interviews (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+

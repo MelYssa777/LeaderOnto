@@ -1,0 +1,85 @@
+description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> as leaderstyleDescrip {
+	
+	extends <http://example.com/LeaderOntology/description/competenciesDescrip#> as competenciesDescrip
+	extends <http://example.com/LeaderOntology/description/toolpracticesDescrip#> as toolpracticesDescrip
+	extends <http://example.com/LeaderOntology/description/impactsDescrip#> as impactsDescrip
+	uses <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> as leadershipStyles
+	uses <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
+	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
+	
+	
+	
+	//ESTILOS DE LIDERANÇA 
+	
+	instance LID-001 : leadershipStyles:LiderancaTransformacional [
+		base:nome "Liderança Transformacional"
+		base:id "LID-001"
+		base:descricao "Estilo de liderança que inspira e motiva mudanças através de visão compartilhada, consideração individual e estímulo intelectual"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP1, QP3, QP4"
+		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025), Influence of AI on Engineering Management (2025)"
+		leadershipStyles:aplicaPratica toolpracticesDescrip:PRAT-001, toolpracticesDescrip:PRAT-002, toolpracticesDescrip:PRAT-004
+		leadershipStyles:requerCompetencia competenciesDescrip:HAB-010, competenciesDescrip:HAB-014, competenciesDescrip:HAB-015
+		leadershipStyles:causaImpacto impactsDescrip:IMP-002, impactsDescrip:IMP-003
+	]
+	
+	instance LID-002 : leadershipStyles:LiderancaTransformacional [
+		base:nome "Liderança Transformacional Aprimorada por IA"
+		base:id "LID-002"
+		base:descricao "Liderança transformacional que utiliza sistemas de IA para análise em tempo real e tomada de decisão informada"
+		competencies:areaAplicacao "tecnologia"
+		competencies:questaoPesquisa "QP1, QP3"
+		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)"
+		leadershipStyles:requerCompetencia competenciesDescrip:CONH-005, competenciesDescrip:HAB-005, competenciesDescrip:HAB-010
+		leadershipStyles:aplicaPratica toolpracticesDescrip:PRAT-001, toolpracticesDescrip:PRAT-002, toolpracticesDescrip:PRAT-008
+		leadershipStyles:causaImpacto impactsDescrip:IMP-001
+	]
+	
+	instance LID-003 : leadershipStyles:LiderancaEmpoderadora [
+		base:nome "Liderança Empoderadora"
+		base:id "LID-003"
+		base:descricao "Estilo que promove autonomia, suporte ao desenvolvimento e capacitação das equipes"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP1, QP4"
+		competencies:artigoReferencia "Maneuvering through the stormy seas (2021)"
+		leadershipStyles:requerCompetencia competenciesDescrip:HAB-017, competenciesDescrip:HAB-019
+		leadershipStyles:aplicaPratica toolpracticesDescrip:PRAT-009, toolpracticesDescrip:PRAT-010
+		leadershipStyles:causaImpacto impactsDescrip:IMP-004
+	]
+	
+	instance LID-004 : leadershipStyles:LiderancaGenerativa [
+		base:nome "Liderança Generativa"
+		base:id "LID-004"
+		base:descricao "Estilo que promove laços interpessoais, participação ampla, assunção de riscos e uso de inteligência coletiva"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Do Generative Leadership and Digital Literacy of Executive Management Help Flourishing Micro and Small Business Digital Maturity? (2022)"
+		leadershipStyles:requerCompetencia competenciesDescrip:HAB-011, competenciesDescrip:HAB-012, competenciesDescrip:MIND-009
+		leadershipStyles:aplicaPratica toolpracticesDescrip:PRAT-005, toolpracticesDescrip:PRAT-009
+		leadershipStyles:causaImpacto impactsDescrip:IMP-003, impactsDescrip:IMP-004
+	]
+	
+	instance LID-005 : leadershipStyles:LiderancaAgil [
+		base:nome "Liderança Ágil"
+		base:id "LID-005"
+		base:descricao "Liderança caracterizada por hiperconsciência, tomada de decisão informada e execução rápida"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP1, QP4"
+		competencies:artigoReferencia "Preparing for a New World of Work (2023)"
+		leadershipStyles:requerCompetencia competenciesDescrip:MIND-006, competenciesDescrip:MIND-007, competenciesDescrip:HAB-008, competenciesDescrip:HAB-018
+		leadershipStyles:aplicaPratica toolpracticesDescrip:PRAT-008
+		leadershipStyles:causaImpacto impactsDescrip:IMP-007
+	]
+	
+	instance LID-006 : leadershipStyles:LiderancaAutentica [
+		base:nome "Liderança Autêntica"
+		base:id "LID-006"
+		base:descricao "Liderança baseada em autenticidade, integridade e valores genuínos"
+		competencies:areaAplicacao "etica"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Assessing Digital Leadership: Towards Developing a Scale to Measure the Human Dimensions of Digital Leaders (2023)"
+		leadershipStyles:requerCompetencia competenciesDescrip:MIND-004
+		leadershipStyles:aplicaPratica toolpracticesDescrip:PRAT-007, toolpracticesDescrip:PRAT-003
+		leadershipStyles:causaImpacto impactsDescrip:IMP-004
+	]
+}

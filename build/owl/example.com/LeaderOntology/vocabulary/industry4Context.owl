@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/LeaderOntology/vocabulary/industry4Context#"
+     xml:base="http://example.com/LeaderOntology/vocabulary/industry4Context"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:industry4Context="http://example.com/LeaderOntology/vocabulary/industry4Context#">
+    <owl:Ontology rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context">
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends"/>
+        <oml:namespace rdf:resource="http://example.com/LeaderOntology/vocabulary/industry4Context#"/>
+        <oml:prefix>industry4Context</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Vocabulary"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://opencaesar.io/oml#relationBase -->
+
+
+    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#relationBase"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/industry4Context#indicaTendencia -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#indicaTendencia">
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/industry4Context#ContextoIndustria4.0"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Tendencia"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#UnreifiedRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/industry4Context#tendenciaIndicadaPor -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#tendenciaIndicadaPor">
+        <owl:inverseOf rdf:resource="http://example.com/LeaderOntology/vocabulary/industry4Context#indicaTendencia"/>
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Tendencia"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/industry4Context#ContextoIndustria4.0"/>
+        <oml:relationBase rdf:resource="http://example.com/LeaderOntology/vocabulary/industry4Context#indicaTendencia"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ReverseRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/industry4Context#ContextoIndustria4.0 -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#ContextoIndustria4.0">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/industry4Context#Industria5.0 -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#Industria5.0">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/industry4Context#ContextoIndustria4.0"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/industry4Context#IntegracaoIA -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#IntegracaoIA">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/industry4Context#ContextoIndustria4.0"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/industry4Context#TransformacaoDigital -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#TransformacaoDigital">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/industry4Context#ContextoIndustria4.0"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+

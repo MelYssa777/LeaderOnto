@@ -1,0 +1,91 @@
+description <http://example.com/LeaderOntology/description/gapsDescrip#> as gapsDescrip {
+	
+	uses <http://example.com/LeaderOntology/vocabulary/gapsTrends#> as gapsTrends
+	uses <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
+	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
+	
+	//LACUNAS IDENTIFICADAS (QP2)
+	
+	instance LAC-001 : gapsTrends:LacunaPesquisa [
+		base:nome "Falta de Estratégias Detalhadas para Cultura de Inovação"
+		base:id "LAC-001"
+		base:descricao "Ausência de estratégias práticas e detalhadas para líderes criarem e sustentarem cultura de inovação"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP2"
+		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025)"
+	]
+	
+	instance LAC-002 : gapsTrends:LacunaPesquisa [
+		base:nome "Escassez de Pesquisa sobre IA/ML na Tomada de Decisão"
+		base:id "LAC-002"
+		base:descricao "Limitação de estudos sobre o impacto da IA e ML na tomada de decisão e gestão de riscos por líderes digitais"
+		competencies:areaAplicacao "tecnologia"
+		competencies:questaoPesquisa "QP2"
+		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025)"
+	]
+	
+	instance LAC-003 : gapsTrends:LacunaPesquisa [
+		base:nome "Papel Mediador da Liderança não Examinado"
+		base:id "LAC-003"
+		base:descricao "A interação entre IA, práticas de tomada de decisão e liderança transformacional não foi examinada profundamente"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP2"
+		competencies:artigoReferencia "Influence of AI on Engineering Management (2025)"
+	]
+	
+	instance LAC-004 : gapsTrends:LacunaImplementacao [
+		base:nome "Liderança Empoderadora sem Efeito na Prontidão para IA"
+		base:id "LAC-004"
+		base:descricao "Estudos indicam que liderança empoderadora não teve efeito significativo na prontidão organizacional para IA"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP2"
+		competencies:artigoReferencia "Maneuvering through the stormy seas (2021)"
+	]
+	
+	instance LAC-005 : gapsTrends:LacunaPesquisa [
+		base:nome "Construção de Credibilidade da IA não Explicitada"
+		base:id "LAC-005"
+		base:descricao "Falta clareza sobre como líderes constroem credibilidade da IA com funcionários, clientes e sociedade"
+		competencies:areaAplicacao "etica"
+		competencies:questaoPesquisa "QP2"
+		competencies:artigoReferencia "Ethical Considerations of AI (2022)"
+	]
+	
+	//TENDÊNCIAS EMERGENTES (QP2)
+	
+	instance TEND-001 : gapsTrends:TendenciaEmergente [
+		base:nome "IA como Moderador, não Mediador"
+		base:id "TEND-001"
+		base:descricao "Framework conceitual posiciona integração de IA como moderador das relações organizacionais, não como mediador"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP2"
+		competencies:artigoReferencia "Digital Leadership, AI Integration (2025)"
+	]
+	
+	instance TEND-002 : gapsTrends:TendenciaEmergente [
+		base:nome "Impactos Diferenciais da Automação"
+		base:id "TEND-002"
+		base:descricao "Distinção entre impactos de suporte decisório totalmente vs parcialmente automatizado no bem-estar dos trabalhadores"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP2"
+		competencies:artigoReferencia "Safeguarding worker psychosocial well-being (2025)"
+	]
+	
+	instance TEND-003 : gapsTrends:TendenciaTecnologica [
+		base:nome "Cultura Digital como Mediador Crucial"
+		base:id "TEND-003"
+		base:descricao "Cultura digital emerge como fator mediador crucial entre capacidades digitais e inovação"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP2"
+		competencies:artigoReferencia "Digital capabilities in Vietnamese SMEs (2024)"
+	]
+	
+	instance TEND-004 : gapsTrends:TendenciaEmergente [
+		base:nome "Transição para Indústria 5.0 (Human-Centered AI)"
+		base:id "TEND-004"
+		base:descricao "Movimento em direção à IA centrada no ser humano, priorizando autonomia e bem-estar psicossocial"
+		competencies:areaAplicacao "etica"
+		competencies:questaoPesquisa "QP2, QP4"
+		competencies:artigoReferencia "Safeguarding worker psychosocial well-being (2025)"
+	]
+}

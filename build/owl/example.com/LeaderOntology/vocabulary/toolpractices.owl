@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/LeaderOntology/vocabulary/toolpractices#"
+     xml:base="http://example.com/LeaderOntology/vocabulary/toolpractices"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:toolpractices="http://example.com/LeaderOntology/vocabulary/toolpractices#">
+    <owl:Ontology rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices">
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/activities"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles"/>
+        <oml:namespace rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#"/>
+        <oml:prefix>toolpractices</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Vocabulary"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://opencaesar.io/oml#namespace -->
+
+
+    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#namespace"/>
+    
+
+
+    <!-- http://opencaesar.io/oml#prefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#prefix"/>
+    
+
+
+    <!-- http://opencaesar.io/oml#relationBase -->
+
+
+    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#relationBase"/>
+    
+
+
+    <!-- http://opencaesar.io/oml#type -->
+
+
+    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#apoiaProcesso -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#apoiaProcesso">
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaIA"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#ProcessoDecisao"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#UnreifiedRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#avalia -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#avalia">
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaAvaliacao"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaTransformacional"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#UnreifiedRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#avaliadoPor -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#avaliadoPor">
+        <owl:inverseOf rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#avalia"/>
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaTransformacional"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaAvaliacao"/>
+        <oml:relationBase rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#avalia"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ReverseRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#processoApoiadoPor -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#processoApoiadoPor">
+        <owl:inverseOf rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#apoiaProcesso"/>
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#ProcessoDecisao"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaIA"/>
+        <oml:relationBase rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#apoiaProcesso"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ReverseRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaAvaliacao -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaAvaliacao">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaIA -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaIA">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaTomadaDecisao -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaTomadaDecisao">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#Pratica -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#Pratica">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaIA -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaIA">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#Pratica"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#Pratica"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+

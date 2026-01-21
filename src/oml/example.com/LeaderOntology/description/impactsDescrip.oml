@@ -1,0 +1,71 @@
+description <http://example.com/LeaderOntology/description/impactsDescrip#> as impactsDescrip {
+	
+	uses <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
+	uses <http://example.com/LeaderOntology/vocabulary/impacts#> as impacts
+	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
+	
+	//IMPACTOS
+	
+	instance IMP-001 : impacts:ImpactoIndividual [
+		base:nome "Redução de Burnout"
+		base:id "IMP-001"
+		base:descricao "Diminuição do esgotamento profissional através de liderança adequada e uso apropriado de IA"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP3"
+		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)"
+	]
+	
+	instance IMP-002 : impacts:ImpactoOrganizacional [
+		base:nome "Redução de Comportamentos Contraproducentes"
+		base:id "IMP-002"
+		base:descricao "Diminuição de cyberloafing e comportamentos prejudiciais através de liderança digital efetiva"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within Resource Constrained Economies (2025)"
+	]
+	
+	instance IMP-003 : impacts:ImpactoOrganizacional [
+		base:nome "Promoção de Inovação Sustentável"
+		base:id "IMP-003"
+		base:descricao "Fomento de práticas inovadoras que geram valor de longo prazo"
+		competencies:areaAplicacao "estrategia"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Digital Leadership, AI Integration (2025)"
+	]
+	
+	instance IMP-004 : impacts:ImpactoIndividual [
+		base:nome "Bem-Estar Psicossocial dos Trabalhadores"
+		base:id "IMP-004"
+		base:descricao "Melhoria em autonomia, competência, motivação e engajamento através de controle decisório"
+		competencies:areaAplicacao "pessoas"
+		competencies:questaoPesquisa "QP3, QP4"
+		competencies:artigoReferencia "Safeguarding worker psychosocial well-being (2025)"
+	]
+	
+	instance IMP-005 : impacts:ImpactoOrganizacional [
+		base:nome "Criatividade Organizacional"
+		base:id "IMP-005"
+		base:descricao "Aumento da capacidade criativa da organização através de liderança digital e decisões orientadas por dados"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Enhancing Creativity (2022)"
+	]
+	
+	instance IMP-006 : impacts:ImpactoOrganizacional [
+		base:nome "Vantagem Competitiva Sustentável"
+		base:id "IMP-006"
+		base:descricao "Construção de diferencial competitivo duradouro através de liderança digital e inovação"
+		competencies:areaAplicacao "estrategia"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Enhancing Creativity (2022)"
+	]
+	
+	instance IMP-007 : impacts:ImpactoOrganizacional [
+		base:nome "Desempenho de Agilidade Organizacional"
+		base:id "IMP-007"
+		base:descricao "Melhoria na capacidade da organização responder rapidamente a mudanças"
+		competencies:areaAplicacao "gestao"
+		competencies:questaoPesquisa "QP1"
+		competencies:artigoReferencia "Leading in the digital age: unlocking creative process engagement and maximizing agility performance (2025)"
+	]
+}

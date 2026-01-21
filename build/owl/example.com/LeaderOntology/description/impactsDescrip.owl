@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/LeaderOntology/description/impactsDescrip#"
+     xml:base="http://example.com/LeaderOntology/description/impactsDescrip"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:base="http://example.com/LeaderOntology/vocabulary/base#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:competencies="http://example.com/LeaderOntology/vocabulary/competencies#"
+     xmlns:impactsDescrip="http://example.com/LeaderOntology/description/impactsDescrip#">
+    <owl:Ontology rdf:about="http://example.com/LeaderOntology/description/impactsDescrip">
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts"/>
+        <oml:namespace rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#"/>
+        <oml:prefix>impactsDescrip</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Description"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#descricao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#descricao"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#id -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#id"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#nome -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#nome"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/impactsDescrip#IMP-001 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/impactsDescrip#IMP-001">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts#ImpactoIndividual"/>
+        <base:descricao>Diminuição do esgotamento profissional através de liderança adequada e uso apropriado de IA</base:descricao>
+        <base:id>IMP-001</base:id>
+        <base:nome>Redução de Burnout</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Transforming work in the digital era (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP3</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/impactsDescrip#IMP-002 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/impactsDescrip#IMP-002">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts#ImpactoOrganizacional"/>
+        <base:descricao>Diminuição de cyberloafing e comportamentos prejudiciais através de liderança digital efetiva</base:descricao>
+        <base:id>IMP-002</base:id>
+        <base:nome>Redução de Comportamentos Contraproducentes</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Digital Leadership, AI Integration (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/impactsDescrip#IMP-003 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/impactsDescrip#IMP-003">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts#ImpactoOrganizacional"/>
+        <base:descricao>Fomento de práticas inovadoras que geram valor de longo prazo</base:descricao>
+        <base:id>IMP-003</base:id>
+        <base:nome>Promoção de Inovação Sustentável</base:nome>
+        <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Digital Leadership, AI Integration (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/impactsDescrip#IMP-004 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/impactsDescrip#IMP-004">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts#ImpactoIndividual"/>
+        <base:descricao>Melhoria em autonomia, competência, motivação e engajamento através de controle decisório</base:descricao>
+        <base:id>IMP-004</base:id>
+        <base:nome>Bem-Estar Psicossocial dos Trabalhadores</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Safeguarding worker psychosocial well-being (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP3, QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/impactsDescrip#IMP-005 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/impactsDescrip#IMP-005">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts#ImpactoOrganizacional"/>
+        <base:descricao>Aumento da capacidade criativa da organização através de liderança digital e decisões orientadas por dados</base:descricao>
+        <base:id>IMP-005</base:id>
+        <base:nome>Criatividade Organizacional</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Enhancing Creativity (2022)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/impactsDescrip#IMP-006 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/impactsDescrip#IMP-006">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts#ImpactoOrganizacional"/>
+        <base:descricao>Construção de diferencial competitivo duradouro através de liderança digital e inovação</base:descricao>
+        <base:id>IMP-006</base:id>
+        <base:nome>Vantagem Competitiva Sustentável</base:nome>
+        <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Enhancing Creativity (2022)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/impactsDescrip#IMP-007 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/impactsDescrip#IMP-007">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts#ImpactoOrganizacional"/>
+        <base:descricao>Melhoria na capacidade da organização responder rapidamente a mudanças</base:descricao>
+        <base:id>IMP-007</base:id>
+        <base:nome>Desempenho de Agilidade Organizacional</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Leading in the digital age (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+

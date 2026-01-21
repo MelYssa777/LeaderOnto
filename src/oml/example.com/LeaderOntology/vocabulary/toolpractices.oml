@@ -1,7 +1,8 @@
-vocabulary <http://example.com/LeaderOntology/vocabulary/toolpractices#> as toolspractices {
+vocabulary <http://example.com/LeaderOntology/vocabulary/toolpractices#> as toolpractices {
 
 	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
 	extends <http://example.com/LeaderOntology/vocabulary/activities#> as activities
+	extends <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> as leadershipStyles
 
 	// FERRAMENTAS E PRÁTICAS (QP1, QP3) 
 	concept Ferramenta < base:EntidadeBase [
@@ -26,4 +27,12 @@ vocabulary <http://example.com/LeaderOntology/vocabulary/toolpractices#> as tool
 		to activities:ProcessoDecisao
 		reverse processoApoiadoPor
 	]
+	
+	relation avalia [
+		from FerramentaAvaliacao
+		to leadershipStyles:LiderancaTransformacional
+		reverse avaliadoPor
+	]
+	
+		//relation auxiliaDecisao
 }

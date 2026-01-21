@@ -29,7 +29,7 @@ vocabulary <http://example.com/LeaderOntology/vocabulary/strategies#> as strateg
 	] 
 	
 	relation moderadoPor [
-		from strategies:Estrategia
+		from Estrategia
 		to competencies:Competencia
 		reverse moderadorDe
 	]

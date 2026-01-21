@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/LeaderOntology/description/frameworkDescrip#"
+     xml:base="http://example.com/LeaderOntology/description/frameworkDescrip"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:base="http://example.com/LeaderOntology/vocabulary/base#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:frameworks="http://example.com/LeaderOntology/vocabulary/frameworks#"
+     xmlns:competencies="http://example.com/LeaderOntology/vocabulary/competencies#"
+     xmlns:frameworkDescrip="http://example.com/LeaderOntology/description/frameworkDescrip#">
+    <owl:Ontology rdf:about="http://example.com/LeaderOntology/description/frameworkDescrip">
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/description/dimensionsDescrip"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/frameworks"/>
+        <oml:namespace rdf:resource="http://example.com/LeaderOntology/description/frameworkDescrip#"/>
+        <oml:prefix>frameworkDescrip</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Description"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/frameworks#baseadoEm -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/frameworks#baseadoEm"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#descricao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#descricao"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#id -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#id"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#nome -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#nome"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/frameworkDescrip#FW-001 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/frameworkDescrip#FW-001">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/frameworks#FrameworkTOP"/>
+        <base:descricao>Framework que estrutura adoção de IA considerando três dimensões: Tecnologia, Organização e Pessoas</base:descricao>
+        <base:id>FW-001</base:id>
+        <base:nome>Framework TOP (Tecnologia-Organização-Pessoas)</base:nome>
+        <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Adoption of AI: TOP framework (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/frameworkDescrip#FW-002 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/frameworkDescrip#FW-002">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/frameworks#FrameworkCompetencias"/>
+        <frameworks:baseadoEm rdf:resource="http://example.com/LeaderOntology/description/dimensionsDescrip#DIM-002"/>
+        <frameworks:baseadoEm rdf:resource="http://example.com/LeaderOntology/description/dimensionsDescrip#DIM-003"/>
+        <base:descricao>Framework com 5 domínios: Visão, Engajamento, Execução, Liderança de Talentos, Liderança de Mudança</base:descricao>
+        <base:id>FW-002</base:id>
+        <base:nome>Framework de 5 Domínios de Competência</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>DIGITAL LEADERSHIP (2020)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/frameworkDescrip#FW-003 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/frameworkDescrip#FW-003">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/frameworks#FrameworkCompetencias"/>
+        <frameworks:baseadoEm rdf:resource="http://example.com/LeaderOntology/description/dimensionsDescrip#DIM-001"/>
+        <base:descricao>Framework com 2 núcleos de Caráter (Integridade e Intenção) e 2 de Competência (Habilidades e Resultados)</base:descricao>
+        <base:id>FW-003</base:id>
+        <base:nome>4 Núcleos de Credibilidade (Caráter e Competência)</base:nome>
+        <competencies:areaAplicacao>etica</competencies:areaAplicacao>
+        <competencies:artigoReferencia>DIGITAL LEADERSHIP (2020)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/frameworkDescrip#FW-004 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/frameworkDescrip#FW-004">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/frameworks#ModeloAvaliacao"/>
+        <frameworks:baseadoEm rdf:resource="http://example.com/LeaderOntology/description/dimensionsDescrip#DIM-001"/>
+        <base:descricao>Modelo que explica como traços de liderança digital são internalizados e reforçam sucesso do líder</base:descricao>
+        <base:id>FW-004</base:id>
+        <base:nome>Modelo de Internalização de Traços de Liderança Digital</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits (2021)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1, QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/frameworkDescrip#FW-005 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/frameworkDescrip#FW-005">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/frameworks#Framework"/>
+        <base:descricao>Framework com 4 tipos de líderes: conscientização, mobilização de recursos, estrutural e operacional</base:descricao>
+        <base:id>FW-005</base:id>
+        <base:nome>Framework Conceitual TD em Ensino Superior</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Conceptual Framework for Digital Transformation (2021)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/frameworkDescrip#FW-006 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/frameworkDescrip#FW-006">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/frameworks#Framework"/>
+        <base:descricao>Esquema teórico de interação onde IA analisa e líder decide, garantindo uso eficiente e seguro</base:descricao>
+        <base:id>FW-006</base:id>
+        <base:nome>Esquema Hierárquico Líder-IA</base:nome>
+        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1, QP3</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+

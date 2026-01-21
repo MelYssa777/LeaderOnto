@@ -1,0 +1,637 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/LeaderOntology/description/competenciesDescrip#"
+     xml:base="http://example.com/LeaderOntology/description/competenciesDescrip"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:base="http://example.com/LeaderOntology/vocabulary/base#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:competencies="http://example.com/LeaderOntology/vocabulary/competencies#"
+     xmlns:competenciesDescrip="http://example.com/LeaderOntology/description/competenciesDescrip#">
+    <owl:Ontology rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip">
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies"/>
+        <oml:namespace rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#"/>
+        <oml:prefix>competenciesDescrip</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Description"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#descricao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#descricao"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#id -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#id"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/base#nome -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/base#nome"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-001 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-001">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoTecnico"/>
+        <base:descricao>Compreensão tecnológica fundamental para liderar na era digital</base:descricao>
+        <base:id>CONH-001</base:id>
+        <base:nome>Alfabetização Digital</base:nome>
+        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Digital Leadership, AI Integration, and Cyberloafing (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-002 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-002">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoEtico"/>
+        <base:descricao>Conhecimento sobre princípios éticos, justiça, transparência e explicabilidade no uso de IA</base:descricao>
+        <base:id>CONH-003</base:id>
+        <base:nome>Ética da IA</base:nome>
+        <competencies:areaAplicacao>etica</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Ethical Considerations of AI (2022), Artificial intelligence adoption in HR (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-003 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-003">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoEstrategico"/>
+        <base:descricao>Capacidade de desenvolver e comunicar uma visão clara para transformação digital</base:descricao>
+        <base:id>CONH-004</base:id>
+        <base:nome>Visão Estratégica Digital</base:nome>
+        <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Leading the Way (2023), Future Trends in Digital Leadership (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1, QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-004 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-004">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoTecnico"/>
+        <base:descricao>Entendimento sobre princípios éticos, funcionamento, capacidades e responsabilidade de sistemas de IA</base:descricao>
+        <base:id>CONH-005</base:id>
+        <base:nome>Compreensão da Ética em Sistemas de IA</base:nome>
+        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP3, QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-005 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-005">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoEstrategico"/>
+        <base:descricao>Conhecimento sobre gestão estratégica de recursos para vantagem competitiva</base:descricao>
+        <base:id>CONH-006</base:id>
+        <base:nome>Gestão de Recursos Baseada em Valor (RBV)</base:nome>
+        <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Future Trends in Digital Leadership (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-001 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-001">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeDigital"/>
+        <base:descricao>Capacidade de utilizar e implementar ferramentas e tecnologias digitais</base:descricao>
+        <base:id>HAB-001</base:id>
+        <base:nome>Habilidades Técnicas Digitais</base:nome>
+        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Improving Organizational Performance (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-002 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-002">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeDigital"/>
+        <base:descricao>Capacidade de comunicar e colaborar efetivamente em ambientes digitais</base:descricao>
+        <base:id>HAB-002</base:id>
+        <base:nome>Interação Digital</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Improving Organizational Performance (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-003 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-003">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeDigital"/>
+        <base:descricao>Habilidade de analisar dados e informações digitais para insights acionáveis</base:descricao>
+        <base:id>HAB-003</base:id>
+        <base:nome>Análise Digital</base:nome>
+        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Improving Organizational Performance (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-004 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-004">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeDigital"/>
+        <base:descricao>Capacidade de pensar estrategicamente sobre soluções digitais e inovação</base:descricao>
+        <base:id>HAB-004</base:id>
+        <base:nome>Pensamento Digital</base:nome>
+        <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Improving Organizational Performance (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeDigital"/>
+        <base:descricao>Confiança e capacidade de aprender e utilizar sistemas de IA efetivamente</base:descricao>
+        <base:id>HAB-005</base:id>
+        <base:nome>Autoeficácia em Aprendizagem de IA</base:nome>
+        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-006 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-006">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeCognitiva"/>
+        <base:descricao>Capacidade de avaliar situações complexas e tomar decisões fundamentadas</base:descricao>
+        <base:id>HAB-006</base:id>
+        <base:nome>Pensamento Crítico</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-007 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-007">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeCognitiva"/>
+        <base:descricao>Habilidade de identificar problemas e desenvolver soluções inovadoras</base:descricao>
+        <base:id>HAB-007</base:id>
+        <base:nome>Resolução de Problemas</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-008 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-008">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeCognitiva"/>
+        <base:descricao>Capacidade de tomar decisões baseadas em análise de dados e informações relevantes</base:descricao>
+        <base:id>HAB-008</base:id>
+        <base:nome>Tomada de Decisão Informada</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023), Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-009 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-009">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeCognitiva"/>
+        <base:descricao>Habilidade de tomar decisões estratégicas integrando resultados de IA com julgamento humano</base:descricao>
+        <base:id>HAB-009</base:id>
+        <base:nome>Capacidade de Decisão Estratégica</base:nome>
+        <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-010 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-010">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeSocioemocional"/>
+        <base:descricao>Capacidade de reconhecer e gerenciar emoções próprias e dos outros</base:descricao>
+        <base:id>HAB-010</base:id>
+        <base:nome>Inteligência Emocional</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-011 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-011">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeSocioemocional"/>
+        <base:descricao>Disposição para explorar, aprender e descobrir novas possibilidades</base:descricao>
+        <base:id>HAB-011</base:id>
+        <base:nome>Curiosidade</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-012 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-012">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeSocioemocional"/>
+        <base:descricao>Capacidade de gerar ideias inovadoras e soluções originais</base:descricao>
+        <base:id>HAB-012</base:id>
+        <base:nome>Criatividade</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023), Do Generative Leadership and Digital Literacy of Executive Management Help Flourishing Micro and Small 
+ (2022)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-013 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-013">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeSocioemocional"/>
+        <base:descricao>Habilidade de comunicar de forma clara, aberta e honesta sobre tecnologias e mudanças</base:descricao>
+        <base:id>HAB-013</base:id>
+        <base:nome>Comunicação Transparente</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Facilitating digital work in public agencies through job design and digital communication management (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-014 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-014">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeSocioemocional"/>
+        <base:descricao>Capacidade de compreender e atender necessidades individuais dos membros da equipe</base:descricao>
+        <base:id>HAB-014</base:id>
+        <base:nome>Consideração Individualizada</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025), Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-015 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-015">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeSocioemocional"/>
+        <base:descricao>Habilidade de orientar, desenvolver e capacitar membros da equipe</base:descricao>
+        <base:id>HAB-015</base:id>
+        <base:nome>Capacidade de Mentoria</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-016 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-016">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeGestao"/>
+        <base:descricao>Capacidade de planejar e executar estratégias de transformação digital</base:descricao>
+        <base:id>HAB-016</base:id>
+        <base:nome>Planejamento Estratégico</base:nome>
+        <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Future Trends in Digital Leadership (2025), Leading the Way (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-017 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-017">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeGestao"/>
+        <base:descricao>Habilidade de dar autonomia e suporte ao desenvolvimento das equipes</base:descricao>
+        <base:id>HAB-017</base:id>
+        <base:nome>Capacidade de Empoderar Equipes</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Future Trends in Digital Leadership (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-018 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-018">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeGestao"/>
+        <base:descricao>Capacidade de adaptar rapidamente a organização a mudanças e novas demandas</base:descricao>
+        <base:id>HAB-018</base:id>
+        <base:nome>Agilidade Organizacional</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024), Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-019 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-019">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeGestao"/>
+        <base:descricao>Habilidade de liderar processos de mudança organizacional e reduzir resistências</base:descricao>
+        <base:id>HAB-019</base:id>
+        <base:nome>Gestão de Mudança</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Maneuvering through the stormy seas (2021), DIGITAL LEADERSHIP (2020)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4, QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-020 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-020">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeGestao"/>
+        <base:descricao>Capacidade de redesenhar funções e processos de trabalho com integração de IA</base:descricao>
+        <base:id>HAB-020</base:id>
+        <base:nome>Redesenho de Trabalho</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#MIND-001 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-001">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#MindsetCentradoHumano"/>
+        <base:descricao>Mentalidade que prioriza o bem-estar, autonomia e desenvolvimento humano na adoção de IA</base:descricao>
+        <base:id>MIND-001</base:id>
+        <base:nome>Mindset Centrado no Ser Humano</base:nome>
+        <competencies:areaAplicacao>etica</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Safeguarding worker psychosocial well-being (2025)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#MIND-002 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-002">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#MindsetInovador"/>
+        <base:descricao>Disposição para aprendizado contínuo, experimentação e aceitação de falhas como oportunidades</base:descricao>
+        <base:id>MIND-002</base:id>
+        <base:nome>Mentalidade de Crescimento</base:nome>
+        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits (2021)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#MIND-003 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-003">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#MindsetInovador"/>
+        <base:descricao>Abertura para experimentação, eliminação do medo do fracasso e adaptabilidade</base:descricao>
+        <base:id>MIND-003</base:id>
+        <base:nome>Mentalidade Flexível e Experimental</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#MIND-004 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-004">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#MindsetEtico"/>
+        <base:descricao>Valores éticos profundamente incorporados que guiam decisões sobre uso de IA</base:descricao>
+        <base:id>MIND-004</base:id>
+        <base:nome>Princípios Éticos</base:nome>
+        <competencies:areaAplicacao>etica</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits (2021), THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#MIND-005 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-005">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#MindsetEtico"/>
+        <base:descricao>Compromisso com práticas éticas, justas e transparentes no uso de tecnologias de IA</base:descricao>
+        <base:id>MIND-005</base:id>
+        <base:nome>Uso Ético da IA</base:nome>
+        <competencies:areaAplicacao>etica</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits (2021)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#MIND-006 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-006">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#MindsetAgil"/>
+        <base:descricao>Consciência elevada sobre mudanças no ambiente e capacidade de antecipar tendências</base:descricao>
+        <base:id>MIND-006</base:id>
+        <base:nome>Hiperconsciência</base:nome>
+        <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#MIND-007 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-007">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#MindsetAgil"/>
+        <base:descricao>Capacidade de implementar decisões e mudanças com velocidade e eficiência</base:descricao>
+        <base:id>MIND-007</base:id>
+        <base:nome>Execução Rápida</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#MIND-008 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-008">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#MindsetInovador"/>
+        <base:descricao>Capacidade de articular uma visão clara, inspiradora e orientada para o futuro</base:descricao>
+        <base:id>MIND-008</base:id>
+        <base:nome>Visão Inspiradora e de Futuro</base:nome>
+        <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Future Trends in Digital Leadership (2025), Leading the Way(2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP4, QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#MIND-009 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-009">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#MindsetInovador"/>
+        <base:descricao>Disposição proativa para promover e liderar transformações organizacionais</base:descricao>
+        <base:id>MIND-009</base:id>
+        <base:nome>Mentalidade de Agente de Mudança</base:nome>
+        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
+        <competencies:artigoReferencia>Assessing Digital Leadership: Towards Developing a Scale to Measure the Human Dimensions of Digital Leaders (2023)</competencies:artigoReferencia>
+        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+

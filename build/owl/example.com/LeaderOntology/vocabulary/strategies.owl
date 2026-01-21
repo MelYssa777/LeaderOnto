@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/LeaderOntology/vocabulary/strategies#"
+     xml:base="http://example.com/LeaderOntology/vocabulary/strategies"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:strategies="http://example.com/LeaderOntology/vocabulary/strategies#">
+    <owl:Ontology rdf:about="http://example.com/LeaderOntology/vocabulary/strategies">
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends"/>
+        <oml:namespace rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#"/>
+        <oml:prefix>strategies</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Vocabulary"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#abordaLacuna -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#abordaLacuna">
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Lacuna"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#UnreifiedRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#competenciaDesenvolvidaPor -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#competenciaDesenvolvidaPor">
+        <owl:inverseOf rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#desenvolveCompetencia"/>
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Competencia"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <oml:relationBase rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#desenvolveCompetencia"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ReverseRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#desenvolveCompetencia -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#desenvolveCompetencia">
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Competencia"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#UnreifiedRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#lacunaAbordadaPor -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#lacunaAbordadaPor">
+        <owl:inverseOf rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#abordaLacuna"/>
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Lacuna"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <oml:relationBase rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#abordaLacuna"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ReverseRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#moderadoPor -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#moderadoPor">
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Competencia"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#UnreifiedRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#moderadorDe -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#moderadorDe">
+        <owl:inverseOf rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#moderadoPor"/>
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Competencia"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <oml:relationBase rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#moderadoPor"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ReverseRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#DesenvolvimentoCompetencia -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#DesenvolvimentoCompetencia">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#Estrategia -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Aspect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaAvaliacao -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaAvaliacao">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDiagnostico -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDiagnostico">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,749 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/LeaderOntology/vocabulary/bundle#"
+     xml:base="http://example.com/LeaderOntology/vocabulary/bundle"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:bundle="http://example.com/LeaderOntology/vocabulary/bundle#">
+    <owl:Ontology rdf:about="http://example.com/LeaderOntology/vocabulary/bundle">
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/activities"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/dimensionsLeadership"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/frameworks"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/industry4Context"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices"/>
+        <oml:namespace rdf:resource="http://example.com/LeaderOntology/vocabulary/bundle#"/>
+        <oml:prefix>bundle</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#VocabularyBundle"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/activities#Atividade -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#Atividade">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/activities#AtividadeGestao -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#AtividadeGestao">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#Atividade"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/activities#AtividadeInovacao -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#AtividadeInovacao">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#Atividade"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/activities#AtividadeTransformacaoDigital -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#AtividadeTransformacaoDigital">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#Atividade"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/activities#ProcessoDecisao -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#ProcessoDecisao">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoEstrategica -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoEstrategica">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#ProcessoDecisao"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoOperacional -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoOperacional">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#ProcessoDecisao"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoOrientadaDados -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoOrientadaDados">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#ProcessoDecisao"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoEstrategico -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoEstrategico">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoEtico -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoEtico">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoTecnico -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoTecnico">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#Habilidade -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeCognitiva -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeCognitiva">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeDigital -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeDigital">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeGestao -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeGestao">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeSocioemocional -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeSocioemocional">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#Mindset -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#Mindset">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#MindsetAgil -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#MindsetAgil">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Mindset"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#MindsetCentradoHumano -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#MindsetCentradoHumano">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Mindset"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#MindsetEtico -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#MindsetEtico">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Mindset"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/competencies#MindsetInovador -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#MindsetInovador">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Mindset"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoHumana -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoHumana">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoLideranca"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoLideranca -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoLideranca">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoOrganizacional -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoOrganizacional">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoLideranca"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoTecnologica -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoTecnologica">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoLideranca"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/frameworks#Framework -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/frameworks#Framework">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/frameworks#FrameworkCompetencias -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/frameworks#FrameworkCompetencias">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/frameworks#Framework"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/frameworks#FrameworkTOP -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/frameworks#FrameworkTOP">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/frameworks#Framework"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/frameworks#ModeloAvaliacao -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/frameworks#ModeloAvaliacao">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/frameworks#Framework"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#Lacuna -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#Lacuna">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaCompetencia -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaCompetencia">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Lacuna"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaImplementacao -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaImplementacao">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Lacuna"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaPesquisa -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaPesquisa">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Lacuna"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#Tendencia -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#Tendencia">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#TendenciaEmergente -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#TendenciaEmergente">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Tendencia"/>
+        <owl:disjointWith rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#TendenciaTecnologica"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#TendenciaTecnologica -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#TendenciaTecnologica">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Tendencia"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/impacts#Impacto -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/impacts#Impacto">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/impacts#ImpactoIndividual -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/impacts#ImpactoIndividual">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts#Impacto"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/impacts#ImpactoOrganizacional -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/impacts#ImpactoOrganizacional">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts#Impacto"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/impacts#ImpactoSocial -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/impacts#ImpactoSocial">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/impacts#Impacto"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/industry4Context#ContextoIndustria4.0 -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#ContextoIndustria4.0">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/industry4Context#Industria5.0 -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#Industria5.0">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/industry4Context#ContextoIndustria4.0"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/industry4Context#IntegracaoIA -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#IntegracaoIA">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/industry4Context#ContextoIndustria4.0"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/industry4Context#TransformacaoDigital -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#TransformacaoDigital">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/industry4Context#ContextoIndustria4.0"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaAgil -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaAgil">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaAutentica -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaAutentica">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaEmpoderadora -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaEmpoderadora">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaGenerativa -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaGenerativa">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaTransacional -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaTransacional">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaTransformacional -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaTransformacional">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#DesenvolvimentoCompetencia -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#DesenvolvimentoCompetencia">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaAvaliacao -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaAvaliacao">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDiagnostico -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDiagnostico">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaAvaliacao -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaAvaliacao">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaIA -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaIA">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaTomadaDecisao -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaTomadaDecisao">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#Pratica -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#Pratica">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaIA -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaIA">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#Pratica"/>
+        <owl:disjointWith rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca -->
+
+
+    <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#PraticaLideranca">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#Pratica"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#Atividade"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#ProcessoDecisao"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#Mindset"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoLideranca"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/frameworks#Framework"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#Lacuna"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#Tendencia"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/impacts#Impacto"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#ContextoIndustria4.0"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#DesenvolvimentoCompetencia"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaAvaliacao"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDiagnostico"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#Pratica"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#AtividadeGestao"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#AtividadeInovacao"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#AtividadeTransformacaoDigital"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoEstrategica"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoOperacional"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoOrientadaDados"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoEstrategico"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoEtico"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#ConhecimentoTecnico"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeCognitiva"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeDigital"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeGestao"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#HabilidadeSocioemocional"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#MindsetAgil"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#MindsetCentradoHumano"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#MindsetEtico"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#MindsetInovador"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoHumana"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoOrganizacional"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#DimensaoTecnologica"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/frameworks#FrameworkCompetencias"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/frameworks#FrameworkTOP"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/frameworks#ModeloAvaliacao"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaCompetencia"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaImplementacao"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaPesquisa"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/impacts#ImpactoIndividual"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/impacts#ImpactoOrganizacional"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/impacts#ImpactoSocial"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#Industria5.0"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#IntegracaoIA"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/industry4Context#TransformacaoDigital"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaAgil"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaAutentica"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaEmpoderadora"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaGenerativa"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaTransacional"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaTransformacional"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaAvaliacao"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaIA"/>
+            <rdf:Description rdf:about="http://example.com/LeaderOntology/vocabulary/toolpractices#FerramentaTomadaDecisao"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+

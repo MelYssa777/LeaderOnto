@@ -11,7 +11,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Compreensão tecnológica fundamental para liderar na era digital"
 		competencies:areaAplicacao "tecnologia"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Digital Leadership, AI Integration, and Cyberloafing (2025)"
+		competencies:artigoReferencia "Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within Resource Constrained Economies (2025)"
 	]
 	
 	instance CONH-002 : competencies:ConhecimentoEtico [
@@ -20,7 +20,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Conhecimento sobre princípios éticos, justiça, transparência e explicabilidade no uso de IA"
 		competencies:areaAplicacao "etica"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Ethical Considerations of AI (2022), Artificial intelligence adoption in HR (2024)"
+		competencies:artigoReferencia "Ethical Considerations of AI (2022), Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
 	]
 	
 	instance CONH-003 : competencies:ConhecimentoEstrategico [
@@ -29,7 +29,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de desenvolver e comunicar uma visão clara para transformação digital"
 		competencies:areaAplicacao "estrategia"
 		competencies:questaoPesquisa "QP1, QP4"
-		competencies:artigoReferencia "Leading the Way (2023), Future Trends in Digital Leadership (2025)"
+		competencies:artigoReferencia "Leading the Way: How Leaders Facilitate Digital Transformation in Organizations (2023), Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025)"
 	]
 	
 	instance CONH-004 : competencies:ConhecimentoTecnico [
@@ -47,7 +47,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Conhecimento sobre gestão estratégica de recursos para vantagem competitiva"
 		competencies:areaAplicacao "estrategia"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Future Trends in Digital Leadership (2025)"
+		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025)"
 	]
 	
 	//HABILIDADES DIGITAIS (QP1)
@@ -96,7 +96,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Confiança e capacidade de aprender e utilizar sistemas de IA efetivamente"
 		competencies:areaAplicacao "tecnologia"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Transforming work in the digital era (2025)"
+		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)"
 	]
 	
 	//HABILIDADES COGNITIVAS (QP1)
@@ -107,7 +107,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de avaliar situações complexas e tomar decisões fundamentadas"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Preparing for a New World of Work (2023)"
+		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 	]
 	
 	instance HAB-007 : competencies:HabilidadeCognitiva [
@@ -116,7 +116,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Habilidade de identificar problemas e desenvolver soluções inovadoras"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Preparing for a New World of Work (2023)"
+		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 	]
 	
 	instance HAB-008 : competencies:HabilidadeCognitiva [
@@ -125,7 +125,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de tomar decisões baseadas em análise de dados e informações relevantes"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Preparing for a New World of Work (2023), Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)"
+		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023), Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)"
 	]
 	
 	//HABILIDADES COGNITIVAS (QP1)
@@ -147,7 +147,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de reconhecer e gerenciar emoções próprias e dos outros"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Influence of AI on Engineering Management (2024)"
+		competencies:artigoReferencia "Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)"
 	]
 	
 	instance HAB-011 : competencies:HabilidadeSocioemocional [
@@ -156,7 +156,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Disposição para explorar, aprender e descobrir novas possibilidades"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Preparing for a New World of Work (2023)"
+		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 	]
 	
 	instance HAB-012 : competencies:HabilidadeSocioemocional [
@@ -165,7 +165,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de gerar ideias inovadoras e soluções originais"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Preparing for a New World of Work (2023), Do Generative Leadership (2022)"
+		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023), Do Generative Leadership and Digital Literacy of Executive Management Help Flourishing Micro and Small (2022)"
 	]
 	
 	instance HAB-013 : competencies:HabilidadeSocioemocional [
@@ -183,7 +183,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de compreender e atender necessidades individuais dos membros da equipe"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Transforming work in the digital era (2025), Influence of AI on Engineering Management (2024)"
+		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025), Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)"
 	]
 	
 	instance HAB-015 : competencies:HabilidadeSocioemocional [
@@ -192,7 +192,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Habilidade de orientar, desenvolver e capacitar membros da equipe"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Influence of AI on Engineering Management (2024)"
+		competencies:artigoReferencia "Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)"
 	]
 	
 	// HABILIDADES DE GESTÃO (QP4)
@@ -203,7 +203,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de planejar e executar estratégias de transformação digital"
 		competencies:areaAplicacao "estrategia"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Future Trends in Digital Leadership (2025), Leading the Way (2023)"
+		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Leading the Way: How Leaders Facilitate Digital Transformation in Organizations (2023)"
 	]
 	
 	instance HAB-017 : competencies:HabilidadeGestao [
@@ -212,7 +212,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Habilidade de dar autonomia e suporte ao desenvolvimento das equipes"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Future Trends in Digital Leadership (2025)"
+		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025)"
 	]
 	
 	instance HAB-018 : competencies:HabilidadeGestao [
@@ -221,7 +221,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de adaptar rapidamente a organização a mudanças e novas demandas"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Influence of AI on Engineering Management (2024), Preparing for a New World of Work (2023)"
+		competencies:artigoReferencia "Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024), Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 	]
 	
 	instance HAB-019 : competencies:HabilidadeGestao [
@@ -239,7 +239,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de redesenhar funções e processos de trabalho com integração de IA"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Artificial intelligence adoption in HR (2024)"
+		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
 	]
 	
 	//MINDSETS (QP4) 
@@ -268,7 +268,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Abertura para experimentação, eliminação do medo do fracasso e adaptabilidade"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Artificial intelligence adoption in HR (2024)"
+		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
 	]
 	
 	instance MIND-004 : competencies:MindsetEtico [
@@ -295,7 +295,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Consciência elevada sobre mudanças no ambiente e capacidade de antecipar tendências"
 		competencies:areaAplicacao "estrategia"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Preparing for a New World of Work (2023)"
+		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 	]
 	
 	instance MIND-007 : competencies:MindsetAgil [
@@ -304,7 +304,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de implementar decisões e mudanças com velocidade e eficiência"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Preparing for a New World of Work (2023)"
+		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 	]
 	
 	instance MIND-008 : competencies:MindsetInovador [
@@ -313,7 +313,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de articular uma visão clara, inspiradora e orientada para o futuro"
 		competencies:areaAplicacao "estrategia"
 		competencies:questaoPesquisa "QP4, QP1"
-		competencies:artigoReferencia "Future Trends in Digital Leadership (2025), Leading the Way(2023)"
+		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Leading the Way: How Leaders Facilitate Digital Transformation in Organizations (2023)"
 	]
 	
 	instance MIND-009 : competencies:MindsetInovador [
@@ -322,6 +322,6 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Disposição proativa para promover e liderar transformações organizacionais"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Assessing Digital Leadership (2023)"
+		competencies:artigoReferencia "Assessing Digital Leadership: Towards Developing a Scale to Measure the Human Dimensions of Digital Leaders (2023)"
 	]
 }

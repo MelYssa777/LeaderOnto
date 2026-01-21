@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/LeaderOntology/vocabulary/gapsTrends#"
+     xml:base="http://example.com/LeaderOntology/vocabulary/gapsTrends"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:gapsTrends="http://example.com/LeaderOntology/vocabulary/gapsTrends#">
+    <owl:Ontology rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends">
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
+        <oml:namespace rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#"/>
+        <oml:prefix>gapsTrends</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Vocabulary"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#Lacuna -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#Lacuna">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaCompetencia -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaCompetencia">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Lacuna"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaImplementacao -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaImplementacao">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Lacuna"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaPesquisa -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#LacunaPesquisa">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Lacuna"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#Tendencia -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#Tendencia">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#TendenciaEmergente -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#TendenciaEmergente">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Tendencia"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/gapsTrends#TendenciaTecnologica -->
+
+
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/gapsTrends#TendenciaTecnologica">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/gapsTrends#Tendencia"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+
