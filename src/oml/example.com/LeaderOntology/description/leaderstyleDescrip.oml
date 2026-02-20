@@ -17,7 +17,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		base:descricao "Estilo de liderança que inspira e motiva mudanças através de visão compartilhada, consideração individual e estímulo intelectual"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1, QP3, QP4"
-		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025), Influence of AI on Engineering Management (2025)"
+		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025), Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)"
 		leadershipStyles:aplicaPratica toolpracticesDescrip:PRAT-001, toolpracticesDescrip:PRAT-002, toolpracticesDescrip:PRAT-004
 		leadershipStyles:requerCompetencia competenciesDescrip:HAB-010, competenciesDescrip:HAB-014, competenciesDescrip:HAB-015
 		leadershipStyles:causaImpacto impactsDescrip:IMP-002, impactsDescrip:IMP-003
@@ -41,7 +41,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		base:descricao "Estilo que promove autonomia, suporte ao desenvolvimento e capacitação das equipes"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1, QP4"
-		competencies:artigoReferencia "Maneuvering through the stormy seas (2021)"
+		competencies:artigoReferencia "Maneuvering through the stormy seas of digital transformation: the impact of empowering leadership on the AI readiness of enterprises (2021)"
 		leadershipStyles:requerCompetencia competenciesDescrip:HAB-017, competenciesDescrip:HAB-019
 		leadershipStyles:aplicaPratica toolpracticesDescrip:PRAT-009, toolpracticesDescrip:PRAT-010
 		leadershipStyles:causaImpacto impactsDescrip:IMP-004
@@ -65,7 +65,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		base:descricao "Liderança caracterizada por hiperconsciência, tomada de decisão informada e execução rápida"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1, QP4"
-		competencies:artigoReferencia "Preparing for a New World of Work (2023)"
+		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 		leadershipStyles:requerCompetencia competenciesDescrip:MIND-006, competenciesDescrip:MIND-007, competenciesDescrip:HAB-008, competenciesDescrip:HAB-018
 		leadershipStyles:aplicaPratica toolpracticesDescrip:PRAT-008
 		leadershipStyles:causaImpacto impactsDescrip:IMP-007

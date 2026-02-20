@@ -58,7 +58,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de utilizar e implementar ferramentas e tecnologias digitais"
 		competencies:areaAplicacao "tecnologia"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Improving Organizational Performance (2024)"
+		competencies:artigoReferencia "Improving Organizational Performance (Student Club at One of Private University in Indonesia) Through Digital Leadership Mediated by Digital Skills  (2024)"
 	]
 	
 	instance HAB-002 : competencies:HabilidadeDigital [
@@ -67,7 +67,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de comunicar e colaborar efetivamente em ambientes digitais"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Improving Organizational Performance (2024)"
+		competencies:artigoReferencia "Improving Organizational Performance (Student Club at One of Private University in Indonesia) Through Digital Leadership Mediated by Digital Skills  (2024)"
 	]
 	
 	instance HAB-003 : competencies:HabilidadeDigital [
@@ -76,7 +76,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Habilidade de analisar dados e informações digitais para insights acionáveis"
 		competencies:areaAplicacao "tecnologia"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Improving Organizational Performance (2024)"
+		competencies:artigoReferencia "Improving Organizational Performance (Student Club at One of Private University in Indonesia) Through Digital Leadership Mediated by Digital Skills  (2024)"
 	]
 	
 	instance HAB-004 : competencies:HabilidadeDigital [
@@ -85,7 +85,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Capacidade de pensar estrategicamente sobre soluções digitais e inovação"
 		competencies:areaAplicacao "estrategia"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Improving Organizational Performance (2024)"
+		competencies:artigoReferencia "Improving Organizational Performance (Student Club at One of Private University in Indonesia) Through Digital Leadership Mediated by Digital Skills  (2024)"
 	]
 	
 	//HABILIDADES DIGITAIS (QP4)
@@ -250,7 +250,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Mentalidade que prioriza o bem-estar, autonomia e desenvolvimento humano na adoção de IA"
 		competencies:areaAplicacao "etica"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Safeguarding worker psychosocial well-being (2025)"
+		competencies:artigoReferencia "Safeguarding worker psychosocial well-being in the age of AI: The critical role of decision control (2025)"
 	]
 	
 	instance MIND-002 : competencies:MindsetInovador [
@@ -259,7 +259,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Disposição para aprendizado contínuo, experimentação e aceitação de falhas como oportunidades"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Exploring Digital Leadership Traits (2021)"
+		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)"
 	]
 	
 	instance MIND-003 : competencies:MindsetInovador [
@@ -277,7 +277,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Valores éticos profundamente incorporados que guiam decisões sobre uso de IA"
 		competencies:areaAplicacao "etica"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Exploring Digital Leadership Traits (2021), THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)"
+		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024), THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)"
 	]
 	
 	instance MIND-005 : competencies:MindsetEtico [
@@ -286,7 +286,7 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 		base:descricao "Compromisso com práticas éticas, justas e transparentes no uso de tecnologias de IA"
 		competencies:areaAplicacao "etica"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Exploring Digital Leadership Traits (2021)"
+		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)"
 	]
 	
 	instance MIND-006 : competencies:MindsetAgil [

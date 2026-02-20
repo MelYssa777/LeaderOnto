@@ -23,7 +23,7 @@ description <http://example.com/LeaderOntology/description/activitiesDescrip#> a
 		base:descricao "Processo de tomada de decisões cotidianas sobre operações e execução de tarefas"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP3"
-		competencies:artigoReferencia "Adoption of AI: TOP framework (2024)"
+		competencies:artigoReferencia "Adoption of artificial intelligence: A TOP framework-based checklist for digital leaders (2024)"
 	]
 	
 	instance PROC-003 : activities:TomadaDecisaoEstrategica [

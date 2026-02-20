@@ -181,7 +181,7 @@
         <base:id>FERR-003</base:id>
         <base:nome>Escala de Liderança Digital (6 itens)</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Leading in the digital age (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Leading in the digital age: unlocking creative process engagement and maximizing agility performance (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -249,7 +249,7 @@
         <base:id>FERR-007</base:id>
         <base:nome>Escala de Liderança Generativa (27 itens)</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Do Generative Leadership and Digital Literacy of Executive Management Help Flourishing Micro and Small (2022)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Do Generative Leadership and Digital Literacy of Executive Management Help Flourishing Micro and Small Business Digital Maturity? (2022)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -433,7 +433,7 @@
         <base:id>PRAT-005</base:id>
         <base:nome>Compartilhamento de Conhecimento</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2021)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -449,7 +449,7 @@
         <base:id>PRAT-006</base:id>
         <base:nome>Narrativa e Storytelling</base:nome>
         <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2021)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -465,7 +465,7 @@
         <base:id>PRAT-007</base:id>
         <base:nome>Honestidade e Inspiração de Engajamento</base:nome>
         <competencies:areaAplicacao>etica</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2021)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -481,7 +481,7 @@
         <base:id>PRAT-008</base:id>
         <base:nome>Promoção de Iniciativas Digitais</base:nome>
         <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -497,7 +497,7 @@
         <base:id>PRAT-009</base:id>
         <base:nome>Desenvolvimento dos Funcionários</base:nome>
         <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>

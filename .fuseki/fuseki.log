@@ -1,0 +1,97 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/melys/.m2/repository/org/apache/jena/jena-fuseki-server/4.6.1/jena-fuseki-server-4.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/melys/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.18.0/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+[2026-01-22 04:22:25] Server     INFO  Apache Jena Fuseki 4.6.1
+[2026-01-22 04:22:25] Server     INFO  Incoming connections limited to localhost
+[2026-01-22 04:22:32] Config     INFO  FUSEKI_HOME=C:\Users\melys\Desktop\Cientista Arretado\Rosetta\workspace\LeaderOnto\.fuseki\.
+[2026-01-22 04:22:32] Config     INFO  FUSEKI_BASE=C:\Users\melys\Desktop\Cientista Arretado\Rosetta\workspace\LeaderOnto\.fuseki\run
+[2026-01-22 04:22:32] Config     INFO  Shiro file: file://C:\Users\melys\Desktop\Cientista Arretado\Rosetta\workspace\LeaderOnto\.fuseki\run\shiro.ini
+[2026-01-22 04:22:34] Server     INFO  Path = /LeaderOnto
+[2026-01-22 04:22:34] Server     INFO  System
+[2026-01-22 04:22:34] Server     INFO    Memory: 1,9 GiB
+[2026-01-22 04:22:34] Server     INFO    Java:   21.0.8
+[2026-01-22 04:22:34] Server     INFO    OS:     Windows 11 10.0 amd64
+[2026-01-22 04:22:34] Server     INFO    PID:    29400
+[2026-01-22 04:22:34] Server     INFO  Started 2026/01/22 04:22:34 BRT on port 3030
+[2026-01-22 04:24:10] Fuseki     INFO  [4] POST http://localhost:3030/LeaderOnto/data
+[2026-01-22 04:24:10] Fuseki     INFO  [5] POST http://localhost:3030/LeaderOnto/data
+[2026-01-22 04:24:10] Fuseki     INFO  [6] POST http://localhost:3030/LeaderOnto/data
+[2026-01-22 04:24:10] Fuseki     INFO  [5] Filename: classes.ttl, Content-Type=application/octet-stream, Charset=null => Turtle : Count=10 Triples=10 Quads=0
+[2026-01-22 04:24:10] Fuseki     INFO  [5] 200 OK (460 ms)
+[2026-01-22 04:24:10] Fuseki     INFO  [4] Filename: individuals.ttl, Content-Type=application/octet-stream, Charset=null => Turtle : Count=10 Triples=10 Quads=0
+[2026-01-22 04:24:10] Fuseki     INFO  [4] 200 OK (669 ms)
+[2026-01-22 04:24:10] Fuseki     INFO  [6] Filename: properties.ttl, Content-Type=application/octet-stream, Charset=null => Turtle : Count=11 Triples=11 Quads=0
+[2026-01-22 04:24:10] Fuseki     INFO  [6] 200 OK (534 ms)
+[2026-01-23 03:19:28] Fuseki     INFO  [13] POST http://localhost:3030/LeaderOnto/sparql
+[2026-01-23 03:19:29] Fuseki     INFO  [13] Query = PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX competenciesDescrip: <http://example.com/LeaderOntology/description/competenciesDescrip#> PREFIX toolpracticesDescrip: <http://example.com/LeaderOntology/description/toolpracticesDescrip#> PREFIX impactsDescrip: <http://example.com/LeaderOntology/description/impactsDescrip#> PREFIX EstiloLideranca: <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> PREFIX competencies: <http://example.com/LeaderOntology/vocabulary/competencies#> PREFIX base: <http://example.com/LeaderOntology/vocabulary/base#> SELECT ?competencia ?nome WHERE {   ?leadershipStyle a EstiloLideranca:LiderancaTransformacional ;   ?leadershipStyle EstiloLideranca:requerCompetencia ?competencia ;   ?competencia base:nome ?nome . } LIMIT 10
+[2026-01-23 03:19:29] Fuseki     WARN  [13] Parse error: Encountered " <VAR1> "?competencia "" at line 11, column 54.
+[2026-01-23 03:19:29] Fuseki     INFO  [13] 400 Bad Request (1,112 s)
+[2026-01-23 03:20:40] Fuseki     INFO  [14] POST http://localhost:3030/LeaderOnto/sparql
+[2026-01-23 03:20:40] Fuseki     INFO  [14] Query = PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX competenciesDescrip: <http://example.com/LeaderOntology/description/competenciesDescrip#> PREFIX toolpracticesDescrip: <http://example.com/LeaderOntology/description/toolpracticesDescrip#> PREFIX impactsDescrip: <http://example.com/LeaderOntology/description/impactsDescrip#> PREFIX EstiloLideranca: <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> PREFIX competencies: <http://example.com/LeaderOntology/vocabulary/competencies#> PREFIX base: <http://example.com/LeaderOntology/vocabulary/base#> SELECT ?competencies ?nome WHERE {   ?leadershipStyle a EstiloLideranca:LiderancaTransformacional ;   ?leadershipStyle EstiloLideranca:requerCompetencia ?competencies ;   ?competencies base:nome ?nome . } LIMIT 10
+[2026-01-23 03:20:40] Fuseki     WARN  [14] Parse error: Encountered " <VAR1> "?competencies "" at line 11, column 54.
+[2026-01-23 03:20:40] Fuseki     INFO  [14] 400 Bad Request (15 ms)
+[2026-01-23 03:38:16] Fuseki     INFO  [15] POST http://localhost:3030/LeaderOnto/sparql
+[2026-01-23 03:38:16] Fuseki     INFO  [15] Query = PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX competenciesDescrip: <http://example.com/LeaderOntology/description/competenciesDescrip#> PREFIX leadershipStyles: <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> PREFIX competencies: <http://example.com/LeaderOntology/vocabulary/competencies#> PREFIX base: <http://example.com/LeaderOntology/vocabulary/base#> SELECT DISTINCT ?lideranca ?nomeLideranca ?competencia ?nomeCompetencia ?tipoCompetencia WHERE {   ?lideranca a leadershipStyles:LiderancaTransformacional .   ?lideranca base:nome ?nomeLideranca .   ?lideranca leadershipStyles:requerCompetencia ?competencia .   ?competencia base:nome ?nomeCompetencia .   OPTIONAL {     ?competencia competencies:tipoCompetencia ?tipoCompetencia .   } } ORDER BY ?nomeLideranca ?nomeCompetencia
+[2026-01-23 03:38:18] Fuseki     INFO  [15] 200 OK (2,018 s)
+[2026-01-23 03:40:01] Fuseki     INFO  [16] POST http://localhost:3030/LeaderOnto/sparql
+[2026-01-23 03:40:01] Fuseki     INFO  [16] Query = PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX competenciesDescrip: <http://example.com/LeaderOntology/description/competenciesDescrip#> PREFIX leaderstyleDescrip: <http://example.com/LeaderOntology/description/leaderstyleDescrip#> PREFIX leadershipStyles: <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> PREFIX competencies: <http://example.com/LeaderOntology/vocabulary/competencies#> PREFIX base: <http://example.com/LeaderOntology/vocabulary/base#> SELECT DISTINCT ?lideranca ?nomeLideranca ?competencia ?nomeCompetencia ?tipoCompetencia WHERE {   ?lideranca a leadershipStyles:LiderancaTransformacional .   ?lideranca base:nome ?nomeLideranca .   ?lideranca leadershipStyles:requerCompetencia ?competencia .   ?competencia base:nome ?nomeCompetencia .   OPTIONAL {     ?competencia competencies:tipoCompetencia ?tipoCompetencia .   } } ORDER BY ?nomeLideranca ?nomeCompetencia
+[2026-01-23 03:40:01] Fuseki     INFO  [16] 200 OK (228 ms)
+[2026-01-23 03:41:14] Fuseki     INFO  [17] POST http://localhost:3030/LeaderOnto/sparql
+[2026-01-23 03:41:14] Fuseki     INFO  [17] Query = PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX competenciesDescrip: <http://example.com/LeaderOntology/description/competenciesDescrip#> PREFIX leaderstyleDescrip: <http://example.com/LeaderOntology/description/leaderstyleDescrip#> PREFIX leadershipStyles: <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> PREFIX competencies: <http://example.com/LeaderOntology/vocabulary/competencies#> PREFIX base: <http://example.com/LeaderOntology/vocabulary/base#> SELECT ?lideranca ?nomeLideranca ?competencia ?nomeCompetencia ?tipoCompetencia WHERE {   ?lideranca a leadershipStyles:LiderancaTransformacional .   ?lideranca base:nome ?nomeLideranca .   ?lideranca leadershipStyles:requerCompetencia ?competencia .   ?competencia base:nome ?nomeCompetencia .   OPTIONAL {     ?competencia competencies:tipoCompetencia ?tipoCompetencia .   } } ORDER BY ?nomeLideranca ?nomeCompetencia
+[2026-01-23 03:41:14] Fuseki     INFO  [17] 200 OK (29 ms)
+[2026-01-23 03:43:00] Fuseki     INFO  [18] POST http://localhost:3030/LeaderOnto/sparql
+[2026-01-23 03:43:00] Fuseki     INFO  [18] Query = PREFIX competenciesDescrip: <http://example.com/LeaderOntology/description/competenciesDescrip#> PREFIX leaderstyleDescrip: <http://example.com/LeaderOntology/description/leaderstyleDescrip#> PREFIX leadershipStyles: <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> PREFIX competencies: <http://example.com/LeaderOntology/vocabulary/competencies#> PREFIX base: <http://example.com/LeaderOntology/vocabulary/base#> SELECT ?lideranca ?nomeLideranca ?idLideranca ?competencia ?nomeCompetencia ?idCompetencia ?tipoCompetencia ?descricaoCompetencia ?areaAplicacao WHERE {   ?lideranca a leadershipStyles:LiderancaTransformacional .          # Obter propriedades básicas da liderança     ?lideranca base:nome ?nomeLideranca .     ?lideranca base:id ?idLideranca .          # Buscar as competências requeridas por esta liderança     ?lideranca leadershipStyles:requerCompetencia ?competencia .          # Obter propriedades da competência     ?competencia base:nome ?nomeCompetencia .     ?competencia base:id ?idCompetencia .     ?competencia base:descricao ?descricaoCompetencia .          # Obter informações adicionais (opcionais)     OPTIONAL { ?competencia competencies:areaAplicacao ?areaAplicacao . } } ORDER BY ?nomeLideranca ?tipoCompetencia ?nomeCompetencia
+[2026-01-23 03:43:00] Fuseki     INFO  [18] 200 OK (63 ms)
+[2026-01-23 03:48:35] Fuseki     INFO  [21] POST http://localhost:3030/LeaderOnto/data
+[2026-01-23 03:48:35] Fuseki     INFO  [22] POST http://localhost:3030/LeaderOnto/data
+[2026-01-23 03:48:35] Fuseki     INFO  [23] POST http://localhost:3030/LeaderOnto/data
+[2026-01-23 03:48:35] Fuseki     INFO  [23] Filename: properties.ttl, Content-Type=application/octet-stream, Charset=null => Turtle : Count=11 Triples=11 Quads=0
+[2026-01-23 03:48:35] Fuseki     INFO  [23] 200 OK (203 ms)
+[2026-01-23 03:48:35] Fuseki     INFO  [22] Filename: classes.ttl, Content-Type=application/octet-stream, Charset=null => Turtle : Count=10 Triples=10 Quads=0
+[2026-01-23 03:48:35] Fuseki     INFO  [22] 200 OK (255 ms)
+[2026-01-23 03:48:36] Fuseki     INFO  [21] Filename: individuals.ttl, Content-Type=application/octet-stream, Charset=null => Turtle : Count=10 Triples=10 Quads=0
+[2026-01-23 03:48:36] Fuseki     INFO  [21] 200 OK (355 ms)
+[2026-01-23 03:49:13] Admin      INFO  [36] Create database : name = /leaderonto
+[2026-01-23 03:49:28] Admin      INFO  [39] DELETE dataset=/leaderonto
+[2026-01-23 03:50:05] Admin      INFO  [45] Create database : name = /leaderonto
+[2026-01-23 03:50:17] Admin      INFO  [47] DELETE dataset=/leaderonto
+[2026-01-23 03:50:21] Admin      INFO  [49] DELETE dataset=/LeaderOnto
+[2026-01-23 03:50:21] Admin      WARN  [49] Can't delete database configuration - not a managed database
+[2026-01-23 03:50:30] Admin      INFO  [51] Create database : name = /LeaderOnto
+[2026-01-23 03:50:43] Fuseki     INFO  [57] POST http://localhost:3030/LeaderOnto/data
+[2026-01-23 03:50:43] Fuseki     INFO  [56] POST http://localhost:3030/LeaderOnto/data
+[2026-01-23 03:50:43] Fuseki     INFO  [55] POST http://localhost:3030/LeaderOnto/data
+[2026-01-23 03:50:44] Fuseki     INFO  [55] Filename: individuals.ttl, Content-Type=application/octet-stream, Charset=null => Turtle : Count=10 Triples=10 Quads=0
+[2026-01-23 03:50:44] Fuseki     INFO  [55] 200 OK (337 ms)
+[2026-01-23 03:50:44] Fuseki     INFO  [57] Filename: properties.ttl, Content-Type=application/octet-stream, Charset=null => Turtle : Count=11 Triples=11 Quads=0
+[2026-01-23 03:50:44] Fuseki     INFO  [57] 200 OK (790 ms)
+[2026-01-23 03:50:44] Fuseki     INFO  [56] Filename: classes.ttl, Content-Type=application/octet-stream, Charset=null => Turtle : Count=10 Triples=10 Quads=0
+[2026-01-23 03:50:44] Fuseki     INFO  [56] 200 OK (873 ms)
+[2026-01-23 03:50:51] Fuseki     INFO  [60] POST http://localhost:3030/LeaderOnto/query
+[2026-01-23 03:50:51] Fuseki     INFO  [60] Query = PREFIX competenciesDescrip: <http://example.com/LeaderOntology/description/competenciesDescrip#> PREFIX leaderstyleDescrip: <http://example.com/LeaderOntology/description/leaderstyleDescrip#> PREFIX leadershipStyles: <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> PREFIX competencies: <http://example.com/LeaderOntology/vocabulary/competencies#> PREFIX base: <http://example.com/LeaderOntology/vocabulary/base#> SELECT ?lideranca ?nomeLideranca ?idLideranca ?competencia ?nomeCompetencia ?idCompetencia ?tipoCompetencia ?descricaoCompetencia ?areaAplicacao WHERE {   ?lideranca a leadershipStyles:LiderancaTransformacional .   ?lideranca base:nome ?nomeLideranca .   ?lideranca base:id ?idLideranca .   ?lideranca leadershipStyles:requerCompetencia ?competencia .      ?competencia base:nome ?nomeCompetencia .   ?competencia base:id ?idCompetencia .   ?competencia base:descricao ?descricaoCompetencia .          OPTIONAL { ?competencia competencies:areaAplicacao ?areaAplicacao . } } ORDER BY ?nomeLideranca ?tipoCompetencia ?nomeCompetencia
+[2026-01-23 03:50:51] Fuseki     INFO  [60] 200 OK (41 ms)
+[2026-01-23 03:57:13] Fuseki     INFO  [61] POST http://localhost:3030/LeaderOnto/query
+[2026-01-23 03:57:13] Fuseki     INFO  [61] Query = PREFIX competenciesDescrip: <http://example.com/LeaderOntology/description/competenciesDescrip#> PREFIX leaderstyleDescrip: <http://example.com/LeaderOntology/description/leaderstyleDescrip#> PREFIX leadershipStyles: <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> PREFIX competencies: <http://example.com/LeaderOntology/vocabulary/competencies#> PREFIX base: <http://example.com/LeaderOntology/vocabulary/base#> SELECT ?nomeCompetencia WHERE {   ?lideranca a leadershipStyles:LiderancaTransformacional .   ?lideranca leadershipStyles:requerCompetencia ?competencia .   ?competencia base:nome ?nomeCompetencia . } 
+[2026-01-23 03:57:13] Fuseki     INFO  [61] 200 OK (211 ms)
+[2026-01-23 03:57:44] Admin      INFO  [71] Tasks
+[2026-01-23 03:58:17] Fuseki     INFO  [75] POST http://localhost:3030/LeaderOnto/data
+[2026-01-23 03:58:17] Fuseki     INFO  [76] POST http://localhost:3030/LeaderOnto/data
+[2026-01-23 03:58:17] Fuseki     INFO  [75] Filename: individuals.ttl, Content-Type=application/octet-stream, Charset=null => Turtle : Count=10 Triples=10 Quads=0
+[2026-01-23 03:58:17] Fuseki     INFO  [75] 200 OK (145 ms)
+[2026-01-23 03:58:18] Fuseki     INFO  [77] POST http://localhost:3030/LeaderOnto/data
+[2026-01-23 03:58:18] Fuseki     INFO  [76] Filename: classes.ttl, Content-Type=application/octet-stream, Charset=null => Turtle : Count=10 Triples=10 Quads=0
+[2026-01-23 03:58:18] Fuseki     INFO  [76] 200 OK (231 ms)
+[2026-01-23 03:58:18] Fuseki     INFO  [77] Filename: properties.ttl, Content-Type=application/octet-stream, Charset=null => Turtle : Count=11 Triples=11 Quads=0
+[2026-01-23 03:58:18] Fuseki     INFO  [77] 200 OK (137 ms)
+[2026-01-23 03:58:38] Fuseki     INFO  [80] POST http://localhost:3030/LeaderOnto/query
+[2026-01-23 03:58:38] Fuseki     INFO  [80] Query = PREFIX competenciesDescrip: <http://example.com/LeaderOntology/description/competenciesDescrip#> PREFIX leaderstyleDescrip: <http://example.com/LeaderOntology/description/leaderstyleDescrip#> PREFIX leadershipStyles: <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> PREFIX competencies: <http://example.com/LeaderOntology/vocabulary/competencies#> PREFIX base: <http://example.com/LeaderOntology/vocabulary/base#> SELECT ?nomeCompetencia WHERE {   ?lideranca a leadershipStyles:LiderancaTransformacional .   ?lideranca leadershipStyles:requerCompetencia ?competencia .   ?competencia base:nome ?nomeCompetencia . } 
+[2026-01-23 03:58:38] Fuseki     INFO  [80] 200 OK (84 ms)
+[2026-01-23 03:59:36] Admin      INFO  [90] Tasks
+[2026-01-23 03:59:55] Fuseki     INFO  [94] POST http://localhost:3030/LeaderOnto/query
+[2026-01-23 03:59:55] Fuseki     INFO  [94] Query = PREFIX competenciesDescrip: <http://example.com/LeaderOntology/description/competenciesDescrip#> PREFIX leaderstyleDescrip: <http://example.com/LeaderOntology/description/leaderstyleDescrip#> PREFIX leadershipStyles: <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> PREFIX competencies: <http://example.com/LeaderOntology/vocabulary/competencies#> PREFIX base: <http://example.com/LeaderOntology/vocabulary/base#> SELECT ?nomeCompetencia WHERE {   ?lideranca a leadershipStyles:LiderancaTransformacional .   ?lideranca leadershipStyles:requerCompetencia ?competencia .   ?competencia base:nome ?nomeCompetencia . } 
+[2026-01-23 03:59:55] Fuseki     INFO  [94] 200 OK (106 ms)
+[2026-01-23 04:04:05] Fuseki     INFO  [95] POST http://localhost:3030/LeaderOnto/query
+[2026-01-23 04:04:05] Fuseki     INFO  [95] Query = PREFIX competenciesDescrip: <http://example.com/LeaderOntology/description/competenciesDescrip#> PREFIX leaderstyleDescrip: <http://example.com/LeaderOntology/description/leaderstyleDescrip#> PREFIX leadershipStyles: <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> PREFIX competencies: <http://example.com/LeaderOntology/vocabulary/competencies#> PREFIX base: <http://example.com/LeaderOntology/vocabulary/base#> SELECT ?nomeLideranca ?nomeCompetencia ?descricaoCompetencia ?areaAplicacao WHERE {   ?lideranca a leadershipStyles:LiderancaTransformacional ;              base:nome ?nomeLideranca ;              leadershipStyles:requerCompetencia ?competencia .      ?competencia base:nome ?nomeCompetencia .      OPTIONAL { ?competencia base:descricao ?descricaoCompetencia . }   OPTIONAL { ?competencia competencies:areaAplicacao ?areaAplicacao . } } ORDER BY ?nomeLideranca ?nomeCompetencia 
+[2026-01-23 04:04:05] Fuseki     INFO  [95] 200 OK (265 ms)

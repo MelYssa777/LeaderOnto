@@ -23,7 +23,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:descricao "Cultivo de ambiente organizacional que valoriza experimentação, criatividade e inovação"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Digital Leadership, AI Integration (2025)"
+		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within Resource Constrained Economies (2025)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-012, competenciesDescrip:MIND-002
 	]
 	
@@ -33,8 +33,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:descricao "Programas estruturados de capacitação contínua em competências digitais e de IA, além da requalificação de colaboradores para lidar com automação e novas tecnologias"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership(2022), Leading the Way: How Leaders Facilitate Digital Transformation
-in Organizations (2023), Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
+		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025), Leading the Way: How Leaders Facilitate Digital Transformation in Organizations (2023), Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-001, competenciesDescrip:HAB-018, competenciesDescrip:CONH-001, competenciesDescrip:CONH-002
 	]
 	
@@ -65,7 +64,7 @@ in Organizations (2023), Preparing for a New World of Work: Leadership Styles Re
 		base:descricao "Desenvolvimento de ambientes onde colaboradores se sintam seguros para experimentar e errar"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Digital Leadership, AI Integration (2025)"
+		competencies:artigoReferencia "Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within Resource Constrained Economies (2025)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-005, competenciesDescrip:HAB-014, competenciesDescrip:MIND-001, competenciesDescrip:MIND-002, competenciesDescrip:MIND-003
 		strategies:moderadoPor competenciesDescrip:HAB-010
 	]
@@ -76,7 +75,7 @@ in Organizations (2023), Preparing for a New World of Work: Leadership Styles Re
 		base:descricao "Implementação de sistemas confirm-or-override para manter envolvimento humano na decisão"
 		competencies:areaAplicacao "tecnologia"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Safeguarding worker psychosocial well-being (2025)"
+		competencies:artigoReferencia "Safeguarding worker psychosocial well-being in the age of AI: The critical role of decision control (2025)"
 		strategies:desenvolveCompetencia competenciesDescrip:MIND-001, competenciesDescrip:HAB-008, competenciesDescrip:HAB-009
 	]
 	
@@ -96,7 +95,7 @@ in Organizations (2023), Preparing for a New World of Work: Leadership Styles Re
 		base:descricao "Líderes demonstram pessoalmente a adoção e uso efetivo de tecnologias digitais"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)"
+		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-001, competenciesDescrip:CONH-001
 		strategies:moderadoPor competenciesDescrip:HAB-001
 	]

@@ -12,7 +12,7 @@ description <http://example.com/LeaderOntology/description/dimensionsDescrip#> a
 		base:descricao "Conjunto de 15 dimensões humanas que permitem líderes construir confiança durante transformações"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Ethical Considerations of AI (2022)"
+		competencies:artigoReferencia "Ethical Considerations of Artificial Intelligence: Ensuring Fairness, Transparency, and Explainability (2022)"
 	]
 	
 	instance DIM-002 : dimensionsLeadership:DimensaoTecnologica [
@@ -21,7 +21,7 @@ description <http://example.com/LeaderOntology/description/dimensionsDescrip#> a
 		base:descricao "Capacidade de compreender e antecipar tendências e oportunidades digitais"
 		competencies:areaAplicacao "tecnologia"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Enhancing Creativity (2022)"
+		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)"
 	]
 	
 	instance DIM-003 : dimensionsLeadership:DimensaoOrganizacional [
@@ -30,6 +30,6 @@ description <http://example.com/LeaderOntology/description/dimensionsDescrip#> a
 		base:descricao "Foco em executar e materializar estratégias e iniciativas digitais"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Enhancing Creativity (2022)"
+		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)"
 	]
 }

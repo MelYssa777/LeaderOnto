@@ -96,7 +96,7 @@
         <base:id>DIM-001</base:id>
         <base:nome>15 Dimensões Humanas da Liderança Digital</base:nome>
         <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Ethical Considerations of AI (2022)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Ethical Considerations of Artificial Intelligence: Ensuring Fairness, Transparency, and Explainability (2022)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -112,7 +112,7 @@
         <base:id>DIM-002</base:id>
         <base:nome>Perspicácia Digital</base:nome>
         <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Enhancing Creativity (2022)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -128,7 +128,7 @@
         <base:id>DIM-003</base:id>
         <base:nome>Orientação para Implementação</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Enhancing Creativity (2022)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>

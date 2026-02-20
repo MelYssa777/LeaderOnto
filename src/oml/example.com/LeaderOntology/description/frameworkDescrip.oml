@@ -12,7 +12,7 @@ description <http://example.com/LeaderOntology/description/frameworkDescrip#> as
 		base:descricao "Framework que estrutura adoção de IA considerando três dimensões: Tecnologia, Organização e Pessoas"
 		competencies:areaAplicacao "estrategia"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Adoption of AI: TOP framework (2024)"
+		competencies:artigoReferencia "Adoption of artificial intelligence: A TOP framework-based checklist for digital leaders (2024)"
 	]
 	
 	instance FW-002 : frameworks:FrameworkCompetencias [
@@ -21,7 +21,7 @@ description <http://example.com/LeaderOntology/description/frameworkDescrip#> as
 		base:descricao "Framework com 5 domínios: Visão, Engajamento, Execução, Liderança de Talentos, Liderança de Mudança"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "DIGITAL LEADERSHIP (2020)"
+		competencies:artigoReferencia "DIGITAL LEADERSHIP - Character and Competency Differentiates Digitally Mature Organizations (2020)"
 		frameworks:baseadoEm dimensionsDescrip:DIM-002, dimensionsDescrip:DIM-003
 	]
 	
@@ -31,7 +31,7 @@ description <http://example.com/LeaderOntology/description/frameworkDescrip#> as
 		base:descricao "Framework com 2 núcleos de Caráter (Integridade e Intenção) e 2 de Competência (Habilidades e Resultados)"
 		competencies:areaAplicacao "etica"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "DIGITAL LEADERSHIP (2020)"
+		competencies:artigoReferencia "DIGITAL LEADERSHIP - Character and Competency Differentiates Digitally Mature Organizations (2020)"
 		frameworks:baseadoEm dimensionsDescrip:DIM-001
 	]
 	
@@ -41,7 +41,7 @@ description <http://example.com/LeaderOntology/description/frameworkDescrip#> as
 		base:descricao "Modelo que explica como traços de liderança digital são internalizados e reforçam sucesso do líder"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1, QP4"
-		competencies:artigoReferencia "Exploring Digital Leadership Traits (2021)"
+		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)"
 		frameworks:baseadoEm dimensionsDescrip:DIM-001
 	]
 	
@@ -51,7 +51,7 @@ description <http://example.com/LeaderOntology/description/frameworkDescrip#> as
 		base:descricao "Framework com 4 tipos de líderes: conscientização, mobilização de recursos, estrutural e operacional"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Conceptual Framework for Digital Transformation (2021)"
+		competencies:artigoReferencia "A Conceptual Framework of Factors for Information Systems Success to Digital Transformation in Higher Education Institutions (2021)"
 	]
 	
 	instance FW-006 : frameworks:Framework [

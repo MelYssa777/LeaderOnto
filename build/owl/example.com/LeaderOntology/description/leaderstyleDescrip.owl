@@ -174,7 +174,7 @@
         <base:id>LID-001</base:id>
         <base:nome>Liderança Transformacional</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Transforming work in the digital era (2025), Influence of AI on Engineering Management (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025), Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1, QP3, QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -197,7 +197,7 @@
         <base:id>LID-002</base:id>
         <base:nome>Liderança Transformacional Aprimorada por IA</base:nome>
         <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Transforming work in the digital era (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1, QP3</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -218,7 +218,7 @@
         <base:id>LID-003</base:id>
         <base:nome>Liderança Empoderadora</base:nome>
         <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Maneuvering through the stormy seas (2021)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Maneuvering through the stormy seas of digital transformation: the impact of empowering leadership on the AI readiness of enterprises (2021)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1, QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -241,7 +241,7 @@
         <base:id>LID-004</base:id>
         <base:nome>Liderança Generativa</base:nome>
         <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Do Generative Leadership (2022)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Do Generative Leadership and Digital Literacy of Executive Management Help Flourishing Micro and Small Business Digital Maturity? (2022)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -263,7 +263,7 @@
         <base:id>LID-005</base:id>
         <base:nome>Liderança Ágil</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Preparing for a New World of Work (2023)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1, QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -283,7 +283,7 @@
         <base:id>LID-006</base:id>
         <base:nome>Liderança Autêntica</base:nome>
         <competencies:areaAplicacao>etica</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Assessing Digital Leadership (2023)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Assessing Digital Leadership: Towards Developing a Scale to Measure the Human Dimensions of Digital Leaders (2023)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>

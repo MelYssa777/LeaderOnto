@@ -117,7 +117,7 @@
         <base:id>FW-001</base:id>
         <base:nome>Framework TOP (Tecnologia-Organização-Pessoas)</base:nome>
         <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Adoption of AI: TOP framework (2024)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Adoption of artificial intelligence: A TOP framework-based checklist for digital leaders (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -135,7 +135,7 @@
         <base:id>FW-002</base:id>
         <base:nome>Framework de 5 Domínios de Competência</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>DIGITAL LEADERSHIP (2020)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>DIGITAL LEADERSHIP - Character and Competency Differentiates Digitally Mature Organizations (2020)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -152,7 +152,7 @@
         <base:id>FW-003</base:id>
         <base:nome>4 Núcleos de Credibilidade (Caráter e Competência)</base:nome>
         <competencies:areaAplicacao>etica</competencies:areaAplicacao>
-        <competencies:artigoReferencia>DIGITAL LEADERSHIP (2020)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>DIGITAL LEADERSHIP - Character and Competency Differentiates Digitally Mature Organizations (2020)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -169,7 +169,7 @@
         <base:id>FW-004</base:id>
         <base:nome>Modelo de Internalização de Traços de Liderança Digital</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Exploring Digital Leadership Traits (2021)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1, QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -185,7 +185,7 @@
         <base:id>FW-005</base:id>
         <base:nome>Framework Conceitual TD em Ensino Superior</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Conceptual Framework for Digital Transformation (2021)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>A Conceptual Framework of Factors for Information Systems Success to Digital Transformation in Higher Education Institutions (2021)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>

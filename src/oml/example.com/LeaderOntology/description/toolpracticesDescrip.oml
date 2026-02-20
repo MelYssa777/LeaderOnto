@@ -174,7 +174,7 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 		base:descricao "Promover cultura de compartilhamento e disseminação de conhecimento na organização"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2021)"
+		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)"
 	]
 	
 	instance PRAT-006 : toolpractices:PraticaLideranca [
@@ -183,7 +183,7 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 		base:descricao "Uso efetivo de narrativas para comunicar visão, valores e inspirar engajamento"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2021)"
+		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)"
 	]
 	
 	instance PRAT-007 : toolpractices:PraticaLideranca [
@@ -192,7 +192,7 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 		base:descricao "Liderança autêntica que inspira comprometimento através de honestidade e transparência"
 		competencies:areaAplicacao "etica"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2021)"
+		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)"
 	]
 	
 	instance PRAT-008 : toolpractices:PraticaLideranca [
@@ -201,7 +201,7 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 		base:descricao "Fomentar ativamente projetos e iniciativas de transformação digital"
 		competencies:areaAplicacao "tecnologia"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)"
+		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)"
 	]
 	
 	instance PRAT-009 : toolpractices:PraticaLideranca [
@@ -210,7 +210,7 @@ description <http://example.com/LeaderOntology/description/toolpracticesDescrip#
 		base:descricao "Investir no desenvolvimento dos funcionários, aumentando assim a prontidão organizacional e a capacidade de inovação"
 		competencies:areaAplicacao "tecnologia"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)"
+		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)"
 	]
 	
 	instance PRAT-010 : toolpractices:PraticaLideranca [

@@ -30,7 +30,7 @@ description <http://example.com/LeaderOntology/description/gapsDescrip#> as gaps
 		base:descricao "A interação entre IA, práticas de tomada de decisão e liderança transformacional não foi examinada profundamente"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP2"
-		competencies:artigoReferencia "Influence of AI on Engineering Management (2025)"
+		competencies:artigoReferencia "Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)"
 	]
 	
 	instance LAC-004 : gapsTrends:LacunaImplementacao [
@@ -39,7 +39,7 @@ description <http://example.com/LeaderOntology/description/gapsDescrip#> as gaps
 		base:descricao "Estudos indicam que liderança empoderadora não teve efeito significativo na prontidão organizacional para IA"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP2"
-		competencies:artigoReferencia "Maneuvering through the stormy seas (2021)"
+		competencies:artigoReferencia "Maneuvering through the stormy seas of digital transformation: the impact of empowering leadership on the AI readiness of enterprises (2021)"
 	]
 	
 	instance LAC-005 : gapsTrends:LacunaPesquisa [
@@ -48,7 +48,7 @@ description <http://example.com/LeaderOntology/description/gapsDescrip#> as gaps
 		base:descricao "Falta clareza sobre como líderes constroem credibilidade da IA com funcionários, clientes e sociedade"
 		competencies:areaAplicacao "etica"
 		competencies:questaoPesquisa "QP2"
-		competencies:artigoReferencia "Ethical Considerations of AI (2022)"
+		competencies:artigoReferencia "Ethical Considerations of Artificial Intelligence: Ensuring Fairness, Transparency, and Explainability (2022)"
 	]
 	
 	//TENDÊNCIAS EMERGENTES (QP2)
@@ -59,7 +59,7 @@ description <http://example.com/LeaderOntology/description/gapsDescrip#> as gaps
 		base:descricao "Framework conceitual posiciona integração de IA como moderador das relações organizacionais, não como mediador"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP2"
-		competencies:artigoReferencia "Digital Leadership, AI Integration (2025)"
+		competencies:artigoReferencia "Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within Resource Constrained Economies (2025)"
 	]
 	
 	instance TEND-002 : gapsTrends:TendenciaEmergente [
@@ -68,7 +68,7 @@ description <http://example.com/LeaderOntology/description/gapsDescrip#> as gaps
 		base:descricao "Distinção entre impactos de suporte decisório totalmente vs parcialmente automatizado no bem-estar dos trabalhadores"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP2"
-		competencies:artigoReferencia "Safeguarding worker psychosocial well-being (2025)"
+		competencies:artigoReferencia "Safeguarding worker psychosocial well-being in the age of AI: The critical role of decision control (2025)"
 	]
 	
 	instance TEND-003 : gapsTrends:TendenciaTecnologica [
@@ -77,7 +77,7 @@ description <http://example.com/LeaderOntology/description/gapsDescrip#> as gaps
 		base:descricao "Cultura digital emerge como fator mediador crucial entre capacidades digitais e inovação"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP2"
-		competencies:artigoReferencia "Digital capabilities in Vietnamese SMEs (2024)"
+		competencies:artigoReferencia "Digital capabilities and innovation capabilities in Vietnamese SMEs (2023)"
 	]
 	
 	instance TEND-004 : gapsTrends:TendenciaEmergente [
@@ -86,6 +86,6 @@ description <http://example.com/LeaderOntology/description/gapsDescrip#> as gaps
 		base:descricao "Movimento em direção à IA centrada no ser humano, priorizando autonomia e bem-estar psicossocial"
 		competencies:areaAplicacao "etica"
 		competencies:questaoPesquisa "QP2, QP4"
-		competencies:artigoReferencia "Safeguarding worker psychosocial well-being (2025)"
+		competencies:artigoReferencia "Safeguarding worker psychosocial well-being in the age of AI: The critical role of decision control (2025)"
 	]
 }

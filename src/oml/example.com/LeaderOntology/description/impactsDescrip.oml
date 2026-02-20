@@ -30,7 +30,7 @@ description <http://example.com/LeaderOntology/description/impactsDescrip#> as i
 		base:descricao "Fomento de práticas inovadoras que geram valor de longo prazo"
 		competencies:areaAplicacao "estrategia"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Digital Leadership, AI Integration (2025)"
+		competencies:artigoReferencia "Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within ResourceConstrained Economies (2025)"
 	]
 	
 	instance IMP-004 : impacts:ImpactoIndividual [
@@ -39,7 +39,7 @@ description <http://example.com/LeaderOntology/description/impactsDescrip#> as i
 		base:descricao "Melhoria em autonomia, competência, motivação e engajamento através de controle decisório"
 		competencies:areaAplicacao "pessoas"
 		competencies:questaoPesquisa "QP3, QP4"
-		competencies:artigoReferencia "Safeguarding worker psychosocial well-being (2025)"
+		competencies:artigoReferencia "Safeguarding worker psychosocial well-being in the age of AI: The critical role of decision control (2025)"
 	]
 	
 	instance IMP-005 : impacts:ImpactoOrganizacional [
@@ -48,7 +48,7 @@ description <http://example.com/LeaderOntology/description/impactsDescrip#> as i
 		base:descricao "Aumento da capacidade criativa da organização através de liderança digital e decisões orientadas por dados"
 		competencies:areaAplicacao "gestao"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Enhancing Creativity (2022)"
+		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)"
 	]
 	
 	instance IMP-006 : impacts:ImpactoOrganizacional [
@@ -57,7 +57,7 @@ description <http://example.com/LeaderOntology/description/impactsDescrip#> as i
 		base:descricao "Construção de diferencial competitivo duradouro através de liderança digital e inovação"
 		competencies:areaAplicacao "estrategia"
 		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Enhancing Creativity (2022)"
+		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)"
 	]
 	
 	instance IMP-007 : impacts:ImpactoOrganizacional [

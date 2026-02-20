@@ -95,7 +95,7 @@
         <base:id>CONH-001</base:id>
         <base:nome>Alfabetização Digital</base:nome>
         <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Digital Leadership, AI Integration, and Cyberloafing (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within Resource Constrained Economies (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -111,7 +111,7 @@
         <base:id>CONH-003</base:id>
         <base:nome>Ética da IA</base:nome>
         <competencies:areaAplicacao>etica</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Ethical Considerations of AI (2022), Artificial intelligence adoption in HR (2024)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Ethical Considerations of AI (2022), Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -127,7 +127,7 @@
         <base:id>CONH-004</base:id>
         <base:nome>Visão Estratégica Digital</base:nome>
         <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Leading the Way (2023), Future Trends in Digital Leadership (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Leading the Way: How Leaders Facilitate Digital Transformation in Organizations (2023), Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1, QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -159,7 +159,7 @@
         <base:id>CONH-006</base:id>
         <base:nome>Gestão de Recursos Baseada em Valor (RBV)</base:nome>
         <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Future Trends in Digital Leadership (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -175,7 +175,7 @@
         <base:id>HAB-001</base:id>
         <base:nome>Habilidades Técnicas Digitais</base:nome>
         <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Improving Organizational Performance (2024)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Improving Organizational Performance (Student Club at One of Private University in Indonesia) Through Digital Leadership Mediated by Digital Skills  (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -191,7 +191,7 @@
         <base:id>HAB-002</base:id>
         <base:nome>Interação Digital</base:nome>
         <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Improving Organizational Performance (2024)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Improving Organizational Performance (Student Club at One of Private University in Indonesia) Through Digital Leadership Mediated by Digital Skills  (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -207,7 +207,7 @@
         <base:id>HAB-003</base:id>
         <base:nome>Análise Digital</base:nome>
         <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Improving Organizational Performance (2024)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Improving Organizational Performance (Student Club at One of Private University in Indonesia) Through Digital Leadership Mediated by Digital Skills  (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -223,7 +223,7 @@
         <base:id>HAB-004</base:id>
         <base:nome>Pensamento Digital</base:nome>
         <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Improving Organizational Performance (2024)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Improving Organizational Performance (Student Club at One of Private University in Indonesia) Through Digital Leadership Mediated by Digital Skills  (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -351,8 +351,7 @@
         <base:id>HAB-012</base:id>
         <base:nome>Criatividade</base:nome>
         <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023), Do Generative Leadership and Digital Literacy of Executive Management Help Flourishing Micro and Small 
- (2022)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023), Do Generative Leadership and Digital Literacy of Executive Management Help Flourishing Micro and Small (2022)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -416,7 +415,7 @@
         <base:id>HAB-016</base:id>
         <base:nome>Planejamento Estratégico</base:nome>
         <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Future Trends in Digital Leadership (2025), Leading the Way (2023)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Leading the Way: How Leaders Facilitate Digital Transformation in Organizations (2023)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -432,7 +431,7 @@
         <base:id>HAB-017</base:id>
         <base:nome>Capacidade de Empoderar Equipes</base:nome>
         <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Future Trends in Digital Leadership (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -496,7 +495,7 @@
         <base:id>MIND-001</base:id>
         <base:nome>Mindset Centrado no Ser Humano</base:nome>
         <competencies:areaAplicacao>etica</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Safeguarding worker psychosocial well-being (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Safeguarding worker psychosocial well-being in the age of AI: The critical role of decision control (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -512,7 +511,7 @@
         <base:id>MIND-002</base:id>
         <base:nome>Mentalidade de Crescimento</base:nome>
         <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Exploring Digital Leadership Traits (2021)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -544,7 +543,7 @@
         <base:id>MIND-004</base:id>
         <base:nome>Princípios Éticos</base:nome>
         <competencies:areaAplicacao>etica</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Exploring Digital Leadership Traits (2021), THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024), THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -560,7 +559,7 @@
         <base:id>MIND-005</base:id>
         <base:nome>Uso Ético da IA</base:nome>
         <competencies:areaAplicacao>etica</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Exploring Digital Leadership Traits (2021)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -608,7 +607,7 @@
         <base:id>MIND-008</base:id>
         <base:nome>Visão Inspiradora e de Futuro</base:nome>
         <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Future Trends in Digital Leadership (2025), Leading the Way(2023)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Leading the Way: How Leaders Facilitate Digital Transformation in Organizations (2023)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP4, QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>

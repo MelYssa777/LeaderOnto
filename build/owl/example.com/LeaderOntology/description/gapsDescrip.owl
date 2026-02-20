@@ -96,7 +96,7 @@
         <base:id>LAC-001</base:id>
         <base:nome>Falta de Estratégias Detalhadas para Cultura de Inovação</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Future Trends in Digital Leadership (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -112,7 +112,7 @@
         <base:id>LAC-002</base:id>
         <base:nome>Escassez de Pesquisa sobre IA/ML na Tomada de Decisão</base:nome>
         <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Future Trends in Digital Leadership (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -128,7 +128,7 @@
         <base:id>LAC-003</base:id>
         <base:nome>Papel Mediador da Liderança não Examinado</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Influence of AI on Engineering Management (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -144,7 +144,7 @@
         <base:id>LAC-004</base:id>
         <base:nome>Liderança Empoderadora sem Efeito na Prontidão para IA</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Maneuvering through the stormy seas (2021)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Maneuvering through the stormy seas of digital transformation: the impact of empowering leadership on the AI readiness of enterprises (2021)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -160,7 +160,7 @@
         <base:id>LAC-005</base:id>
         <base:nome>Construção de Credibilidade da IA não Explicitada</base:nome>
         <competencies:areaAplicacao>etica</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Ethical Considerations of AI (2022)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Ethical Considerations of Artificial Intelligence: Ensuring Fairness, Transparency, and Explainability (2022)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -176,7 +176,7 @@
         <base:id>TEND-001</base:id>
         <base:nome>IA como Moderador, não Mediador</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Digital Leadership, AI Integration (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within Resource Constrained Economies (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -192,7 +192,7 @@
         <base:id>TEND-002</base:id>
         <base:nome>Impactos Diferenciais da Automação</base:nome>
         <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Safeguarding worker psychosocial well-being (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Safeguarding worker psychosocial well-being in the age of AI: The critical role of decision control (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -208,7 +208,7 @@
         <base:id>TEND-003</base:id>
         <base:nome>Cultura Digital como Mediador Crucial</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Digital capabilities in Vietnamese SMEs (2024)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Digital capabilities and innovation capabilities in Vietnamese SMEs (2023)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP2</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -224,7 +224,7 @@
         <base:id>TEND-004</base:id>
         <base:nome>Transição para Indústria 5.0 (Human-Centered AI)</base:nome>
         <competencies:areaAplicacao>etica</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Safeguarding worker psychosocial well-being (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Safeguarding worker psychosocial well-being in the age of AI: The critical role of decision control (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP2, QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>

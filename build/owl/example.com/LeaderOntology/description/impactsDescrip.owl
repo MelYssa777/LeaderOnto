@@ -96,7 +96,7 @@
         <base:id>IMP-001</base:id>
         <base:nome>Redução de Burnout</base:nome>
         <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Transforming work in the digital era (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP3</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -112,7 +112,7 @@
         <base:id>IMP-002</base:id>
         <base:nome>Redução de Comportamentos Contraproducentes</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Digital Leadership, AI Integration (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within Resource Constrained Economies (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -128,7 +128,7 @@
         <base:id>IMP-003</base:id>
         <base:nome>Promoção de Inovação Sustentável</base:nome>
         <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Digital Leadership, AI Integration (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within ResourceConstrained Economies (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -144,7 +144,7 @@
         <base:id>IMP-004</base:id>
         <base:nome>Bem-Estar Psicossocial dos Trabalhadores</base:nome>
         <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Safeguarding worker psychosocial well-being (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Safeguarding worker psychosocial well-being in the age of AI: The critical role of decision control (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP3, QP4</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -160,7 +160,7 @@
         <base:id>IMP-005</base:id>
         <base:nome>Criatividade Organizacional</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Enhancing Creativity (2022)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -176,7 +176,7 @@
         <base:id>IMP-006</base:id>
         <base:nome>Vantagem Competitiva Sustentável</base:nome>
         <competencies:areaAplicacao>estrategia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Enhancing Creativity (2022)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
@@ -192,7 +192,7 @@
         <base:id>IMP-007</base:id>
         <base:nome>Desempenho de Agilidade Organizacional</base:nome>
         <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Leading in the digital age (2025)</competencies:artigoReferencia>
+        <competencies:artigoReferencia>Leading in the digital age: unlocking creative process engagement and maximizing agility performance (2025)</competencies:artigoReferencia>
         <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
