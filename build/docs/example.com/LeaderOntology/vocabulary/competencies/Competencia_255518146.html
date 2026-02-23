@@ -1,0 +1,182 @@
+<html>
+   <head>
+      <title>competencies:Competencia</title>
+	  <link rel="stylesheet" href="..\..\..\..\main.css">
+   </head>
+   <body>
+         <h2><font size="-1">http://example.com/LeaderOntology/vocabulary/competencies#Competencia</font><br>Class competencies:Competencia</h2>
+	  <div id="svg-container"></div>
+	  <script>
+	    document.addEventListener('DOMContentLoaded', function() {
+			const svgUrl = "http://www.plantuml.com/plantuml/svg/dT5F2u8m60RmkvyYkYjDzqSzT4Y2Bds2YZ7d2mxSbBPkVVYqiXJKe9lFjkTzVw2iXBMhjQnr0mwCL63Jx1F4UdKw3I8F2I4eHfW6fTFLvUB9LpyN5jAzSQeG1UpQq1M3uDoTduVd794aYHc94Uj7B2ptRur_tqwDxnUFkaTb2Wkks_t-RC6OqcYp-O1BLS1SJOFEuMgzcUjUC-lr9bK7aQlgAUzWtyH968OCOnGjs8RbQTxmnP_2h3ObIAN1kFhrnx-PeuWbbE1Mki0SJvY6Zj_yf3u0";
+	        fetch(svgUrl)
+	          .then(response => {
+	            if (!response.ok) {
+	              throw new Error('Network response was not ok');
+	            }
+	            return response.text();
+	          })
+	          .then(svg => {
+	              const modifiedSvg = svg.replace(/target="_top"/g, 'target="mainFrame"');
+				  document.getElementById("svg-container").innerHTML = modifiedSvg;
+	          })
+	          .catch(error => {
+	            console.error("Error fetching the SVG image:", error);
+	          });
+	      });
+	    </script>
+         <hr>
+         <h3>oml:type</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="http://opencaesar.io/oml#Aspect">oml:Aspect</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+<h3>rdf:type</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+<h3>rdfs:subClassOf</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\base\EntidadeBase_1599875817.html">base:EntidadeBase</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+         <h3>directSuperClassOf</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="Conhecimento_1379654274.html">competencies:Conhecimento</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="Habilidade_522274413.html">competencies:Habilidade</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="Mindset_254663006.html">competencies:Mindset</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+         <h3>directDomainOf</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\leadershipStyles\competenciaRequeridaPor_11096033.html">leadershipStyles:competenciaRequeridaPor</a> → <a href="..\leadershipStyles\EstiloLideranca_1980964691.html">leadershipStyles:EstiloLideranca</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\strategies\competenciaDesenvolvidaPor_1895953293.html">strategies:competenciaDesenvolvidaPor</a> → <a href="..\strategies\Estrategia_1142570997.html">strategies:Estrategia</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\strategies\moderadorDe_1981729126.html">strategies:moderadorDe</a> → <a href="..\strategies\Estrategia_1142570997.html">strategies:Estrategia</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="mediaPor_297303327.html">competencies:mediaPor</a> → <a href="..\impacts\Impacto_1303138947.html">impacts:Impacto</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="tipoCompetencia_1767455986.html">competencies:tipoCompetencia</a> → <a href="TipoCompetencia_1530493678.html">competencies:TipoCompetencia</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+         
+   </body>
+</html>

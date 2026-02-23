@@ -1,0 +1,130 @@
+<html>
+   <head>
+      <title>strategies:EstrategiaDesenvolvimento</title>
+	  <link rel="stylesheet" href="..\..\..\..\main.css">
+   </head>
+   <body>
+         <h2><font size="-1">http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento</font><br>Class strategies:EstrategiaDesenvolvimento</h2>
+	  <div id="svg-container"></div>
+	  <script>
+	    document.addEventListener('DOMContentLoaded', function() {
+			const svgUrl = "http://www.plantuml.com/plantuml/svg/Iyv9B2vMK2ekAKeiIKtFJ2ssSeMn4rrIYrFpol9poZ9pK_DAyfKKegDnIiOR6PgOM5gOcngRwsMKvER4nd8bGupEBy-n2id8p4i7wTVJYu6Zyl9olN9ZlVoYz1WZ0mEZ60Fp6A3Q6B1Qe776ffQ69XQ65Z3ZY7IZRcc1ReqTihLSC9TWDG3LL_66XYP6fkO6bfRcPDgBtH80";
+	        fetch(svgUrl)
+	          .then(response => {
+	            if (!response.ok) {
+	              throw new Error('Network response was not ok');
+	            }
+	            return response.text();
+	          })
+	          .then(svg => {
+	              const modifiedSvg = svg.replace(/target="_top"/g, 'target="mainFrame"');
+				  document.getElementById("svg-container").innerHTML = modifiedSvg;
+	          })
+	          .catch(error => {
+	            console.error("Error fetching the SVG image:", error);
+	          });
+	      });
+	    </script>
+         <hr>
+         <h3>oml:type</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="http://opencaesar.io/oml#Concept">oml:Concept</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+<h3>rdf:type</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+<h3>rdfs:subClassOf</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="Estrategia_1142570997.html">strategies:Estrategia</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="http://www.w3.org/2002/07/owl#Thing">owl:Thing</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+         
+         
+         <h3>directHasRestrictionOn</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\base\id_120910249.html">base:id</a> → max cardinality of 1
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\base\id_120910249.html">base:id</a> → min cardinality of 1
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+   </body>
+</html>

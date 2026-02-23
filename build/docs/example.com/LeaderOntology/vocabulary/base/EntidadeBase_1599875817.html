@@ -1,0 +1,274 @@
+<html>
+   <head>
+      <title>base:EntidadeBase</title>
+	  <link rel="stylesheet" href="..\..\..\..\main.css">
+   </head>
+   <body>
+         <h2><font size="-1">http://example.com/LeaderOntology/vocabulary/base#EntidadeBase</font><br>Class base:EntidadeBase</h2>
+	  <div id="svg-container"></div>
+	  <script>
+	    document.addEventListener('DOMContentLoaded', function() {
+			const svgUrl = "http://www.plantuml.com/plantuml/svg/bPPFRvim6CRl-HHLxuriOp3cK6bhMgbI3fFMMwcG2rw31XXX9rkbVVYP91X2xDIvWF7p-FNlmUPFNZ4fRsxVcUJ9OwFAWXNykxwulNbzdLvdCAGq9c4CoNAZwkhjRP4VXahLCSK_IYwJnw7D-k7BPJfgwQXb468K4a2fARKf2-wiLFFwdNTouTBljktTltjRXeM5SSKbRtQYsfKrRvHu47NB5Mzo6xFRcq528eA204JE39TcicMwvFV8M3R5LbVxn0-YKVolIevdyNmGIeQNu9XnxarjtemYGYY8mzaoUKva8dhwFI9-i5Q-TBmfPFAYZzDL6wNKI1a2E20One2U9h3NCS1s-Jg-DSktZGNkq9yX221466BW91igsB06pMTRr2tBbKoUzsSnR813RthipM000XZ45C_NUZvwNDMvui5Iz3jRbgAHQwx5JcxADbdjEvbOwmaxrkJ3JREPqpDp1gb-3cC4mzc3w3kN2UGxm2FdhuxL_8_eVilaQMWUKurIQgGiGYYAKH2XqmZsCWROBdlWwVKgTwNgtpa_Ef5pASMAvwMEUOGS3UdCa46WRpKY0OrFMI_LDCINJDTnV-jRlUESs4XPX14b08IX4tLInWOvaJtmAhDjVghFwl2HAgkpVJstfJERtj7wXHNXYC9Jxg_hcmnVMptoA26gjkjlHxvVCAORGuWJBJrg-iCUXGJ20Ct87PKChaE_cl69T_s3q2WxvYZhlva8O1GJV0bqMix1EhLuuERccwx7dlzwJELq-hU1mZ24CSIpTvoxdC5rMzou_m40";
+	        fetch(svgUrl)
+	          .then(response => {
+	            if (!response.ok) {
+	              throw new Error('Network response was not ok');
+	            }
+	            return response.text();
+	          })
+	          .then(svg => {
+	              const modifiedSvg = svg.replace(/target="_top"/g, 'target="mainFrame"');
+				  document.getElementById("svg-container").innerHTML = modifiedSvg;
+	          })
+	          .catch(error => {
+	            console.error("Error fetching the SVG image:", error);
+	          });
+	      });
+	    </script>
+         <hr>
+         <h3>oml:type</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="http://opencaesar.io/oml#Aspect">oml:Aspect</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+<h3>rdf:type</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+         <h3>directSuperClassOf</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\activities\Atividade_642970055.html">activities:Atividade</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\activities\ProcessoDecisao_1021527398.html">activities:ProcessoDecisao</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\competencies\Competencia_255518146.html">competencies:Competencia</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\dimensionsLeadership\DimensaoLideranca_1967282156.html">dimensionsLeadership:DimensaoLideranca</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\frameworks\Framework_622682362.html">frameworks:Framework</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\gapsTrends\Lacuna_2101124140.html">gapsTrends:Lacuna</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\gapsTrends\Tendencia_2043741809.html">gapsTrends:Tendencia</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\impacts\Impacto_1303138947.html">impacts:Impacto</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\industry4Context\ContextoIndustria4.0_927790857.html">industry4Context:ContextoIndustria4.0</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\leadershipStyles\EstiloLideranca_1980964691.html">leadershipStyles:EstiloLideranca</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\strategies\DesenvolvimentoCompetencia_1776723306.html">strategies:DesenvolvimentoCompetencia</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\strategies\Estrategia_1142570997.html">strategies:Estrategia</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\toolpractices\Ferramenta_156042874.html">toolpractices:Ferramenta</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\toolpractices\Pratica_1165711321.html">toolpractices:Pratica</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+         <h3>directDomainOf</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\competencies\areaAplicacao_800095848.html">competencies:areaAplicacao</a> → <a href="..\competencies\AreaAplicacao_1599057480.html">competencies:AreaAplicacao</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\competencies\artigoReferencia_270648206.html">competencies:artigoReferencia</a> → <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\competencies\fonteEvidencia_972456354.html">competencies:fonteEvidencia</a> → <a href="..\competencies\FonteEvidencia_29536830.html">competencies:FonteEvidencia</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\competencies\nivelMaturidade_604036634.html">competencies:nivelMaturidade</a> → <a href="..\competencies\NivelMaturidade_392980998.html">competencies:NivelMaturidade</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\competencies\questaoPesquisa_1304172243.html">competencies:questaoPesquisa</a> → <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="descricao_808356237.html">base:descricao</a> → <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="id_120910249.html">base:id</a> → <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="nome_230469291.html">base:nome</a> → <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+         
+   </body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+   <head>
+      <title>OWL Ontology Index</title>
+      <link rel="stylesheet" href="main.css">
+   </head>
+   <body>
+         <h1>OWL Ontology Index v</h1>
+         <p class="date">Updated on: 2026/02/22 23:29:43</p>
+         <hr>
+	  <div id="svg-container"></div>
+	  <script>
+	    document.addEventListener('DOMContentLoaded', function() {
+			const svgUrl = "http://www.plantuml.com/plantuml/svg/nPKxRy8m58Nt_8g8lSJEmyOTkdIjrA7T05act8Q8n8viGq5L_tj1VIGy1WnMEjj7vxlt-XuRiA61HcXXbGwbaX0q8b-A0iB1mjhcFefW8-gcWc6kwkW9n1pqixIgKiKsMgjSp5QLqDj8vBPSbxO4CmZ7uuvcSgYPj9f9g-4uOIHZ114wNDYwcax3Z-0pk99b9WnSJh6_pN5CC4coP9HvyD-TDc11vaxTwAeu9OJG94RO0ywyh46QKadpVSSiokPoh7Dgpc9CKvOYv07lJOiQtfLUElIgrN26K8PmDc8UK0hHc5SDSkw0qcfuIZEQ8E9bQ6Mzqra7ZXy1Zt524ugmbqqgvNnbhDwcZqfQs5W7d2CbpsAQO4IzO5L_B_75RYkN9JjMSenJZ1YXNeQsArXOA9pMljNmZAHan6Zi0yKgLJLwdx2v2ys1ZEyYaUtV4ptOy-i_XhlXmpLH7WItvA-xwU_kkVgU3zgUYkx6gBlbMNHNX6vyzbJrNqpsvNSIYEx6dJQvsfy6tnMl-xY4_u0uM55NW6xCzjh-sunlglaepztTJwRMEq7d9_W2";
+	        fetch(svgUrl)
+	          .then(response => {
+	            if (!response.ok) {
+	              throw new Error('Network response was not ok');
+	            }
+	            return response.text();
+	          })
+	          .then(svg => {
+	              const modifiedSvg = svg.replace(/target="_top"/g, 'target="mainFrame"');
+				  document.getElementById("svg-container").innerHTML = modifiedSvg;
+	          })
+	          .catch(error => {
+	            console.error("Error fetching the SVG image:", error);
+	          });
+	      });
+	    </script>
+   </body>
+</html>

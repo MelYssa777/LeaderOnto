@@ -1,0 +1,186 @@
+<html>
+   <head>
+      <title>toolpractices:Ferramenta</title>
+	  <link rel="stylesheet" href="..\..\..\..\main.css">
+   </head>
+   <body>
+         <h2><font size="-1">http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta</font><br>Class toolpractices:Ferramenta</h2>
+	  <div id="svg-container"></div>
+	  <script>
+	    document.addEventListener('DOMContentLoaded', function() {
+			const svgUrl = "http://www.plantuml.com/plantuml/svg/fL4zRuCm4Dtv5L7s8CvWC0oLg99AsRF54ReOArW2765QblxuGbi8j4gWgkJbpk_Unvt8qPZLkjOwlrOeQYMaYLvaLM4XonhNg-FnLYL0VSSZBF3ih2xoqyaIN-EwoQD3fifBXxTjFhocQUp6jNLruSHn27S2tcBv9pOXuD8GF0QiftlWO_DwtRm_ZQMiNlsCHaQxibOfflAvBRvTT7q-xhV-mv05b47m1yNVzBtmlTc3BZ35hHJAe9wkSFALWDVP2GCoB3HJgLnCNCZYB2jZBSNtYUvcjkQIxUDfd7sSkBxlKu3R4Hz7w1XcVNUW_vkDtp1NA7wUO6Wdm2Zu3496btaV4Sv6665datm0";
+	        fetch(svgUrl)
+	          .then(response => {
+	            if (!response.ok) {
+	              throw new Error('Network response was not ok');
+	            }
+	            return response.text();
+	          })
+	          .then(svg => {
+	              const modifiedSvg = svg.replace(/target="_top"/g, 'target="mainFrame"');
+				  document.getElementById("svg-container").innerHTML = modifiedSvg;
+	          })
+	          .catch(error => {
+	            console.error("Error fetching the SVG image:", error);
+	          });
+	      });
+	    </script>
+         <hr>
+         <h3>oml:type</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="http://opencaesar.io/oml#Concept">oml:Concept</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+<h3>rdf:type</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+<h3>rdfs:subClassOf</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\base\EntidadeBase_1599875817.html">base:EntidadeBase</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="http://www.w3.org/2002/07/owl#Thing">owl:Thing</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+         <h3>directSuperClassOf</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="FerramentaAvaliacao_1851681985.html">toolpractices:FerramentaAvaliacao</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="FerramentaIA_366651118.html">toolpractices:FerramentaIA</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="FerramentaTomadaDecisao_1498759724.html">toolpractices:FerramentaTomadaDecisao</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+         <h3>directDomainOf</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\activities\ferramentaUtilizadaEm_938618930.html">activities:ferramentaUtilizadaEm</a> → <a href="..\activities\Atividade_642970055.html">activities:Atividade</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+         <h3>directHasRestrictionOn</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\base\id_120910249.html">base:id</a> → max cardinality of 1
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\base\id_120910249.html">base:id</a> → min cardinality of 1
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+   </body>
+</html>

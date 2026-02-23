@@ -1,0 +1,186 @@
+<html>
+   <head>
+      <title>activities:Atividade</title>
+	  <link rel="stylesheet" href="..\..\..\..\main.css">
+   </head>
+   <body>
+         <h2><font size="-1">http://example.com/LeaderOntology/vocabulary/activities#Atividade</font><br>Class activities:Atividade</h2>
+	  <div id="svg-container"></div>
+	  <script>
+	    document.addEventListener('DOMContentLoaded', function() {
+			const svgUrl = "http://www.plantuml.com/plantuml/svg/dL6xRi8m5Dtp5OYTo4ziPq2YQbLrPyCeCecRMCgZYbsozEERG1sWJKEfvC4-ElSyhfD2MJkRgyIPWt56ssZTtrALwlbiknqUyP8WmG2WDCnTMUnsGNAQhDiYskIcodfw6ChXj6qRjZYicqmY0904J7PSUUJ6268g8E6GUxbV8YpUtnOVgqkRm3llbTNHK-MEp8VkyPMWn-Kb7aCg16UKG_P7jv_ItdHiRjEeohxMJQaILJ-Qp3XLN2rlZ1138BWW291Xexb9zJqEfIxtkh717IE-u6ZzOAhaIrKVUgchOXxi_fDWWY70x7QPiz9aWJFj_w6VjNNV8f-Wc796o1A1st6zncHOJvgC-Wa0";
+	        fetch(svgUrl)
+	          .then(response => {
+	            if (!response.ok) {
+	              throw new Error('Network response was not ok');
+	            }
+	            return response.text();
+	          })
+	          .then(svg => {
+	              const modifiedSvg = svg.replace(/target="_top"/g, 'target="mainFrame"');
+				  document.getElementById("svg-container").innerHTML = modifiedSvg;
+	          })
+	          .catch(error => {
+	            console.error("Error fetching the SVG image:", error);
+	          });
+	      });
+	    </script>
+         <hr>
+         <h3>oml:type</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="http://opencaesar.io/oml#Concept">oml:Concept</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+<h3>rdf:type</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+<h3>rdfs:subClassOf</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\base\EntidadeBase_1599875817.html">base:EntidadeBase</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methdef_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="http://www.w3.org/2002/07/owl#Thing">owl:Thing</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+         <h3>directSuperClassOf</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="AtividadeGestao_58744620.html">activities:AtividadeGestao</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="AtividadeInovacao_2143431037.html">activities:AtividadeInovacao</a>
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpub_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="AtividadeTransformacaoDigital_1098942045.html">activities:AtividadeTransformacaoDigital</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+         <h3>directDomainOf</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="utilizaFerramenta_1996910735.html">activities:utilizaFerramenta</a> → <a href="..\toolpractices\Ferramenta_156042874.html">toolpractices:Ferramenta</a>
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+         <h3>directHasRestrictionOn</h3>
+<dl>
+   <dd>
+        <table>
+   <tbody>
+                    <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\base\id_120910249.html">base:id</a> → max cardinality of 1
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <img border="0" src="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/images/org.eclipse.jdt.ui/obj16/methpro_obj.svg" width="16" height="16">
+            </td>
+            <td>
+              <a href="..\base\id_120910249.html">base:id</a> → min cardinality of 1
+            </td>
+         </tr>
+
+      </tbody>
+</table>
+<p/>
+
+   </dd>
+</dl>
+
+   </body>
+</html>

@@ -27,7 +27,9 @@ buildscript {
         classpath 'io.opencaesar.owl:owl-reason-gradle:+'
         classpath 'io.opencaesar.oml:oml-merge-gradle:+'
         classpath 'io.opencaesar.adapters:oml2owl-gradle:+'
+        classpath "io.opencaesar.owl:owl-doc-gradle:+"
         classpath 'io.github.raks0009:oml-web-viewer-gradle:1.0.2'
+        
 	}
 }
 
@@ -44,7 +46,7 @@ ext {
     // Name of dataset (matches one used in .fuseki.ttl file)
     dataset = 'LeaderOnto'
     // Root ontology IRI of the dataset
-    rootIri = 'http://example.com/LeaderOntology/bundle'
+    rootIri = 'http://example.com/LeaderOntology/vocabulary/bundle'
 }
 
 /*
@@ -58,6 +60,7 @@ repositories {
 /*
  * The OML dependencies
  */
+configurations { oml }
 dependencies {
     oml "io.opencaesar.ontologies:core-vocabularies:5.+"
 }
@@ -80,6 +83,19 @@ task omlToOwl(type:io.opencaesar.oml2owl.Oml2OwlTask, group:"oml", dependsOn: do
     inputCatalogPath = file('catalog.xml')
     // OWL catalog
     outputCatalogPath = file('build/owl/catalog.xml')
+}
+
+
+
+task docs(type: io.opencaesar.owl.doc.OwlDocTask, dependsOn: omlToOwl) {
+    // O catálogo OWL gerado pela task anterior
+    inputCatalogPath = file('build/owl/catalog.xml')
+    
+    // Onde o site estático HTML e os diagramas serão salvos
+    outputFolderPath = file('build/docs')
+    
+    // PLURAL e em formato de LISTA []
+    inputOntologyIris = ["$rootIri".toString()] 
 }
 
 /*
