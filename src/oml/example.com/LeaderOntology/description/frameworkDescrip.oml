@@ -1,11 +1,13 @@
 description <http://example.com/LeaderOntology/description/frameworkDescrip#> as frameworkDescrip {
+
 	extends <http://example.com/LeaderOntology/description/dimensionsDescrip#> as dimensionsDescrip
-	
+
 	uses <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
+
 	uses <http://example.com/LeaderOntology/vocabulary/frameworks#> as frameworks
+
 	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
-	
-	
+
 	instance FW-001 : frameworks:FrameworkTOP [
 		base:nome "Framework TOP (Tecnologia-Organização-Pessoas)"
 		base:id "FW-001"
@@ -14,7 +16,7 @@ description <http://example.com/LeaderOntology/description/frameworkDescrip#> as
 		competencies:questaoPesquisa "QP1"
 		competencies:artigoReferencia "Adoption of artificial intelligence: A TOP framework-based checklist for digital leaders (2024)"
 	]
-	
+
 	instance FW-002 : frameworks:FrameworkCompetencias [
 		base:nome "Framework de 5 Domínios de Competência"
 		base:id "FW-002"
@@ -24,7 +26,7 @@ description <http://example.com/LeaderOntology/description/frameworkDescrip#> as
 		competencies:artigoReferencia "DIGITAL LEADERSHIP - Character and Competency Differentiates Digitally Mature Organizations (2020)"
 		frameworks:baseadoEm dimensionsDescrip:DIM-002, dimensionsDescrip:DIM-003
 	]
-	
+
 	instance FW-003 : frameworks:FrameworkCompetencias [
 		base:nome "4 Núcleos de Credibilidade (Caráter e Competência)"
 		base:id "FW-003"
@@ -34,7 +36,7 @@ description <http://example.com/LeaderOntology/description/frameworkDescrip#> as
 		competencies:artigoReferencia "DIGITAL LEADERSHIP - Character and Competency Differentiates Digitally Mature Organizations (2020)"
 		frameworks:baseadoEm dimensionsDescrip:DIM-001
 	]
-	
+
 	instance FW-004 : frameworks:ModeloAvaliacao [
 		base:nome "Modelo de Internalização de Traços de Liderança Digital"
 		base:id "FW-004"
@@ -44,7 +46,7 @@ description <http://example.com/LeaderOntology/description/frameworkDescrip#> as
 		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)"
 		frameworks:baseadoEm dimensionsDescrip:DIM-001
 	]
-	
+
 	instance FW-005 : frameworks:Framework [
 		base:nome "Framework Conceitual TD em Ensino Superior"
 		base:id "FW-005"
@@ -53,7 +55,7 @@ description <http://example.com/LeaderOntology/description/frameworkDescrip#> as
 		competencies:questaoPesquisa "QP1"
 		competencies:artigoReferencia "A Conceptual Framework of Factors for Information Systems Success to Digital Transformation in Higher Education Institutions (2021)"
 	]
-	
+
 	instance FW-006 : frameworks:Framework [
 		base:nome "Esquema Hierárquico Líder-IA"
 		base:id "FW-006"

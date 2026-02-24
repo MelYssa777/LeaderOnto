@@ -1,24 +1,25 @@
 vocabulary <http://example.com/LeaderOntology/vocabulary/gapsTrends#> as gapsTrends {
-	
+
 	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
-	
+
 	// LACUNAS E TENDÊNCIAS (QP2)
-	
 	concept Lacuna < base:EntidadeBase [
 		restricts base:id to max 1
 		restricts base:id to min 1
 	]
-	
+
 	concept LacunaPesquisa < Lacuna
+
 	concept LacunaCompetencia < Lacuna
+
 	concept LacunaImplementacao < Lacuna
-	
+
 	concept Tendencia < base:EntidadeBase [
 		restricts base:id to max 1
 		restricts base:id to min 1
 	]
-	
+
 	concept TendenciaEmergente < Tendencia
+
 	concept TendenciaTecnologica < Tendencia
-	
 }

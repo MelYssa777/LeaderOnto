@@ -1,11 +1,12 @@
 description <http://example.com/LeaderOntology/description/dimensionsDescrip#> as dimensionsDescrip {
-	
+
 	uses <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
+
 	uses <http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#> as dimensionsLeadership
+
 	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
-	
-	//DIMENSÕES DA LIDERANÇA 
-	
+
+	// DIMENSÕES DA LIDERANÇA 
 	instance DIM-001 : dimensionsLeadership:DimensaoHumana [
 		base:nome "15 Dimensões Humanas da Liderança Digital"
 		base:id "DIM-001"
@@ -14,7 +15,7 @@ description <http://example.com/LeaderOntology/description/dimensionsDescrip#> a
 		competencies:questaoPesquisa "QP1"
 		competencies:artigoReferencia "Ethical Considerations of Artificial Intelligence: Ensuring Fairness, Transparency, and Explainability (2022)"
 	]
-	
+
 	instance DIM-002 : dimensionsLeadership:DimensaoTecnologica [
 		base:nome "Perspicácia Digital"
 		base:id "DIM-002"
@@ -23,7 +24,7 @@ description <http://example.com/LeaderOntology/description/dimensionsDescrip#> a
 		competencies:questaoPesquisa "QP4"
 		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)"
 	]
-	
+
 	instance DIM-003 : dimensionsLeadership:DimensaoOrganizacional [
 		base:nome "Orientação para Implementação"
 		base:id "DIM-003"

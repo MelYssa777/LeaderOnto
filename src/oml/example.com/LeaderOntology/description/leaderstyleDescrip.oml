@@ -1,16 +1,18 @@
 description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> as leaderstyleDescrip {
-	
+
 	extends <http://example.com/LeaderOntology/description/competenciesDescrip#> as competenciesDescrip
+
 	extends <http://example.com/LeaderOntology/description/toolpracticesDescrip#> as toolpracticesDescrip
+
 	extends <http://example.com/LeaderOntology/description/impactsDescrip#> as impactsDescrip
+
 	uses <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> as leadershipStyles
+
 	uses <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
+
 	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
-	
-	
-	
-	//ESTILOS DE LIDERANÇA 
-	
+
+	// ESTILOS DE LIDERANÇA 
 	instance LID-001 : leadershipStyles:LiderancaTransformacional [
 		base:nome "Liderança Transformacional"
 		base:id "LID-001"
@@ -22,7 +24,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		leadershipStyles:requerCompetencia competenciesDescrip:HAB-010, competenciesDescrip:HAB-014, competenciesDescrip:HAB-015
 		leadershipStyles:causaImpacto impactsDescrip:IMP-002, impactsDescrip:IMP-003
 	]
-	
+
 	instance LID-002 : leadershipStyles:LiderancaTransformacional [
 		base:nome "Liderança Transformacional Aprimorada por IA"
 		base:id "LID-002"
@@ -34,7 +36,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		leadershipStyles:aplicaPratica toolpracticesDescrip:PRAT-001, toolpracticesDescrip:PRAT-002, toolpracticesDescrip:PRAT-008
 		leadershipStyles:causaImpacto impactsDescrip:IMP-001
 	]
-	
+
 	instance LID-003 : leadershipStyles:LiderancaEmpoderadora [
 		base:nome "Liderança Empoderadora"
 		base:id "LID-003"
@@ -46,7 +48,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		leadershipStyles:aplicaPratica toolpracticesDescrip:PRAT-009, toolpracticesDescrip:PRAT-010
 		leadershipStyles:causaImpacto impactsDescrip:IMP-004
 	]
-	
+
 	instance LID-004 : leadershipStyles:LiderancaGenerativa [
 		base:nome "Liderança Generativa"
 		base:id "LID-004"
@@ -58,7 +60,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		leadershipStyles:aplicaPratica toolpracticesDescrip:PRAT-005, toolpracticesDescrip:PRAT-009
 		leadershipStyles:causaImpacto impactsDescrip:IMP-003, impactsDescrip:IMP-004
 	]
-	
+
 	instance LID-005 : leadershipStyles:LiderancaAgil [
 		base:nome "Liderança Ágil"
 		base:id "LID-005"
@@ -70,7 +72,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		leadershipStyles:aplicaPratica toolpracticesDescrip:PRAT-008
 		leadershipStyles:causaImpacto impactsDescrip:IMP-007
 	]
-	
+
 	instance LID-006 : leadershipStyles:LiderancaAutentica [
 		base:nome "Liderança Autêntica"
 		base:id "LID-006"

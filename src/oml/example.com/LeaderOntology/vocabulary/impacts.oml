@@ -1,13 +1,15 @@
 vocabulary <http://example.com/LeaderOntology/vocabulary/impacts#> as impacts {
-	
+
 	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
-	
+
 	concept Impacto < base:EntidadeBase [
 		restricts base:id to max 1
 		restricts base:id to min 1
 	]
-	
+
 	concept ImpactoOrganizacional < Impacto
+
 	concept ImpactoIndividual < Impacto
+
 	concept ImpactoSocial < Impacto
 }

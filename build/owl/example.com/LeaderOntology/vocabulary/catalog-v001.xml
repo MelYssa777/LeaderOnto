@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1771884186797" name="http://example.com/LeaderOntology/vocabulary/activities" uri="activities.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1771884186797" name="http://example.com/LeaderOntology/vocabulary/base" uri="base.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1771884186797" name="http://example.com/LeaderOntology/vocabulary/bundle" uri="bundle.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1771884186797" name="http://example.com/LeaderOntology/vocabulary/competencies" uri="competencies.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1771884186797" name="http://example.com/LeaderOntology/vocabulary/dimensionsLeadership" uri="dimensionsLeadership.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1771884186797" name="http://example.com/LeaderOntology/vocabulary/frameworks" uri="frameworks.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1771884186797" name="http://example.com/LeaderOntology/vocabulary/gapsTrends" uri="gapsTrends.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1771884186797" name="http://example.com/LeaderOntology/vocabulary/impacts" uri="impacts.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1771884186797" name="http://example.com/LeaderOntology/vocabulary/industry4Context" uri="industry4Context.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1771884186797" name="http://example.com/LeaderOntology/vocabulary/leadershipStyles" uri="leadershipStyles.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1771884186797" name="http://example.com/LeaderOntology/vocabulary/strategies" uri="strategies.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1771884186797" name="http://example.com/LeaderOntology/vocabulary/toolpractices" uri="toolpractices.owl"/>
+    </group>
+</catalog>

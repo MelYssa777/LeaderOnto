@@ -1,23 +1,66 @@
 vocabulary <http://example.com/LeaderOntology/vocabulary/base#> as base {
-	
+
 	extends <http://www.w3.org/2001/XMLSchema#> as xsd
-	
-	
+
+	uses <http://example.com/LeaderOntology/description/activitiesDescrip#> as activitiesDescrip
+
+	uses <http://example.com/LeaderOntology/description/competenciesDescrip#> as competenciesDescrip
+
+	uses <http://example.com/LeaderOntology/description/dimensionsDescrip#> as dimensionsDescrip
+
+	uses <http://example.com/LeaderOntology/description/frameworkDescrip#> as frameworkDescrip
+
+	uses <http://example.com/LeaderOntology/description/gapsDescrip#> as gapsDescrip
+
+	uses <http://example.com/LeaderOntology/description/impactsDescrip#> as impactsDescrip
+
+	uses <http://example.com/LeaderOntology/description/leaderstyleDescrip#> as leaderstyleDescrip
+
+	uses <http://example.com/LeaderOntology/description/strategiesDescrip#> as strategiesDescrip
+
+	uses <http://example.com/LeaderOntology/description/toolpracticesDescrip#> as toolpracticesDescrip
+
+	extends <http://example.com/LeaderOntology/vocabulary/activities#> as activities
+
+	extends <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
+
+	extends <http://example.com/LeaderOntology/vocabulary/dimensionsLeadership#> as dimensionsLeadership
+
+	extends <http://example.com/LeaderOntology/vocabulary/frameworks#> as frameworks
+
+	extends <http://example.com/LeaderOntology/vocabulary/gapsTrends#> as gapsTrends
+
+	extends <http://example.com/LeaderOntology/vocabulary/impacts#> as impacts
+
+	extends <http://example.com/LeaderOntology/vocabulary/industry4Context#> as industry4Context
+
+	extends <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> as leadershipStyles
+
+	extends <http://example.com/LeaderOntology/vocabulary/strategies#> as strategies
+
+	extends <http://example.com/LeaderOntology/vocabulary/toolpractices#> as toolpractices
+
+	extends <http://www.w3.org/1999/02/22-rdf-syntax-ns#> as rdf
+
+	extends <http://www.w3.org/2000/01/rdf-schema#> as rdfs
+
+	extends <http://www.w3.org/2002/07/owl#> as owl
+
 	aspect EntidadeBase [
-		key id 
+		key id
 	]
-	
+
 	scalar property nome [
 		domain EntidadeBase
 		range xsd:string
 		functional
 	]
-	
+
 	scalar property descricao [
 		domain EntidadeBase
 		range xsd:string
 	]
-	
+
 	scalar property id [
 		domain EntidadeBase
 		range xsd:string

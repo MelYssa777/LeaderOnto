@@ -1,12 +1,14 @@
 description <http://example.com/LeaderOntology/description/strategiesDescrip#> as strategiesDescrip {
-	
+
 	extends <http://example.com/LeaderOntology/description/competenciesDescrip#> as competenciesDescrip
+
 	uses <http://example.com/LeaderOntology/vocabulary/strategies#> as strategies
+
 	uses <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
+
 	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
-	
+
 	// ESTRATÉGIAS DE DESENVOLVIMENTO (QP1)
-	
 	instance EST-001 : strategies:EstrategiaDesenvolvimento [
 		base:nome "Promoção de Práticas Habilitadas por IA"
 		base:id "EST-001"
@@ -16,7 +18,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-005
 	]
-	
+
 	instance EST-002 : strategies:EstrategiaDesenvolvimento [
 		base:nome "Fomento de Cultura de Inovação e Inovação sustentável"
 		base:id "EST-002"
@@ -26,7 +28,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within Resource Constrained Economies (2025)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-012, competenciesDescrip:MIND-002
 	]
-	
+
 	instance EST-003 : strategies:EstrategiaDesenvolvimento [
 		base:nome "Treinamento Contínuo, Desenvolvimento e Capacitação de Funcionários"
 		base:id "EST-003"
@@ -36,7 +38,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025), Leading the Way: How Leaders Facilitate Digital Transformation in Organizations (2023), Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-001, competenciesDescrip:HAB-018, competenciesDescrip:CONH-001, competenciesDescrip:CONH-002
 	]
-	
+
 	instance EST-004 : strategies:EstrategiaDesenvolvimento [
 		base:nome "Promoção de Confiança na IA"
 		base:id "EST-005"
@@ -47,7 +49,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		strategies:desenvolveCompetencia competenciesDescrip:CONH-003, competenciesDescrip:CONH-004, competenciesDescrip:HAB-005, competenciesDescrip:MIND-005
 		strategies:moderadoPor competenciesDescrip:HAB-018
 	]
-	
+
 	instance EST-005 : strategies:EstrategiaDesenvolvimento [
 		base:nome "Promoção de Colaboração Humano-Máquina"
 		base:id "EST-006"
@@ -57,7 +59,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
 		strategies:desenvolveCompetencia competenciesDescrip:CONH-005, competenciesDescrip:HAB-009
 	]
-	
+
 	instance EST-006 : strategies:EstrategiaDesenvolvimento [
 		base:nome "Criação de Ambientes Psicologicamente Seguros"
 		base:id "EST-007"
@@ -68,7 +70,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-005, competenciesDescrip:HAB-014, competenciesDescrip:MIND-001, competenciesDescrip:MIND-002, competenciesDescrip:MIND-003
 		strategies:moderadoPor competenciesDescrip:HAB-010
 	]
-	
+
 	instance EST-007 : strategies:EstrategiaDesenvolvimento [
 		base:nome "Uso de IA Parcialmente Automatizada"
 		base:id "EST-008"
@@ -78,7 +80,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		competencies:artigoReferencia "Safeguarding worker psychosocial well-being in the age of AI: The critical role of decision control (2025)"
 		strategies:desenvolveCompetencia competenciesDescrip:MIND-001, competenciesDescrip:HAB-008, competenciesDescrip:HAB-009
 	]
-	
+
 	instance EST-008 : strategies:EstrategiaDesenvolvimento [
 		base:nome "Comunicação Transparente sobre IA"
 		base:id "EST-009"
@@ -88,7 +90,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025), Facilitating digital work in public agencies through job design and digital communication management (2023)"
 		strategies:desenvolveCompetencia competenciesDescrip:HAB-013
 	]
-	
+
 	instance EST-009 : strategies:EstrategiaDesenvolvimento [
 		base:nome "Liderança pelo Exemplo"
 		base:id "EST-010"

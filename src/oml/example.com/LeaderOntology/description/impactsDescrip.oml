@@ -1,11 +1,12 @@
 description <http://example.com/LeaderOntology/description/impactsDescrip#> as impactsDescrip {
-	
+
 	uses <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
+
 	uses <http://example.com/LeaderOntology/vocabulary/impacts#> as impacts
+
 	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
-	
-	//IMPACTOS
-	
+
+	// IMPACTOS
 	instance IMP-001 : impacts:ImpactoIndividual [
 		base:nome "Redução de Burnout"
 		base:id "IMP-001"
@@ -14,7 +15,7 @@ description <http://example.com/LeaderOntology/description/impactsDescrip#> as i
 		competencies:questaoPesquisa "QP3"
 		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)"
 	]
-	
+
 	instance IMP-002 : impacts:ImpactoOrganizacional [
 		base:nome "Redução de Comportamentos Contraproducentes"
 		base:id "IMP-002"
@@ -23,7 +24,7 @@ description <http://example.com/LeaderOntology/description/impactsDescrip#> as i
 		competencies:questaoPesquisa "QP1"
 		competencies:artigoReferencia "Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within Resource Constrained Economies (2025)"
 	]
-	
+
 	instance IMP-003 : impacts:ImpactoOrganizacional [
 		base:nome "Promoção de Inovação Sustentável"
 		base:id "IMP-003"
@@ -32,7 +33,7 @@ description <http://example.com/LeaderOntology/description/impactsDescrip#> as i
 		competencies:questaoPesquisa "QP1"
 		competencies:artigoReferencia "Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within ResourceConstrained Economies (2025)"
 	]
-	
+
 	instance IMP-004 : impacts:ImpactoIndividual [
 		base:nome "Bem-Estar Psicossocial dos Trabalhadores"
 		base:id "IMP-004"
@@ -41,7 +42,7 @@ description <http://example.com/LeaderOntology/description/impactsDescrip#> as i
 		competencies:questaoPesquisa "QP3, QP4"
 		competencies:artigoReferencia "Safeguarding worker psychosocial well-being in the age of AI: The critical role of decision control (2025)"
 	]
-	
+
 	instance IMP-005 : impacts:ImpactoOrganizacional [
 		base:nome "Criatividade Organizacional"
 		base:id "IMP-005"
@@ -50,7 +51,7 @@ description <http://example.com/LeaderOntology/description/impactsDescrip#> as i
 		competencies:questaoPesquisa "QP1"
 		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)"
 	]
-	
+
 	instance IMP-006 : impacts:ImpactoOrganizacional [
 		base:nome "Vantagem Competitiva Sustentável"
 		base:id "IMP-006"
@@ -59,7 +60,7 @@ description <http://example.com/LeaderOntology/description/impactsDescrip#> as i
 		competencies:questaoPesquisa "QP1"
 		competencies:artigoReferencia "Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)"
 	]
-	
+
 	instance IMP-007 : impacts:ImpactoOrganizacional [
 		base:nome "Desempenho de Agilidade Organizacional"
 		base:id "IMP-007"
