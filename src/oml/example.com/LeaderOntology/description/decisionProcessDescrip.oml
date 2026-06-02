@@ -1,0 +1,72 @@
+description <http://example.com/LeaderOntology/description/decisionProcessDescrip#> as decisionProcessDescrip {
+	
+	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
+	uses <http://example.com/LeaderOntology/vocabulary/decisionProcess#> as decisionProcess
+
+//PROCESSOS DE TOMADA DE DECISÃO (QP3) 
+
+
+	instance PROC-001 : decisionProcess:ProcessoDecisao [
+		base:id "PROC-001"
+		base:nome "Decisão Informada por IA em Tempo Real"
+		base:descricao "Processo decisório estratégico no qual sistemas de IA realizam análise em tempo real para subsidiar o líder transformacional, reduzindo sobrecarga cognitiva e burnout em equipes de TI."
+		decisionProcess:nivelDecisao "estrategico"
+		decisionProcess:abordagem "baseada_em_dados"
+	]
+
+	instance PROC-002 : decisionProcess:ProcessoDecisao [
+		base:id "PROC-002"
+		base:nome "Decisão com Controle Humano (Confirm-or-Override)"
+		base:descricao "Processo decisório operacional no qual a IA oferece suporte parcialmente automatizado, preservando o controle do trabalhador para garantir autonomia, competência e bem-estar psicossocial."
+		decisionProcess:nivelDecisao "operacional"
+		decisionProcess:abordagem "intuitiva"
+	]
+
+	instance PROC-003 : decisionProcess:ProcessoDecisao [
+		base:id "PROC-003"
+		base:nome "Decisão em Gestão de Engenharia Apoiada por IA"
+		base:descricao "Processo decisório tático no qual tecnologias de IA ampliam a capacidade analítica do líder em gestão de engenharia, cobrindo planejamento de projetos, avaliação de riscos e alocação de recursos, mantendo supervisão humana e considerações éticas."
+		decisionProcess:nivelDecisao "tatico"
+		decisionProcess:abordagem "analitica"
+	]
+
+	instance PROC-004 : decisionProcess:ProcessoDecisao [
+		base:id "PROC-004"
+		base:nome "Decisão Estratégica com Supervisão Ética"
+		base:descricao "Processo decisório estratégico estruturado em esquema hierárquico líder–IA: a IA coleta dados e prevê; o líder decide, integra princípios éticos aos algoritmos e resolve dilemas morais — competência que permanece exclusivamente humana."
+		decisionProcess:nivelDecisao "estrategico"
+		decisionProcess:abordagem "intuitiva"
+	]
+
+	instance PROC-005 : decisionProcess:ProcessoDecisao [
+		base:id "PROC-005"
+		base:nome "Decisão Orientada por Dados para Vantagem Competitiva"
+		base:descricao "Processo decisório estratégico baseado em dados (DDDM) conduzido pelo líder digital, que orienta a transformação digital, estimula criatividade organizacional e gera vantagem competitiva sustentável."
+		decisionProcess:nivelDecisao "estrategico"
+		decisionProcess:abordagem "baseada_em_dados"
+	]
+
+	instance PROC-006 : decisionProcess:ProcessoDecisao [
+		base:id "PROC-006"
+		base:nome "Decisão Colaborativa em Equipe"
+		base:descricao "Processo decisório tático baseado na discussão coletiva, liberdade de opinião e confiança mútua entre membros da equipe — dimensões centrais da liderança digital para avaliação de maturidade decisória."
+		decisionProcess:nivelDecisao "tatico"
+		decisionProcess:abordagem "colaborativa"
+	]
+
+	instance PROC-007 : decisionProcess:ProcessoDecisao [
+		base:id "PROC-007"
+		base:nome "Decisão Analítica para Inovação Sustentável em PMEs"
+		base:descricao "Processo decisório tático em PMEs no qual a liderança digital, apoiada pela integração de IA como moderador, analisa dados para promover inovação sustentável e reduzir comportamentos contraproducentes."
+		decisionProcess:nivelDecisao "tatico"
+		decisionProcess:abordagem "analitica"
+	]
+
+	instance PROC-008 : decisionProcess:ProcessoDecisao [
+		base:id "PROC-008"
+		base:nome "Decisão Ágil e Informada"
+		base:descricao "Processo decisório operacional característico do líder ágil, que combina hiperconsciência situacional, literacia de dados e execução rápida, habilitado por habilidades técnicas digitais, cognitivas e socioemocionais."
+		decisionProcess:nivelDecisao "operacional"
+		decisionProcess:abordagem "baseada_em_dados"
+		]
+}

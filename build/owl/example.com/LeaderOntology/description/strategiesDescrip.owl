@@ -9,12 +9,10 @@
      xmlns:base="http://example.com/LeaderOntology/vocabulary/base#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:strategies="http://example.com/LeaderOntology/vocabulary/strategies#"
-     xmlns:competencies="http://example.com/LeaderOntology/vocabulary/competencies#"
      xmlns:strategiesDescrip="http://example.com/LeaderOntology/description/strategiesDescrip#">
     <owl:Ontology rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip">
         <owl:imports rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip"/>
         <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
-        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies"/>
         <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies"/>
         <oml:namespace rdf:resource="http://example.com/LeaderOntology/description/strategiesDescrip#"/>
         <oml:prefix>strategiesDescrip</oml:prefix>
@@ -35,17 +33,10 @@
     
 
 
-    <!-- http://example.com/LeaderOntology/vocabulary/strategies#desenvolveCompetencia -->
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#desenvolve -->
 
 
-    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#desenvolveCompetencia"/>
-    
-
-
-    <!-- http://example.com/LeaderOntology/vocabulary/strategies#moderadoPor -->
-
-
-    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#moderadoPor"/>
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#desenvolve"/>
     
 
 
@@ -82,24 +73,10 @@
     
 
 
-    <!-- http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao -->
+    <!-- http://example.com/LeaderOntology/vocabulary/strategies#tipoEstrategia -->
 
 
-    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao"/>
-    
-
-
-    <!-- http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia -->
-
-
-    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia"/>
-    
-
-
-    <!-- http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa -->
-
-
-    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa"/>
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/strategies#tipoEstrategia"/>
     
 
 
@@ -119,14 +96,13 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-001">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-009"/>
         <base:descricao>Estratégia de implementar e promover práticas de trabalho que utilizam IA para desenvolver resiliência</base:descricao>
         <base:id>EST-001</base:id>
         <base:nome>Promoção de Práticas Habilitadas por IA</base:nome>
-        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <strategies:tipoEstrategia>treinamento</strategies:tipoEstrategia>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
@@ -136,15 +112,13 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-002">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-012"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-002"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-002"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-012"/>
         <base:descricao>Cultivo de ambiente organizacional que valoriza experimentação, criatividade e inovação</base:descricao>
         <base:id>EST-002</base:id>
         <base:nome>Fomento de Cultura de Inovação e Inovação sustentável</base:nome>
-        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within Resource Constrained Economies (2025)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <strategies:tipoEstrategia>comunidade_pratica</strategies:tipoEstrategia>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
@@ -154,17 +128,15 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-003">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-001"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-002"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-001"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-018"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-001"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-002"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-001"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-018"/>
         <base:descricao>Programas estruturados de capacitação contínua em competências digitais e de IA, além da requalificação de colaboradores para lidar com automação e novas tecnologias</base:descricao>
         <base:id>EST-003</base:id>
         <base:nome>Treinamento Contínuo, Desenvolvimento e Capacitação de Funcionários</base:nome>
-        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025), Leading the Way: How Leaders Facilitate Digital Transformation in Organizations (2023), Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <strategies:tipoEstrategia>treinamento</strategies:tipoEstrategia>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
@@ -174,18 +146,15 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-004">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-003"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-004"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-005"/>
-        <strategies:moderadoPor rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-018"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-005"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-003"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-004"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005"/>
         <base:descricao>Construção de confiança organizacional nas capacidades e uso ético de sistemas de IA</base:descricao>
         <base:id>EST-005</base:id>
         <base:nome>Promoção de Confiança na IA</base:nome>
-        <competencies:areaAplicacao>etica</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Adoption of artificial intelligence: A TOP framework-based checklist for digital leaders (2024), Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1, QP4</competencies:questaoPesquisa>
+        <strategies:tipoEstrategia>treinamento</strategies:tipoEstrategia>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
@@ -195,15 +164,13 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-005">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-005"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-009"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-005"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-009"/>
         <base:descricao>Estratégia de fomentar colaboração harmoniosa entre pessoas e sistemas de IA</base:descricao>
         <base:id>EST-006</base:id>
         <base:nome>Promoção de Colaboração Humano-Máquina</base:nome>
-        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <strategies:tipoEstrategia>comunidade_pratica</strategies:tipoEstrategia>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
@@ -213,19 +180,16 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-006">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-014"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-001"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-002"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-003"/>
-        <strategies:moderadoPor rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-010"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-001"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-002"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-003"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-014"/>
         <base:descricao>Desenvolvimento de ambientes onde colaboradores se sintam seguros para experimentar e errar</base:descricao>
         <base:id>EST-007</base:id>
         <base:nome>Criação de Ambientes Psicologicamente Seguros</base:nome>
-        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within Resource Constrained Economies (2025)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP4</competencies:questaoPesquisa>
+        <strategies:tipoEstrategia>coaching</strategies:tipoEstrategia>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
@@ -235,16 +199,14 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-007">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-008"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-009"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-001"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-001"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-008"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-009"/>
         <base:descricao>Implementação de sistemas confirm-or-override para manter envolvimento humano na decisão</base:descricao>
         <base:id>EST-008</base:id>
         <base:nome>Uso de IA Parcialmente Automatizada</base:nome>
-        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Safeguarding worker psychosocial well-being in the age of AI: The critical role of decision control (2025)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <strategies:tipoEstrategia>aprendizagem_continua</strategies:tipoEstrategia>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
@@ -254,14 +216,12 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-008">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-013"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-013"/>
         <base:descricao>Comunicação clara e aberta sobre implementação, benefícios e desafios da IA</base:descricao>
         <base:id>EST-009</base:id>
         <base:nome>Comunicação Transparente sobre IA</base:nome>
-        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025), Facilitating digital work in public agencies through job design and digital communication management (2023)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <strategies:tipoEstrategia>mentoria</strategies:tipoEstrategia>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
@@ -271,16 +231,13 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-009">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#EstrategiaDesenvolvimento"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-001"/>
-        <strategies:desenvolveCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-001"/>
-        <strategies:moderadoPor rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-001"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-001"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-001"/>
         <base:descricao>Líderes demonstram pessoalmente a adoção e uso efetivo de tecnologias digitais</base:descricao>
         <base:id>EST-010</base:id>
         <base:nome>Liderança pelo Exemplo</base:nome>
-        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2025)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <strategies:tipoEstrategia>mentoria</strategies:tipoEstrategia>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
 </rdf:RDF>

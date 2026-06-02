@@ -1,0 +1,108 @@
+description <http://example.com/LeaderOntology/description/toolsDescrip#> as toolsDescrip {
+	
+	extends <http://example.com/LeaderOntology/description/leaderstyleDescrip#> as leaderstylesDescrip
+	extends <http://example.com/LeaderOntology/description/decisionProcessDescrip#> as decisionProcessDescrip
+	uses <http://example.com/LeaderOntology/vocabulary/tools#> as tools
+	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
+	
+	//FERRAMENTAS DE AVALIAÇÃO (QP1)
+	
+	instance FERR-001 : tools:Ferramenta_Avaliacao [
+		base:nome "Escala de Liderança Transformacional Aprimorada por IA"
+		base:id "FERR-001"
+		base:descricao "Escala de 7 itens para avaliar liderança transformacional potencializada por IA"
+		tools:tipoAvaliacao "questionario"
+		tools:avalia leaderstylesDescrip:LID-002
+	]
+	
+	instance FERR-002 : tools:Ferramenta_Avaliacao [
+		base:nome "Escala de Liderança Digital (6 itens)"
+		base:id "FERR-003"
+		base:descricao "Questionário de 6 itens para medir liderança digital e transformação digital"
+		tools:tipoAvaliacao "questionario"
+		tools:avalia leaderstylesDescrip:LID-001, leaderstylesDescrip:LID-002, leaderstylesDescrip:LID-003, leaderstylesDescrip:LID-004, leaderstylesDescrip:LID-005, leaderstylesDescrip:LID-006,
+		leaderstylesDescrip:LID-007
+	]
+	
+	instance FERR-003 : tools:Ferramenta_Avaliacao [
+		base:nome "Escala de Liderança Transformacional (10 itens)"
+		base:id "FERR-004"
+		base:descricao "Questionário de 10 itens para avaliar dimensões da liderança transformacional"
+		tools:tipoAvaliacao "questionario"
+		tools:avalia leaderstylesDescrip:LID-002
+	]
+	
+	instance FERR-004 : tools:Ferramenta_Avaliacao [
+		base:nome "Escala de Dimensões Humanas da Liderança Digital"
+		base:id "FERR-005"
+		base:descricao "Ferramenta validada para medir dimensões humanas da liderança digital"
+		tools:tipoAvaliacao "assessment"
+		tools:avalia leaderstylesDescrip:LID-006, leaderstylesDescrip:LID-007
+	]
+	
+	instance FERR-005 : tools:Ferramenta_Avaliacao [
+		base:nome "Escala de Liderança Digital Estudantil"
+		base:id "FERR-006"
+		base:descricao "Instrumento com 6 dimensões: Planejamento organizacional; Processo de tomada de decisão; Discussão em equipe; Liberdade de opinião; Confiança e Responsabilidade"
+		tools:tipoAvaliacao "questionario"
+		tools:avalia leaderstylesDescrip:LID-005, leaderstylesDescrip:LID-007
+	]
+	
+	instance FERR-006 : tools:Ferramenta_Avaliacao [
+		base:nome "Escala de Liderança Generativa (27 itens)"
+		base:id "FERR-007"
+		base:descricao "Escala desenvolvida para avaliar características da liderança generativa"
+		tools:tipoAvaliacao "questionario"
+		tools:avalia leaderstylesDescrip:LID-004
+	]
+	
+	//FERRAMENTAS DE IA (QP3)
+	
+	instance FERR-IA-001 : tools:Ferramenta_IA [
+		base:nome "Sistemas de IA para Análise em Tempo Real"
+		base:id "FERR-IA-001"
+		base:descricao "Sistemas que realizam análise de dados e fornecem insights em tempo real para decisões informadas"
+		tools:tipoIA "analitica"
+		tools:influencia decisionProcessDescrip:PROC-002
+	]
+	
+	instance FERR-IA-002 : tools:Ferramenta_IA [
+		base:nome "Bot de Análise de Sentimentos"
+		base:id "FERR-IA-002"
+		base:descricao "Bot baseado em IA que analisa dinamicamente sentimentos de funcionários e clima da equipe"
+		tools:tipoIA "analitica"
+		tools:influencia decisionProcessDescrip:PROC-003
+	]
+	
+	instance FERR-IA-003 : tools:Ferramenta_IA [
+		base:nome "Sistemas de Suporte à Decisão Diária"
+		base:id "FERR-IA-003"
+		base:descricao "IA utilizada como sistema de suporte em tarefas diárias, gestão de projetos e colaboração"
+		tools:tipoIA "prescritiva"
+		tools:influencia decisionProcessDescrip:PROC-002
+	]
+	
+	instance FERR-IA-004 : tools:Ferramenta_IA [
+		base:nome "IA para Decisões de RH"
+		base:id "FERR-IA-004"
+		base:descricao "Sistemas de IA para recrutamento, gestão de talentos e decisões críticas de recursos humanos"
+		tools:tipoIA "preditiva"
+		tools:influencia decisionProcessDescrip:PROC-003
+	]
+	
+	instance FERR-IA-005 : tools:Ferramenta_IA [
+		base:nome "IA para Gestão Operacional"
+		base:id "FERR-IA-005"
+		base:descricao "Sistemas de IA para coleta de dados, automação, análise e previsão para decisões estratégicas"
+		tools:tipoIA "analitica"
+		tools:influencia decisionProcessDescrip:PROC-001, decisionProcessDescrip:PROC-005, decisionProcessDescrip:PROC-006
+	]
+	
+	instance FERR-IA-006 : tools:Ferramenta_IA [
+		base:nome "IA em Gestão de Engenharia"
+		base:id "FERR-IA-006"
+		base:descricao "Tecnologias de IA para planejamento de projetos, avaliação de riscos, alocação de recursos e manutenção"
+		tools:tipoIA "prescritiva"
+		tools:influencia decisionProcessDescrip:PROC-006
+	]
+	}

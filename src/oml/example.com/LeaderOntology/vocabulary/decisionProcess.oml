@@ -1,0 +1,27 @@
+vocabulary <http://example.com/LeaderOntology/vocabulary/decisionProcess#> as decisionProcess {
+	
+	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
+	
+	concept ProcessoDecisao < base:EntidadeNomeavel, base:EntidadeDescritivel, base:EntidadeIdentificavel [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+
+	scalar NivelDecisao [
+		oneOf "estrategico", "tatico", "operacional"
+	]
+	scalar AbordagemDecisao [
+		oneOf "analitica", "intuitiva", "colaborativa", "baseada_em_dados"
+	]
+
+	scalar property nivelDecisao [
+		domain ProcessoDecisao
+		range NivelDecisao
+		functional
+	]
+	scalar property abordagem [
+		domain ProcessoDecisao
+		range AbordagemDecisao
+		functional
+	]
+}

@@ -1,2 +1,12 @@
 description bundle <http://example.com/LeaderOntology/description/bundle#> as ^bundle {
+	
+	includes <http://example.com/LeaderOntology/description/activitiesDescrip#>
+	includes <http://example.com/LeaderOntology/description/competenciesDescrip#>
+	includes <http://example.com/LeaderOntology/description/decisionProcessDescrip#>
+	includes <http://example.com/LeaderOntology/description/impactsDescrip#>
+	includes <http://example.com/LeaderOntology/description/leaderstyleDescrip#>
+	includes <http://example.com/LeaderOntology/description/strategiesDescrip#>
+	includes <http://example.com/LeaderOntology/description/toolsDescrip#>
+	uses <http://example.com/LeaderOntology/vocabulary/bundle#>
+	
 }

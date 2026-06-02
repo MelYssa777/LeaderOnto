@@ -5,323 +5,221 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 	
 	//CONHECIMENTOS (QP4) 
 	
-	instance CONH-001 : competencies:ConhecimentoTecnico [
+	instance CONH-001 : competencies:Conhecimento [
 		base:nome "Alfabetização Digital"
 		base:id "CONH-001"
 		base:descricao "Compreensão tecnológica fundamental para liderar na era digital"
-		competencies:areaAplicacao "tecnologia"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Digital Leadership, AI Integration, and Cyberloafing: Pathways to Sustainable Innovation in SMEs Within Resource Constrained Economies (2025)"
 	]
 	
-	instance CONH-002 : competencies:ConhecimentoEtico [
+	instance CONH-002 : competencies:Conhecimento [
 		base:nome "Ética da IA"
 		base:id "CONH-003"
 		base:descricao "Conhecimento sobre princípios éticos, justiça, transparência e explicabilidade no uso de IA"
-		competencies:areaAplicacao "etica"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Ethical Considerations of AI (2022), Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
-	]
+		]
 	
-	instance CONH-003 : competencies:ConhecimentoEstrategico [
+	instance CONH-003 : competencies:Conhecimento [
 		base:nome "Visão Estratégica Digital"
 		base:id "CONH-004"
 		base:descricao "Capacidade de desenvolver e comunicar uma visão clara para transformação digital"
-		competencies:areaAplicacao "estrategia"
-		competencies:questaoPesquisa "QP1, QP4"
-		competencies:artigoReferencia "Leading the Way: How Leaders Facilitate Digital Transformation in Organizations (2023), Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025)"
 	]
 	
-	instance CONH-004 : competencies:ConhecimentoTecnico [
+	instance CONH-004 : competencies:Conhecimento [
 		base:nome "Compreensão da Ética em Sistemas de IA"
 		base:id "CONH-005"
 		base:descricao "Entendimento sobre princípios éticos, funcionamento, capacidades e responsabilidade de sistemas de IA"
-		competencies:areaAplicacao "tecnologia"
-		competencies:questaoPesquisa "QP3, QP4"
-		competencies:artigoReferencia "THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)"
 	]
 	
-	instance CONH-005 : competencies:ConhecimentoEstrategico [
+	instance CONH-005 : competencies:Conhecimento [
 		base:nome "Gestão de Recursos Baseada em Valor (RBV)"
 		base:id "CONH-006"
 		base:descricao "Conhecimento sobre gestão estratégica de recursos para vantagem competitiva"
-		competencies:areaAplicacao "estrategia"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025)"
 	]
 	
 	//HABILIDADES DIGITAIS (QP1)
 	
-	instance HAB-001 : competencies:HabilidadeDigital [
+	instance HAB-001 : competencies:Habilidade [
 		base:nome "Habilidades Técnicas Digitais"
 		base:id "HAB-001"
 		base:descricao "Capacidade de utilizar e implementar ferramentas e tecnologias digitais"
-		competencies:areaAplicacao "tecnologia"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Improving Organizational Performance (Student Club at One of Private University in Indonesia) Through Digital Leadership Mediated by Digital Skills  (2024)"
 	]
 	
-	instance HAB-002 : competencies:HabilidadeDigital [
+	instance HAB-002 : competencies:Habilidade [
 		base:nome "Interação Digital"
 		base:id "HAB-002"
 		base:descricao "Capacidade de comunicar e colaborar efetivamente em ambientes digitais"
-		competencies:areaAplicacao "pessoas"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Improving Organizational Performance (Student Club at One of Private University in Indonesia) Through Digital Leadership Mediated by Digital Skills  (2024)"
 	]
 	
-	instance HAB-003 : competencies:HabilidadeDigital [
+	instance HAB-003 : competencies:Habilidade [
 		base:nome "Análise Digital"
 		base:id "HAB-003"
 		base:descricao "Habilidade de analisar dados e informações digitais para insights acionáveis"
-		competencies:areaAplicacao "tecnologia"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Improving Organizational Performance (Student Club at One of Private University in Indonesia) Through Digital Leadership Mediated by Digital Skills  (2024)"
 	]
 	
-	instance HAB-004 : competencies:HabilidadeDigital [
+	instance HAB-004 : competencies:Habilidade [
 		base:nome "Pensamento Digital"
 		base:id "HAB-004"
 		base:descricao "Capacidade de pensar estrategicamente sobre soluções digitais e inovação"
-		competencies:areaAplicacao "estrategia"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Improving Organizational Performance (Student Club at One of Private University in Indonesia) Through Digital Leadership Mediated by Digital Skills  (2024)"
 	]
 	
 	//HABILIDADES DIGITAIS (QP4)
 	
-	instance HAB-005 : competencies:HabilidadeDigital [
+	instance HAB-005 : competencies:Habilidade [
 		base:nome "Autoeficácia em Aprendizagem de IA"
 		base:id "HAB-005"
 		base:descricao "Confiança e capacidade de aprender e utilizar sistemas de IA efetivamente"
-		competencies:areaAplicacao "tecnologia"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)"
 	]
 	
 	//HABILIDADES COGNITIVAS (QP1)
 	
-	instance HAB-006 : competencies:HabilidadeCognitiva [
+	instance HAB-006 : competencies:Habilidade [
 		base:nome "Pensamento Crítico"
 		base:id "HAB-006"
 		base:descricao "Capacidade de avaliar situações complexas e tomar decisões fundamentadas"
-		competencies:areaAplicacao "gestao"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 	]
 	
-	instance HAB-007 : competencies:HabilidadeCognitiva [
+	instance HAB-007 : competencies:Habilidade [
 		base:nome "Resolução de Problemas"
 		base:id "HAB-007"
 		base:descricao "Habilidade de identificar problemas e desenvolver soluções inovadoras"
-		competencies:areaAplicacao "gestao"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 	]
 	
-	instance HAB-008 : competencies:HabilidadeCognitiva [
+	instance HAB-008 : competencies:Habilidade [
 		base:nome "Tomada de Decisão Informada"
 		base:id "HAB-008"
 		base:descricao "Capacidade de tomar decisões baseadas em análise de dados e informações relevantes"
-		competencies:areaAplicacao "gestao"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023), Enhancing Creativity and Sustainable Competitive Advantage Through Data-Driven Decision-Making and Digital Leadership (2022)"
 	]
 	
 	//HABILIDADES COGNITIVAS (QP1)
 	
-	instance HAB-009 : competencies:HabilidadeCognitiva [
+	instance HAB-009 : competencies:Habilidade [
 		base:nome "Capacidade de Decisão Estratégica"
 		base:id "HAB-009"
 		base:descricao "Habilidade de tomar decisões estratégicas integrando resultados de IA com julgamento humano"
-		competencies:areaAplicacao "estrategia"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)"
 	]
 	
 	// HABILIDADES SOCIOEMOCIONAIS (QP4)
 	
-	instance HAB-010 : competencies:HabilidadeSocioemocional [
+	instance HAB-010 : competencies:Habilidade [
 		base:nome "Inteligência Emocional"
 		base:id "HAB-010"
 		base:descricao "Capacidade de reconhecer e gerenciar emoções próprias e dos outros"
-		competencies:areaAplicacao "pessoas"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)"
 	]
 	
-	instance HAB-011 : competencies:HabilidadeSocioemocional [
+	instance HAB-011 : competencies:Habilidade [
 		base:nome "Curiosidade"
 		base:id "HAB-011"
 		base:descricao "Disposição para explorar, aprender e descobrir novas possibilidades"
-		competencies:areaAplicacao "pessoas"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 	]
 	
-	instance HAB-012 : competencies:HabilidadeSocioemocional [
+	instance HAB-012 : competencies:Habilidade [
 		base:nome "Criatividade"
 		base:id "HAB-012"
 		base:descricao "Capacidade de gerar ideias inovadoras e soluções originais"
-		competencies:areaAplicacao "pessoas"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023), Do Generative Leadership and Digital Literacy of Executive Management Help Flourishing Micro and Small (2022)"
 	]
 	
-	instance HAB-013 : competencies:HabilidadeSocioemocional [
+	instance HAB-013 : competencies:Habilidade [
 		base:nome "Comunicação Transparente"
 		base:id "HAB-013"
 		base:descricao "Habilidade de comunicar de forma clara, aberta e honesta sobre tecnologias e mudanças"
-		competencies:areaAplicacao "pessoas"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Facilitating digital work in public agencies through job design and digital communication management (2023)"
 	]
 	
-	instance HAB-014 : competencies:HabilidadeSocioemocional [
+	instance HAB-014 : competencies:Habilidade [
 		base:nome "Consideração Individualizada"
 		base:id "HAB-014"
 		base:descricao "Capacidade de compreender e atender necessidades individuais dos membros da equipe"
-		competencies:areaAplicacao "pessoas"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025), Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)"
 	]
 	
-	instance HAB-015 : competencies:HabilidadeSocioemocional [
+	instance HAB-015 : competencies:Habilidade [
 		base:nome "Capacidade de Mentoria"
 		base:id "HAB-015"
 		base:descricao "Habilidade de orientar, desenvolver e capacitar membros da equipe"
-		competencies:areaAplicacao "pessoas"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)"
 	]
 	
 	// HABILIDADES DE GESTÃO (QP4)
 	
-	instance HAB-016 : competencies:HabilidadeGestao [
+	instance HAB-016 : competencies:Habilidade [
 		base:nome "Planejamento Estratégico"
 		base:id "HAB-016"
 		base:descricao "Capacidade de planejar e executar estratégias de transformação digital"
-		competencies:areaAplicacao "estrategia"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Leading the Way: How Leaders Facilitate Digital Transformation in Organizations (2023)"
 	]
 	
-	instance HAB-017 : competencies:HabilidadeGestao [
+	instance HAB-017 : competencies:Habilidade[
 		base:nome "Capacidade de Empoderar Equipes"
 		base:id "HAB-017"
 		base:descricao "Habilidade de dar autonomia e suporte ao desenvolvimento das equipes"
-		competencies:areaAplicacao "pessoas"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025)"
 	]
 	
-	instance HAB-018 : competencies:HabilidadeGestao [
+	instance HAB-018 : competencies:Habilidade [
 		base:nome "Agilidade Organizacional"
 		base:id "HAB-018"
 		base:descricao "Capacidade de adaptar rapidamente a organização a mudanças e novas demandas"
-		competencies:areaAplicacao "gestao"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024), Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 	]
 	
-	instance HAB-019 : competencies:HabilidadeGestao [
+	instance HAB-019 : competencies:Habilidade [
 		base:nome "Gestão de Mudança"
 		base:id "HAB-019"
 		base:descricao "Habilidade de liderar processos de mudança organizacional e reduzir resistências"
-		competencies:areaAplicacao "gestao"
-		competencies:questaoPesquisa "QP4, QP1"
-		competencies:artigoReferencia "Maneuvering through the stormy seas (2021), DIGITAL LEADERSHIP (2020)"
 	]
 	
-	instance HAB-020 : competencies:HabilidadeGestao [
+	instance HAB-020 : competencies:Habilidade [
 		base:nome "Redesenho de Trabalho"
 		base:id "HAB-020"
 		base:descricao "Capacidade de redesenhar funções e processos de trabalho com integração de IA"
-		competencies:areaAplicacao "gestao"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
 	]
 	
 	//MINDSETS (QP4) 
 	
-	instance MIND-001 : competencies:MindsetCentradoHumano [
+	instance ATI-001 : competencies:Atitude [
 		base:nome "Mindset Centrado no Ser Humano"
-		base:id "MIND-001"
+		base:id "ATI-001"
 		base:descricao "Mentalidade que prioriza o bem-estar, autonomia e desenvolvimento humano na adoção de IA"
-		competencies:areaAplicacao "etica"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Safeguarding worker psychosocial well-being in the age of AI: The critical role of decision control (2025)"
 	]
 	
-	instance MIND-002 : competencies:MindsetInovador [
+	instance ATI-002 : competencies:Atitude [
 		base:nome "Mentalidade de Crescimento"
-		base:id "MIND-002"
+		base:id "ATI-002"
 		base:descricao "Disposição para aprendizado contínuo, experimentação e aceitação de falhas como oportunidades"
-		competencies:areaAplicacao "pessoas"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)"
 	]
 	
-	instance MIND-003 : competencies:MindsetInovador [
+	instance ATI-003 : competencies:Atitude [
 		base:nome "Mentalidade Flexível e Experimental"
-		base:id "MIND-003"
+		base:id "ATI-003"
 		base:descricao "Abertura para experimentação, eliminação do medo do fracasso e adaptabilidade"
-		competencies:areaAplicacao "gestao"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Artificial intelligence adoption in extended HR ecosystems: enablers and barriers. An abductive case research (2024)"
 	]
 	
-	instance MIND-004 : competencies:MindsetEtico [
+	instance ATI-004 : competencies:Atitude [
 		base:nome "Princípios Éticos"
-		base:id "MIND-004"
+		base:id "ATI-004"
 		base:descricao "Valores éticos profundamente incorporados que guiam decisões sobre uso de IA"
-		competencies:areaAplicacao "etica"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024), THE ROLE OF LEADERSHIP IN INDUSTRY 4.0 (2023)"
 	]
 	
-	instance MIND-005 : competencies:MindsetEtico [
+	instance ATI-005 : competencies:Atitude [
 		base:nome "Uso Ético da IA"
-		base:id "MIND-005"
+		base:id "ATI-005"
 		base:descricao "Compromisso com práticas éticas, justas e transparentes no uso de tecnologias de IA"
-		competencies:areaAplicacao "etica"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Exploring Digital Leadership Traits: An Approach to Understanding Their Internalization (2024)"
 	]
 	
-	instance MIND-006 : competencies:MindsetAgil [
+	instance ATI-006 : competencies:Atitude [
 		base:nome "Hiperconsciência"
-		base:id "MIND-006"
+		base:id "ATI-006"
 		base:descricao "Consciência elevada sobre mudanças no ambiente e capacidade de antecipar tendências"
-		competencies:areaAplicacao "estrategia"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 	]
 	
-	instance MIND-007 : competencies:MindsetAgil [
+	instance ATI-007 : competencies:Atitude [
 		base:nome "Execução Rápida"
-		base:id "MIND-007"
+		base:id "ATI-007"
 		base:descricao "Capacidade de implementar decisões e mudanças com velocidade e eficiência"
-		competencies:areaAplicacao "gestao"
-		competencies:questaoPesquisa "QP4"
-		competencies:artigoReferencia "Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)"
 	]
 	
-	instance MIND-008 : competencies:MindsetInovador [
+	instance ATI-008 : competencies:Atitude [
 		base:nome "Visão Inspiradora e de Futuro"
-		base:id "MIND-008"
+		base:id "ATI-008"
 		base:descricao "Capacidade de articular uma visão clara, inspiradora e orientada para o futuro"
-		competencies:areaAplicacao "estrategia"
-		competencies:questaoPesquisa "QP4, QP1"
-		competencies:artigoReferencia "Future Trends in Digital Leadership: Cultivating Innovation, Leveraging AI and Achieving Competitive Advantage: A Qualitative Study (2025), Leading the Way: How Leaders Facilitate Digital Transformation in Organizations (2023)"
 	]
 	
-	instance MIND-009 : competencies:MindsetInovador [
+	instance ATI-009 : competencies:Atitude [
 		base:nome "Mentalidade de Agente de Mudança"
-		base:id "MIND-009"
+		base:id "ATI-009"
 		base:descricao "Disposição proativa para promover e liderar transformações organizacionais"
-		competencies:areaAplicacao "gestao"
-		competencies:questaoPesquisa "QP1"
-		competencies:artigoReferencia "Assessing Digital Leadership: Towards Developing a Scale to Measure the Human Dimensions of Digital Leaders (2023)"
 	]
 }

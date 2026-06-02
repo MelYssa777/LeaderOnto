@@ -2,44 +2,73 @@ vocabulary <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> as l
 	
 	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
 	extends <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
-	extends <http://example.com/LeaderOntology/vocabulary/toolpractices#> as toolspractices
+	extends <http://example.com/LeaderOntology/vocabulary/activities#> as activities
+	extends <http://example.com/LeaderOntology/vocabulary/decisionProcess#> as decisionProcess
 	extends <http://example.com/LeaderOntology/vocabulary/impacts#> as impacts
-	extends <http://example.com/LeaderOntology/vocabulary/industry4Context#> as industry4Context
+
+
+	aspect Lideranca_4.0 < base:EntidadeNomeavel, base:EntidadeDescritivel, base:EntidadeIdentificavel
 	
-	// ESTILOS DE LIDERANÇA
-	concept EstiloLideranca < base:EntidadeBase [
-		restricts base:id to max 1
+	// Conceito central
+	
+	concept EstiloLideranca < Lideranca_4.0 [
 		restricts base:id to min 1
 	]
 	
-	concept LiderancaTransformacional < EstiloLideranca
-	concept LiderancaEmpoderadora < EstiloLideranca
-	concept LiderancaGenerativa < EstiloLideranca
-	concept LiderancaAgil < EstiloLideranca
-	concept LiderancaAutentica < EstiloLideranca
-	concept LiderancaTransacional < EstiloLideranca
+	 scalar TipoEstilo [
+		oneOf "transformacional", "digital", "generativa", "empoderadora", "agil"
+	]
 	
-	relation requerCompetencia [
+	scalar property tipoEstilo [
+		domain EstiloLideranca
+		range TipoEstilo
+		functional
+	]
+
+	// EstiloLideranca → requer → Competencia
+	relation requer [
 		from EstiloLideranca
 		to competencies:Competencia
-		reverse competenciaRequeridaPor
+		reverse requisito
+		asymmetric
+		irreflexive
 	]
-	
-	relation aplicaPratica [
+
+	// EstiloLideranca → realiza → Atividade Chave
+	relation realiza [
 		from EstiloLideranca
-		to toolspractices:Pratica
-		reverse praticaAplicadaPor
+		to activities:AtividadeChave
+		reverse realizadaPor
+		asymmetric
+		irreflexive
 	]
+
+	// EstiloLideranca → conduz → Processo Decisao
+	relation conduz [
+		from EstiloLideranca
+		to decisionProcess:ProcessoDecisao
+		reverse conduzidoPor
+		asymmetric
+		irreflexive
+	]
+
+	// EstiloLideranca → agrega → Lideranca_4.0
+	relation agrega [
+		from EstiloLideranca
+		to Lideranca_4.0
+		reverse integradaEm
+		asymmetric
+		irreflexive
+	]
+
+	// EstiloLideranca → resulta → Impacto_Organizacional
+	relation resulta [
+		from EstiloLideranca
+		to impacts:ImpactoOrganizacional
+		reverse resultaDe
+		asymmetric
+		irreflexive
+	]
+
 	
-	relation causaImpacto [
-		from leadershipStyles:EstiloLideranca
-		to impacts:Impacto
-		reverse impactoCausadoPor
-	]
-	
-	relation integraIA [
-		from leadershipStyles:EstiloLideranca
-		to industry4Context:IntegracaoIA
-		reverse iaIntegradaEm
-	]
 }

@@ -2,12 +2,19 @@ vocabulary <http://example.com/LeaderOntology/vocabulary/impacts#> as impacts {
 	
 	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
 	
-	concept Impacto < base:EntidadeBase [
+	concept ImpactoOrganizacional < base:EntidadeNomeavel, base:EntidadeDescritivel, base:EntidadeIdentificavel [
 		restricts base:id to max 1
 		restricts base:id to min 1
 	]
+
+	scalar TipoImpacto [
+		oneOf "inovacao", "vantagem_competitiva", "reducao_burnout", "engajamento", "produtividade"
+	]
+	scalar property tipoImpacto [
+		domain ImpactoOrganizacional
+		range TipoImpacto
+		functional
+	]
 	
-	concept ImpactoOrganizacional < Impacto
-	concept ImpactoIndividual < Impacto
-	concept ImpactoSocial < Impacto
+
 }

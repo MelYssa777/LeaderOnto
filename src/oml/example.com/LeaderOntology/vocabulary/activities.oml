@@ -1,31 +1,29 @@
 vocabulary <http://example.com/LeaderOntology/vocabulary/activities#> as activities {
 	
 	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
-	extends <http://example.com/LeaderOntology/vocabulary/toolpractices#> as toolspractices
+	extends <http://example.com/LeaderOntology/vocabulary/strategies#> as strategies
 	
-	// PROCESSOS E ATIVIDADES (QP3)
-	
-	concept ProcessoDecisao < base:EntidadeBase [
+	concept AtividadeChave < base:EntidadeNomeavel, base:EntidadeDescritivel, base:EntidadeIdentificavel [
 		restricts base:id to max 1
 		restricts base:id to min 1
 	]
-	
-	concept TomadaDecisaoEstrategica < ProcessoDecisao
-	concept TomadaDecisaoOperacional < ProcessoDecisao
-	concept TomadaDecisaoOrientadaDados < ProcessoDecisao
-	
-	concept Atividade < base:EntidadeBase [
-		restricts base:id to max 1
-		restricts base:id to min 1
+
+	scalar TipoAtividade [
+		oneOf "gestao_pessoas", "inovacao", "comunicacao", "aprendizagem", "tomada_decisao", "transformacao_digital"
+	]
+
+	scalar property tipoAtividade [
+		domain AtividadeChave
+		range TipoAtividade
+		functional
 	]
 	
-	concept AtividadeGestao < Atividade
-	concept AtividadeInovacao < Atividade
-	concept AtividadeTransformacaoDigital < Atividade
-	
-		relation utilizaFerramenta [
-		from activities:Atividade
-		to toolspractices:Ferramenta
-		reverse ferramentaUtilizadaEm
+	// Atividade_Chave → aplica → Estrategia
+	relation aplica [
+		from activities:AtividadeChave
+		to strategies:Estrategia
+		reverse aplicadaPor
+		asymmetric
+		irreflexive
 	]
 }

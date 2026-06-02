@@ -8,53 +8,19 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:base="http://example.com/LeaderOntology/vocabulary/base#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:competencies="http://example.com/LeaderOntology/vocabulary/competencies#"
      xmlns:leadershipStyles="http://example.com/LeaderOntology/vocabulary/leadershipStyles#"
-     xmlns:leaderstyleDescrip="http://example.com/LeaderOntology/description/leaderstyleDescrip#">
+     xmlns:leaderstylesDescrip="http://example.com/LeaderOntology/description/leaderstyleDescrip#">
     <owl:Ontology rdf:about="http://example.com/LeaderOntology/description/leaderstyleDescrip">
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip"/>
         <owl:imports rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/description/decisionProcessDescrip"/>
         <owl:imports rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip"/>
-        <owl:imports rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip"/>
         <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
-        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies"/>
         <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles"/>
         <oml:namespace rdf:resource="http://example.com/LeaderOntology/description/leaderstyleDescrip#"/>
-        <oml:prefix>leaderstyleDescrip</oml:prefix>
+        <oml:prefix>leaderstylesDescrip</oml:prefix>
         <oml:type rdf:resource="http://opencaesar.io/oml#Description"/>
     </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    
-
-
-    <!-- http://opencaesar.io/oml#namespace -->
-
-
-    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#namespace"/>
-    
-
-
-    <!-- http://opencaesar.io/oml#prefix -->
-
-
-    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#prefix"/>
-    
-
-
-    <!-- http://opencaesar.io/oml#type -->
-
-
-    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#type"/>
     
 
 
@@ -70,24 +36,31 @@
     
 
 
-    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#aplicaPratica -->
+    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#conduz -->
 
 
-    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#aplicaPratica"/>
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#conduz"/>
     
 
 
-    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#causaImpacto -->
+    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#realiza -->
 
 
-    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#causaImpacto"/>
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#realiza"/>
     
 
 
-    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#requerCompetencia -->
+    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#requer -->
 
 
-    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#requerCompetencia"/>
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#requer"/>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#resulta -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#resulta"/>
     
 
 
@@ -124,24 +97,10 @@
     
 
 
-    <!-- http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao -->
+    <!-- http://example.com/LeaderOntology/vocabulary/leadershipStyles#tipoEstilo -->
 
 
-    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#areaAplicacao"/>
-    
-
-
-    <!-- http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia -->
-
-
-    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#artigoReferencia"/>
-    
-
-
-    <!-- http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa -->
-
-
-    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/competencies#questaoPesquisa"/>
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/leadershipStyles#tipoEstilo"/>
     
 
 
@@ -161,21 +120,19 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-001">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaTransformacional"/>
-        <leadershipStyles:aplicaPratica rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-001"/>
-        <leadershipStyles:aplicaPratica rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-002"/>
-        <leadershipStyles:aplicaPratica rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-004"/>
-        <leadershipStyles:causaImpacto rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-002"/>
-        <leadershipStyles:causaImpacto rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-003"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-010"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-014"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-015"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-002"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-TD-002"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-004"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-010"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-014"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-015"/>
+        <leadershipStyles:resulta rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-002"/>
+        <leadershipStyles:resulta rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-003"/>
         <base:descricao>Estilo de liderança que inspira e motiva mudanças através de visão compartilhada, consideração individual e estímulo intelectual</base:descricao>
         <base:id>LID-001</base:id>
         <base:nome>Liderança Transformacional</base:nome>
-        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025), Influence of Artificial Intelligence on Engineering Management Decision-Making with Mediating Role of Transformational Leadership (2024)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1, QP3, QP4</competencies:questaoPesquisa>
+        <leadershipStyles:tipoEstilo>transformacional</leadershipStyles:tipoEstilo>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
@@ -185,20 +142,19 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-002">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaTransformacional"/>
-        <leadershipStyles:aplicaPratica rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-001"/>
-        <leadershipStyles:aplicaPratica rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-002"/>
-        <leadershipStyles:aplicaPratica rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-008"/>
-        <leadershipStyles:causaImpacto rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-001"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-005"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-010"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-001"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-003"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-007"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-008"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-005"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-010"/>
+        <leadershipStyles:resulta rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-001"/>
         <base:descricao>Liderança transformacional que utiliza sistemas de IA para análise em tempo real e tomada de decisão informada</base:descricao>
         <base:id>LID-002</base:id>
         <base:nome>Liderança Transformacional Aprimorada por IA</base:nome>
-        <competencies:areaAplicacao>tecnologia</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Transforming work in the digital era: AI-enhanced leadership and its effect on IT professional burnout (2025)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1, QP3</competencies:questaoPesquisa>
+        <leadershipStyles:tipoEstilo>transformacional</leadershipStyles:tipoEstilo>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
@@ -208,18 +164,16 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-003">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaEmpoderadora"/>
-        <leadershipStyles:aplicaPratica rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-009"/>
-        <leadershipStyles:aplicaPratica rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-010"/>
-        <leadershipStyles:causaImpacto rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-004"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-017"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-019"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-AP-001"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-TD-002"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-017"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-019"/>
+        <leadershipStyles:resulta rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-004"/>
         <base:descricao>Estilo que promove autonomia, suporte ao desenvolvimento e capacitação das equipes</base:descricao>
         <base:id>LID-003</base:id>
         <base:nome>Liderança Empoderadora</base:nome>
-        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Maneuvering through the stormy seas of digital transformation: the impact of empowering leadership on the AI readiness of enterprises (2021)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1, QP4</competencies:questaoPesquisa>
+        <leadershipStyles:tipoEstilo>empoderadora</leadershipStyles:tipoEstilo>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
@@ -229,20 +183,18 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-004">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaGenerativa"/>
-        <leadershipStyles:aplicaPratica rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-005"/>
-        <leadershipStyles:aplicaPratica rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-009"/>
-        <leadershipStyles:causaImpacto rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-003"/>
-        <leadershipStyles:causaImpacto rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-004"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-011"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-012"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-009"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-IN-001"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-IN-002"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-009"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-011"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-012"/>
+        <leadershipStyles:resulta rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-003"/>
+        <leadershipStyles:resulta rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-004"/>
         <base:descricao>Estilo que promove laços interpessoais, participação ampla, assunção de riscos e uso de inteligência coletiva</base:descricao>
         <base:id>LID-004</base:id>
         <base:nome>Liderança Generativa</base:nome>
-        <competencies:areaAplicacao>pessoas</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Do Generative Leadership and Digital Literacy of Executive Management Help Flourishing Micro and Small Business Digital Maturity? (2022)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <leadershipStyles:tipoEstilo>generativa</leadershipStyles:tipoEstilo>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
@@ -252,19 +204,20 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-005">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaAgil"/>
-        <leadershipStyles:aplicaPratica rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-008"/>
-        <leadershipStyles:causaImpacto rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-007"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-008"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-018"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-006"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-007"/>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-001"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-IN-001"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-TD-001"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-TD-002"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-006"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-007"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-008"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-018"/>
+        <leadershipStyles:resulta rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-007"/>
         <base:descricao>Liderança caracterizada por hiperconsciência, tomada de decisão informada e execução rápida</base:descricao>
         <base:id>LID-005</base:id>
         <base:nome>Liderança Ágil</base:nome>
-        <competencies:areaAplicacao>gestao</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Preparing for a New World of Work: Leadership Styles Reconfigured in the Digital Age (2023)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1, QP4</competencies:questaoPesquisa>
+        <leadershipStyles:tipoEstilo>agil</leadershipStyles:tipoEstilo>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
@@ -274,17 +227,48 @@
 
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-006">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#LiderancaAutentica"/>
-        <leadershipStyles:aplicaPratica rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-003"/>
-        <leadershipStyles:aplicaPratica rdf:resource="http://example.com/LeaderOntology/description/toolpracticesDescrip#PRAT-007"/>
-        <leadershipStyles:causaImpacto rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-004"/>
-        <leadershipStyles:requerCompetencia rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#MIND-004"/>
-        <base:descricao>Liderança baseada em autenticidade, integridade e valores genuínos</base:descricao>
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-AP-001"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-TD-002"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-004"/>
+        <leadershipStyles:resulta rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-004"/>
+        <base:descricao>Liderança baseada em autenticidade, integridade e valores genuínoscompondo 
+	— junto à liderança transacional e transformacional — as dimensões humanas da liderança digital</base:descricao>
         <base:id>LID-006</base:id>
         <base:nome>Liderança Autêntica</base:nome>
-        <competencies:areaAplicacao>etica</competencies:areaAplicacao>
-        <competencies:artigoReferencia>Assessing Digital Leadership: Towards Developing a Scale to Measure the Human Dimensions of Digital Leaders (2023)</competencies:artigoReferencia>
-        <competencies:questaoPesquisa>QP1</competencies:questaoPesquisa>
+        <leadershipStyles:tipoEstilo>transacional</leadershipStyles:tipoEstilo>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-007 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/leaderstyleDescrip#LID-007">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/leadershipStyles#EstiloLideranca"/>
+        <leadershipStyles:conduz rdf:resource="http://example.com/LeaderOntology/description/decisionProcessDescrip#PROC-005"/>
+        <leadershipStyles:conduz rdf:resource="http://example.com/LeaderOntology/description/decisionProcessDescrip#PROC-007"/>
+        <leadershipStyles:conduz rdf:resource="http://example.com/LeaderOntology/description/decisionProcessDescrip#PROC-008"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-001"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-004"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-IN-001"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-IN-002"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-TD-001"/>
+        <leadershipStyles:realiza rdf:resource="http://example.com/LeaderOntology/description/activitiesDescrip#ATIV-TD-002"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-006"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-009"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-001"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-001"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-002"/>
+        <leadershipStyles:requer rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-016"/>
+        <leadershipStyles:resulta rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-003"/>
+        <leadershipStyles:resulta rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-005"/>
+        <leadershipStyles:resulta rdf:resource="http://example.com/LeaderOntology/description/impactsDescrip#IMP-006"/>
+        <base:descricao>Estilo que combina perspicácia digital, tomada de decisão orientada por dados e cultura de inovação para guiar a transformação digital e gerar vantagem competitiva sustentável.</base:descricao>
+        <base:id>LID-007</base:id>
+        <base:nome>Liderança Digital</base:nome>
+        <leadershipStyles:tipoEstilo>digital</leadershipStyles:tipoEstilo>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
 </rdf:RDF>

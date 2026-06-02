@@ -2,25 +2,35 @@ vocabulary <http://example.com/LeaderOntology/vocabulary/base#> as base {
 	
 	extends <http://www.w3.org/2001/XMLSchema#> as xsd
 	
-	
-	aspect EntidadeBase [
-		key id 
+	aspect EntidadeNomeavel
+	aspect EntidadeDescritivel
+	aspect EntidadeIdentificavel [
+		key id
 	]
-	
+	aspect EntidadeAgregavel
+
 	scalar property nome [
-		domain EntidadeBase
+		domain EntidadeNomeavel
 		range xsd:string
 		functional
 	]
-	
 	scalar property descricao [
-		domain EntidadeBase
-		range xsd:string
-	]
-	
-	scalar property id [
-		domain EntidadeBase
+		domain EntidadeDescritivel
 		range xsd:string
 		functional
+	]
+	scalar property id [
+		domain EntidadeIdentificavel
+		range xsd:string
+		functional
+	]
+
+	relation entity Agregados [
+		from EntidadeAgregavel
+		to EntidadeAgregavel
+		forward agrega
+		reverse agregadoPor
+		asymmetric
+		irreflexive
 	]
 }

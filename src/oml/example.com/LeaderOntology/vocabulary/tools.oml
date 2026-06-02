@@ -1,0 +1,81 @@
+vocabulary <http://example.com/LeaderOntology/vocabulary/tools#> as tools {
+
+	extends <http://example.com/LeaderOntology/vocabulary/base#> as base
+	extends <http://example.com/LeaderOntology/vocabulary/decisionProcess#> as decisionProcess
+	extends <http://example.com/LeaderOntology/vocabulary/activities#> as activities
+	extends <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> as leadershipStyles
+	
+	// FERRAMENTAS
+	concept Ferramenta < base:EntidadeNomeavel, base:EntidadeDescritivel, base:EntidadeIdentificavel [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+
+	// Especializações do diagrama
+	concept Ferramenta_IA < Ferramenta [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	concept Ferramenta_Avaliacao < Ferramenta [
+		restricts base:id to max 1
+		restricts base:id to min 1
+	]
+	
+	// Propriedades de Ferramenta_IA
+	scalar TipoIA [
+		oneOf "analitica", "generativa", "preditiva", "prescritiva"
+	]
+	scalar property tipoIA [
+		domain Ferramenta_IA
+		range TipoIA
+		functional
+	]
+
+	// Propriedades de Ferramenta_Avaliacao
+	scalar TipoAvaliacao [
+		oneOf "questionario", "360_graus", "assessment", "entrevista_estruturada", "observacao"
+	]
+	scalar property tipoAvaliacao [
+		domain Ferramenta_Avaliacao
+		range TipoAvaliacao
+		functional
+	]
+	
+	
+	// Ferramenta_IA → assistida → Atividade_Chave
+	// IA potencializa, sem substituir, as atividades do líder
+	relation assiste [
+		from Ferramenta_IA
+		to activities:AtividadeChave
+		reverse assistidaPor
+		asymmetric
+		irreflexive
+	]
+	
+	// Ferramenta_IA → influencia → Processo_Decisao
+	relation influencia [
+		from Ferramenta_IA
+		to decisionProcess:ProcessoDecisao
+		reverse influenciadoPor
+		asymmetric
+		irreflexive
+	]
+
+	// Ferramenta_Avaliacao → auxilia → Ferramenta_IA
+	relation auxilia [
+		from Ferramenta_Avaliacao
+		to Ferramenta_IA
+		reverse auxiliadaPor
+		asymmetric
+		irreflexive
+	]
+
+	// Ferramenta_Avaliacao → avalia → Lideranca_4.0
+	relation avalia [
+		from Ferramenta_Avaliacao
+		to leadershipStyles:EstiloLideranca
+		reverse avaliadaPor
+		asymmetric
+		irreflexive
+	]
+}

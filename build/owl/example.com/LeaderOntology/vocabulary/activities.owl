@@ -10,7 +10,7 @@
      xmlns:activities="http://example.com/LeaderOntology/vocabulary/activities#">
     <owl:Ontology rdf:about="http://example.com/LeaderOntology/vocabulary/activities">
         <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/base"/>
-        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices"/>
+        <owl:imports rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies"/>
         <oml:namespace rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#"/>
         <oml:prefix>activities</oml:prefix>
         <oml:type rdf:resource="http://opencaesar.io/oml#Vocabulary"/>
@@ -21,7 +21,7 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Annotation properties
+    // Datatypes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
@@ -30,31 +30,52 @@
     
 
 
-    <!-- http://opencaesar.io/oml#namespace -->
+    <!-- http://example.com/LeaderOntology/vocabulary/activities#TipoAtividade -->
 
 
-    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#namespace"/>
-    
-
-
-    <!-- http://opencaesar.io/oml#prefix -->
-
-
-    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#prefix"/>
-    
-
-
-    <!-- http://opencaesar.io/oml#relationBase -->
-
-
-    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#relationBase"/>
-    
-
-
-    <!-- http://opencaesar.io/oml#type -->
-
-
-    <owl:AnnotationProperty rdf:about="http://opencaesar.io/oml#type"/>
+    <rdfs:Datatype rdf:about="http://example.com/LeaderOntology/vocabulary/activities#TipoAtividade">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>aprendizagem</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>comunicacao</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>gestao_pessoas</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>inovacao</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first>tomada_decisao</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first>transformacao_digital</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
     
 
 
@@ -70,27 +91,54 @@
     
 
 
-    <!-- http://example.com/LeaderOntology/vocabulary/activities#ferramentaUtilizadaEm -->
+    <!-- http://example.com/LeaderOntology/vocabulary/activities#aplica -->
 
 
-    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/activities#ferramentaUtilizadaEm">
-        <owl:inverseOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#utilizaFerramenta"/>
-        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta"/>
-        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#Atividade"/>
-        <oml:relationBase rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#utilizaFerramenta"/>
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/activities#aplica">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#AtividadeChave"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#UnreifiedRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/activities#aplicadaPor -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/activities#aplicadaPor">
+        <owl:inverseOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#aplica"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#AtividadeChave"/>
+        <oml:relationBase rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#aplica"/>
         <oml:type rdf:resource="http://opencaesar.io/oml#ReverseRelation"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://example.com/LeaderOntology/vocabulary/activities#utilizaFerramenta -->
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
 
-    <owl:ObjectProperty rdf:about="http://example.com/LeaderOntology/vocabulary/activities#utilizaFerramenta">
-        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#Atividade"/>
-        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/toolpractices#Ferramenta"/>
-        <oml:type rdf:resource="http://opencaesar.io/oml#UnreifiedRelation"/>
-    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.com/LeaderOntology/vocabulary/activities#tipoAtividade -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/LeaderOntology/vocabulary/activities#tipoAtividade">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#AtividadeChave"/>
+        <rdfs:range rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#TipoAtividade"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -106,11 +154,13 @@
     
 
 
-    <!-- http://example.com/LeaderOntology/vocabulary/activities#Atividade -->
+    <!-- http://example.com/LeaderOntology/vocabulary/activities#AtividadeChave -->
 
 
-    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/activities#Atividade">
-        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
+    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/activities#AtividadeChave">
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeDescritivel"/>
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeIdentificavel"/>
+        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeNomeavel"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
@@ -123,88 +173,6 @@
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
-    </owl:Class>
-    
-
-
-    <!-- http://example.com/LeaderOntology/vocabulary/activities#AtividadeGestao -->
-
-
-    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/activities#AtividadeGestao">
-        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#Atividade"/>
-        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
-    </owl:Class>
-    
-
-
-    <!-- http://example.com/LeaderOntology/vocabulary/activities#AtividadeInovacao -->
-
-
-    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/activities#AtividadeInovacao">
-        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#Atividade"/>
-        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
-    </owl:Class>
-    
-
-
-    <!-- http://example.com/LeaderOntology/vocabulary/activities#AtividadeTransformacaoDigital -->
-
-
-    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/activities#AtividadeTransformacaoDigital">
-        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#Atividade"/>
-        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
-    </owl:Class>
-    
-
-
-    <!-- http://example.com/LeaderOntology/vocabulary/activities#ProcessoDecisao -->
-
-
-    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/activities#ProcessoDecisao">
-        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/base#EntidadeBase"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
-                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://example.com/LeaderOntology/vocabulary/base#id"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
-    </owl:Class>
-    
-
-
-    <!-- http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoEstrategica -->
-
-
-    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoEstrategica">
-        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#ProcessoDecisao"/>
-        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
-    </owl:Class>
-    
-
-
-    <!-- http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoOperacional -->
-
-
-    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoOperacional">
-        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#ProcessoDecisao"/>
-        <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
-    </owl:Class>
-    
-
-
-    <!-- http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoOrientadaDados -->
-
-
-    <owl:Class rdf:about="http://example.com/LeaderOntology/vocabulary/activities#TomadaDecisaoOrientadaDados">
-        <rdfs:subClassOf rdf:resource="http://example.com/LeaderOntology/vocabulary/activities#ProcessoDecisao"/>
         <oml:type rdf:resource="http://opencaesar.io/oml#Concept"/>
     </owl:Class>
 </rdf:RDF>
