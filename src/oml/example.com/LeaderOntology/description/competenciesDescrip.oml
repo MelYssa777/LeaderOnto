@@ -3,223 +3,202 @@ description <http://example.com/LeaderOntology/description/competenciesDescrip#>
 	uses <http://example.com/LeaderOntology/vocabulary/competencies#> as competencies
 	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
 	
-	//CONHECIMENTOS (QP4) 
-	
-	instance CONH-001 : competencies:Conhecimento [
-		base:nome "Alfabetização Digital"
-		base:id "CONH-001"
-		base:descricao "Compreensão tecnológica fundamental para liderar na era digital"
+	// CONHECIMENTOS - NÍVEL CULTURA DIGITAL
+	instance CONH-01 : competencies:Conhecimento [
+		base:nome "Princípios de Feedback"
+		base:id "CONH-01"
+		base:descricao "Conceitos e princípios de feedback, e ciclos contínuos de retroalimentação"
 	]
-	
-	instance CONH-002 : competencies:Conhecimento [
-		base:nome "Ética da IA"
-		base:id "CONH-003"
-		base:descricao "Conhecimento sobre princípios éticos, justiça, transparência e explicabilidade no uso de IA"
-		]
-	
-	instance CONH-003 : competencies:Conhecimento [
-		base:nome "Visão Estratégica Digital"
-		base:id "CONH-004"
-		base:descricao "Capacidade de desenvolver e comunicar uma visão clara para transformação digital"
+	instance CONH-02 : competencies:Conhecimento [
+		base:nome "Fundamentos Ágeis"
+		base:id "CONH-02"
+		base:descricao "Conceitos, práticas, princípios e valores ágeis, como entrega contínua de valor em curtos espaços de tempo, acomodação a mudanças, trabalho sustentável, gestão visual e autogerida, simplicidade e reflexões sobre o trabalho em equipe"
 	]
-	
-	instance CONH-004 : competencies:Conhecimento [
-		base:nome "Compreensão da Ética em Sistemas de IA"
-		base:id "CONH-005"
-		base:descricao "Entendimento sobre princípios éticos, funcionamento, capacidades e responsabilidade de sistemas de IA"
+	instance CONH-03 : competencies:Conhecimento [
+		base:nome "Inteligência Social"
+		base:id "CONH-03"
+		base:descricao "Inteligência social desenvolvida por meio das relações de trabalho"
 	]
-	
-	instance CONH-005 : competencies:Conhecimento [
-		base:nome "Gestão de Recursos Baseada em Valor (RBV)"
-		base:id "CONH-006"
-		base:descricao "Conhecimento sobre gestão estratégica de recursos para vantagem competitiva"
+	instance CONH-04 : competencies:Conhecimento [
+		base:nome "Leitura Emocional e Corporal"
+		base:id "CONH-04"
+		base:descricao "Compreensão da empatia como a capacidade de se imaginar no lugar do outro, entendendo seus sentimentos e perspectivas; interpretação precisa de sinais emocionais e comportamentais; e leitura da linguagem corporal"
 	]
-	
-	//HABILIDADES DIGITAIS (QP1)
-	
-	instance HAB-001 : competencies:Habilidade [
-		base:nome "Habilidades Técnicas Digitais"
-		base:id "HAB-001"
-		base:descricao "Capacidade de utilizar e implementar ferramentas e tecnologias digitais"
+
+	// CONHECIMENTOS - NÍVEL ATITUDE DIGITAL
+	instance CONH-05 : competencies:Conhecimento [
+		base:nome "Estruturas de Rede"
+		base:id "CONH-05"
+		base:descricao "Estrutura do trabalho e das relações profissionais e interpessoais existentes; e estruturação da rede profissional para compreender quem está envolvido e como aproveitá-la"
 	]
-	
-	instance HAB-002 : competencies:Habilidade [
-		base:nome "Interação Digital"
-		base:id "HAB-002"
-		base:descricao "Capacidade de comunicar e colaborar efetivamente em ambientes digitais"
+	instance CONH-06 : competencies:Conhecimento [
+		base:nome "Liderança Adaptável"
+		base:id "CONH-06"
+		base:descricao "Métodos para aprimorar o desempenho comportamental, como feedback multifontes, modelagem comportamental, personas e coaching executivo; e o conceito de liderança adaptável"
 	]
-	
-	instance HAB-003 : competencies:Habilidade [
-		base:nome "Análise Digital"
-		base:id "HAB-003"
-		base:descricao "Habilidade de analisar dados e informações digitais para insights acionáveis"
+	instance CONH-07 : competencies:Conhecimento [
+		base:nome "Ecossistema de Inovação"
+		base:id "CONH-07"
+		base:descricao "Mentalidade, práticas, métodos e ferramentas de inovação; e abordagens práticas e experimentais"
 	]
-	
-	instance HAB-004 : competencies:Habilidade [
-		base:nome "Pensamento Digital"
-		base:id "HAB-004"
-		base:descricao "Capacidade de pensar estrategicamente sobre soluções digitais e inovação"
+	instance CONH-08 : competencies:Conhecimento [
+		base:nome "Canais de Comunicação"
+		base:id "CONH-08"
+		base:descricao "Domínio de diferentes meios e canais de comunicação; e recursos semióticos, verbais e não verbais"
 	]
-	
-	//HABILIDADES DIGITAIS (QP4)
-	
-	instance HAB-005 : competencies:Habilidade [
-		base:nome "Autoeficácia em Aprendizagem de IA"
-		base:id "HAB-005"
-		base:descricao "Confiança e capacidade de aprender e utilizar sistemas de IA efetivamente"
+
+	// CONHECIMENTOS - NÍVEL TRANSFORMAÇÃO DIGITAL
+	instance CONH-09 : competencies:Conhecimento [
+		base:nome "Liderança Compartilhada"
+		base:id "CONH-09"
+		base:descricao "Práticas de desenvolvimento de liderança; técnicas de seleção e identificação de perfis de liderança; e conceitos de liderança compartilhada"
 	]
-	
-	//HABILIDADES COGNITIVAS (QP1)
-	
-	instance HAB-006 : competencies:Habilidade [
-		base:nome "Pensamento Crítico"
-		base:id "HAB-006"
-		base:descricao "Capacidade de avaliar situações complexas e tomar decisões fundamentadas"
+	instance CONH-10 : competencies:Conhecimento [
+		base:nome "Estruturas de Autogestão"
+		base:id "CONH-10"
+		base:descricao "Práticas de orientação que oferecem estrutura de gestão sem instruções rígidas que impeçam a autogestão; e adoção de práticas ágeis para manter a equipe integrada, motivada e sem impedimentos"
 	]
-	
-	instance HAB-007 : competencies:Habilidade [
-		base:nome "Resolução de Problemas"
-		base:id "HAB-007"
-		base:descricao "Habilidade de identificar problemas e desenvolver soluções inovadoras"
+	instance CONH-11 : competencies:Conhecimento [
+		base:nome "Dinâmicas de Colaboração"
+		base:id "CONH-11"
+		base:descricao "Práticas de gestão voltadas à criação de um ambiente propício e favorável ao trabalho colaborativo"
 	]
-	
-	instance HAB-008 : competencies:Habilidade [
-		base:nome "Tomada de Decisão Informada"
-		base:id "HAB-008"
-		base:descricao "Capacidade de tomar decisões baseadas em análise de dados e informações relevantes"
+	instance CONH-12 : competencies:Conhecimento [
+		base:nome "Aprendizado com Erros"
+		base:id "CONH-12"
+		base:descricao "Medidas reativas e proativas para resolução de problemas, aprendidas a partir de experiências vividas e lições aprendidas"
 	]
-	
-	//HABILIDADES COGNITIVAS (QP1)
-	
-	instance HAB-009 : competencies:Habilidade [
-		base:nome "Capacidade de Decisão Estratégica"
-		base:id "HAB-009"
-		base:descricao "Habilidade de tomar decisões estratégicas integrando resultados de IA com julgamento humano"
+//Instâncias de Habilidade (Skills)
+	// HABILIDADES - NÍVEL CULTURA DIGITAL
+	instance HAB-01 : competencies:Habilidade [
+		base:nome "Gestão de Ciclos de Feedback"
+		base:id "HAB-01"
+		base:descricao "Promover ciclos de feedback e definir seu escopo no fluxo de trabalho da equipe; utilizar informações e lições aprendidas para o planejamento futuro; cultivar diálogos produtivos; e fomentar uma abertura que respeite as diferenças individuais sem comprometer o ambiente organizacional"
 	]
-	
-	// HABILIDADES SOCIOEMOCIONAIS (QP4)
-	
-	instance HAB-010 : competencies:Habilidade [
-		base:nome "Inteligência Emocional"
-		base:id "HAB-010"
-		base:descricao "Capacidade de reconhecer e gerenciar emoções próprias e dos outros"
+	instance HAB-02 : competencies:Habilidade [
+		base:nome "Resolução Humanística de Problemas"
+		base:id "HAB-02"
+		base:descricao "Gerenciar mudanças com eficácia; empregar uma abordagem humanista na resolução de problemas; utilizar a capacidade coletiva de equipes autônomas; responder a resultados emergentes de equipes autogeridas; e remover obstáculos que impeçam a equipe de atingir seus objetivos"
 	]
-	
-	instance HAB-011 : competencies:Habilidade [
-		base:nome "Curiosidade"
-		base:id "HAB-011"
-		base:descricao "Disposição para explorar, aprender e descobrir novas possibilidades"
+	instance HAB-03 : competencies:Habilidade [
+		base:nome "Adesão Ética"
+		base:id "HAB-03"
+		base:descricao "Integridade para aderir a princípios éticos"
 	]
-	
-	instance HAB-012 : competencies:Habilidade [
-		base:nome "Criatividade"
-		base:id "HAB-012"
-		base:descricao "Capacidade de gerar ideias inovadoras e soluções originais"
+	instance HAB-04 : competencies:Habilidade [
+		base:nome "Resposta Empática"
+		base:id "HAB-04"
+		base:descricao "Cognição, para observar e ser empático com as emoções dos outros; e comunicação, para responder apropriadamente à linguagem corporal das pessoas"
 	]
-	
-	instance HAB-013 : competencies:Habilidade [
-		base:nome "Comunicação Transparente"
-		base:id "HAB-013"
-		base:descricao "Habilidade de comunicar de forma clara, aberta e honesta sobre tecnologias e mudanças"
+
+	// HABILIDADES - NÍVEL ATITUDE DIGITAL
+	instance HAB-05 : competencies:Habilidade [
+		base:nome "Negociação e Articulação"
+		base:id "HAB-05"
+		base:descricao "Comunicar e conscientizar sobre como lidar com um problema; disseminar informações de forma precisa, oportuna e clara; negociar, sabendo o momento certo de avançar ou recuar; e gerenciar conflitos por meio de soluções ganha-ganha"
 	]
-	
-	instance HAB-014 : competencies:Habilidade [
-		base:nome "Consideração Individualizada"
-		base:id "HAB-014"
-		base:descricao "Capacidade de compreender e atender necessidades individuais dos membros da equipe"
+	instance HAB-06 : competencies:Habilidade [
+		base:nome "Ajuste Estratégico Rápido"
+		base:id "HAB-06"
+		base:descricao "Diagnosticar situações adversas e ativar o comportamento adequado ao contexto; equilibrar valores conflitantes, como controle versus empoderamento; responder rapidamente a eventos inesperados; e ajustar estratégias e táticas frente a ameaças ou oportunidades"
 	]
-	
-	instance HAB-015 : competencies:Habilidade [
-		base:nome "Capacidade de Mentoria"
-		base:id "HAB-015"
-		base:descricao "Habilidade de orientar, desenvolver e capacitar membros da equipe"
+	instance HAB-07 : competencies:Habilidade [
+		base:nome "Mentoria para Inovação"
+		base:id "HAB-07"
+		base:descricao "Guiar e inspirar os subordinados a darem o seu melhor; apoiá-los na tomada de riscos e em atividades de mudança e inovação; e adotar sistemas de recompensa flexíveis e incrementais que valorizem pequenas conquistas"
 	]
-	
-	// HABILIDADES DE GESTÃO (QP4)
-	
-	instance HAB-016 : competencies:Habilidade [
-		base:nome "Planejamento Estratégico"
-		base:id "HAB-016"
-		base:descricao "Capacidade de planejar e executar estratégias de transformação digital"
+	instance HAB-08 : competencies:Habilidade [
+		base:nome "Otimização de Mensagens"
+		base:id "HAB-08"
+		base:descricao "Usar recursos semióticos de acordo com os objetivos, situações e destinatários da mensagem; diagnosticar, mitigar e resolver falhas de comunicação; e empregar um estilo de interação positivo e favorável"
 	]
-	
-	instance HAB-017 : competencies:Habilidade[
-		base:nome "Capacidade de Empoderar Equipes"
-		base:id "HAB-017"
-		base:descricao "Habilidade de dar autonomia e suporte ao desenvolvimento das equipes"
+
+	// HABILIDADES - NÍVEL TRANSFORMAÇÃO DIGITAL
+	instance HAB-09 : competencies:Habilidade [
+		base:nome "Delegação Participativa"
+		base:id "HAB-09"
+		base:descricao "Identificar entre os membros da equipe aqueles com potencial de liderança e delegar tarefas de gestão quando apropriado; e encorajar a tomada de decisão compartilhada e espontânea, sem necessidade de supervisão estrita"
 	]
-	
-	instance HAB-018 : competencies:Habilidade [
-		base:nome "Agilidade Organizacional"
-		base:id "HAB-018"
-		base:descricao "Capacidade de adaptar rapidamente a organização a mudanças e novas demandas"
+	instance HAB-10 : competencies:Habilidade [
+		base:nome "Transmissão de Visão de Futuro"
+		base:id "HAB-10"
+		base:descricao "Inteligência emocional; reconhecimento e respeito à dinâmica de trabalho da equipe; manutenção da integração do time; promoção de um ambiente de trabalho saudável; e construção e transmissão eficaz da visão de futuro para guiar o trabalho autogerido"
 	]
-	
-	instance HAB-019 : competencies:Habilidade [
-		base:nome "Gestão de Mudança"
-		base:id "HAB-019"
-		base:descricao "Habilidade de liderar processos de mudança organizacional e reduzir resistências"
+	instance HAB-11 : competencies:Habilidade [
+		base:nome "Liderança pelo Exemplo"
+		base:id "HAB-11"
+		base:descricao "Avaliar o nível de maturidade da equipe e adotar o estilo de gestão adequado para fomentar colaboração e boas relações; e liderar pelo exemplo, exibindo comportamentos que apoiem a equipe"
 	]
-	
-	instance HAB-020 : competencies:Habilidade [
-		base:nome "Redesenho de Trabalho"
-		base:id "HAB-020"
-		base:descricao "Capacidade de redesenhar funções e processos de trabalho com integração de IA"
+	instance HAB-12 : competencies:Habilidade [
+		base:nome "Crescimento sob Adversidade"
+		base:id "HAB-12"
+		base:descricao "Resistir e responder positivamente a situações adversas ou mudanças, internas e externas, sem afetar a coesão e o desempenho da equipe; e transformar adversidades em oportunidades de desenvolvimento individual e coletivo"
 	]
-	
-	//MINDSETS (QP4) 
-	
-	instance ATI-001 : competencies:Atitude [
-		base:nome "Mindset Centrado no Ser Humano"
-		base:id "ATI-001"
-		base:descricao "Mentalidade que prioriza o bem-estar, autonomia e desenvolvimento humano na adoção de IA"
+//Instâncias de Atitude (Attitudes and Values)
+	// ATITUDES - NÍVEL CULTURA DIGITAL
+	instance ATI-01 : competencies:Atitude [
+		base:nome "Cultura de Transparência"
+		base:id "ATI-01"
+		base:descricao "Promover comunicação aberta; oferecer e receber feedback; estar aberto a críticas; alinhar metas organizacionais às demandas da força de trabalho; e encorajar a expressão de ideias e opiniões sobre o ambiente de trabalho e o comportamento de líderes e colegas"
 	]
-	
-	instance ATI-002 : competencies:Atitude [
-		base:nome "Mentalidade de Crescimento"
-		base:id "ATI-002"
-		base:descricao "Disposição para aprendizado contínuo, experimentação e aceitação de falhas como oportunidades"
+	instance ATI-02 : competencies:Atitude [
+		base:nome "Orientação à Experimentação"
+		base:id "ATI-02"
+		base:descricao "Definir a estratégia; considerar diferentes cenários; manter diversas alternativas; identificar fragilidades; experimentar ideias; aprender com os erros; e incentivar feedback, adaptação e colaboração"
 	]
-	
-	instance ATI-003 : competencies:Atitude [
-		base:nome "Mentalidade Flexível e Experimental"
-		base:id "ATI-003"
-		base:descricao "Abertura para experimentação, eliminação do medo do fracasso e adaptabilidade"
+	instance ATI-03 : competencies:Atitude [
+		base:nome "Senso de Justiça"
+		base:id "ATI-03"
+		base:descricao "Demonstrar senso de justiça e transparência; promover um processo aberto e direto na resolução de conflitos; mostrar preocupação em apoiar e empoderar os subordinados; e oferecer oportunidades de participação da equipe na tomada de decisão"
 	]
-	
-	instance ATI-004 : competencies:Atitude [
-		base:nome "Princípios Éticos"
-		base:id "ATI-004"
-		base:descricao "Valores éticos profundamente incorporados que guiam decisões sobre uso de IA"
+	instance ATI-04 : competencies:Atitude [
+		base:nome "Criação de Vínculos Emocionais"
+		base:id "ATI-04"
+		base:descricao "Ouvir e tratar cada pessoa de forma única; compartilhar sentimentos e motivações; estimular exercícios de empatia na equipe; construir vínculos emocionais entre os membros; e fortalecer a identidade do grupo por meio de atitudes intergrupais mais positivas"
 	]
-	
-	instance ATI-005 : competencies:Atitude [
-		base:nome "Uso Ético da IA"
-		base:id "ATI-005"
-		base:descricao "Compromisso com práticas éticas, justas e transparentes no uso de tecnologias de IA"
+
+	// ATITUDES - NÍVEL ATITUDE DIGITAL
+	instance ATI-05 : competencies:Atitude [
+		base:nome "Ética na Informação"
+		base:id "ATI-05"
+		base:descricao "Estabelecer relações de confiança, usar a informação de forma ética e manter sigilo; e compartilhar recursos (informação, serviços, acesso e poder) de forma reciprocada para manter reputação, alianças e posição"
 	]
-	
-	instance ATI-006 : competencies:Atitude [
-		base:nome "Hiperconsciência"
-		base:id "ATI-006"
-		base:descricao "Consciência elevada sobre mudanças no ambiente e capacidade de antecipar tendências"
+	instance ATI-06 : competencies:Atitude [
+		base:nome "Flexibilidade de Padrão"
+		base:id "ATI-06"
+		base:descricao "Reconhecer e incentivar competências relevantes dos subordinados, facilitando sua independência e adaptabilidade; alternar entre padrões de liderança mais ou menos centralizados conforme a necessidade do grupo; e demonstrar flexibilidade comportamental conforme tarefas e pessoas"
 	]
-	
-	instance ATI-007 : competencies:Atitude [
-		base:nome "Execução Rápida"
-		base:id "ATI-007"
-		base:descricao "Capacidade de implementar decisões e mudanças com velocidade e eficiência"
+	instance ATI-07 : competencies:Atitude [
+		base:nome "Redução de Barreiras"
+		base:id "ATI-07"
+		base:descricao "Reduzir ou eliminar barreiras internas à inovação, como medo de riscos e falhas e centralização do conhecimento; apoiar e confiar no trabalho da equipe; valorizar contribuições individuais; promover indivíduos criativos; definir metas e desafios equilibrados; e desenvolver espaços físicos e psicológicos que incentivem a troca de ideias"
 	]
-	
-	instance ATI-008 : competencies:Atitude [
-		base:nome "Visão Inspiradora e de Futuro"
-		base:id "ATI-008"
-		base:descricao "Capacidade de articular uma visão clara, inspiradora e orientada para o futuro"
+	instance ATI-08 : competencies:Atitude [
+		base:nome "Comunicação Honesta"
+		base:id "ATI-08"
+		base:descricao "Adotar transparência na comunicação interna, baseada em informações honestas, relevantes e úteis para manter ou aprimorar relacionamentos; e buscar feedback da equipe"
 	]
-	
-	instance ATI-009 : competencies:Atitude [
-		base:nome "Mentalidade de Agente de Mudança"
-		base:id "ATI-009"
-		base:descricao "Disposição proativa para promover e liderar transformações organizacionais"
+
+	// ATITUDES - NÍVEL TRANSFORMAÇÃO DIGITAL
+	instance ATI-09 : competencies:Atitude [
+		base:nome "Confiança na Competência"
+		base:id "ATI-09"
+		base:descricao "Delegar a tomada de decisão ao membro da equipe que possui a competência necessária para resolver problemas específicos; e fomentar confiança para a tomada de decisão dentro do time"
 	]
+	instance ATI-10 : competencies:Atitude [
+		base:nome "Facilitação de Resultados"
+		base:id "ATI-10"
+		base:descricao "Atuar como facilitador, gerenciando com foco em resultados e removendo obstáculos que dificultem o funcionamento de equipes autogeridas; e compreender as características e preferências individuais dos membros, identificando o que os motiva"
+	]
+	instance ATI-11 : competencies:Atitude [
+		base:nome "Empoderamento Coletivo"
+		base:id "ATI-11"
+		base:descricao "Colaborar ativamente com a equipe, aconselhando, dando feedback, apoiando, incentivando e removendo impedimentos; respeitar competências individuais; encorajar e nutrir o empoderamento e a tomada de riscos; e fomentar uma cultura de confiança onde as competências individuais fortalecem a equipe"
+	]
+	instance ATI-12 : competencies:Atitude [
+		base:nome "Influência na Autoconfiança"
+		base:id "ATI-12"
+		base:descricao "Influenciar a equipe para que seja mais confiante ao lidar com falhas, assumir riscos e realizar ações inovadoras e criativas"
+	]
+
 }

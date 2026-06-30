@@ -15,7 +15,8 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		base:nome "Liderança Transformacional"
 		base:id "LID-001"
 		base:descricao "Estilo de liderança que inspira e motiva mudanças através de visão compartilhada, consideração individual e estímulo intelectual"
-		leadershipStyles:requer competenciesDescrip:HAB-010, competenciesDescrip:HAB-014, competenciesDescrip:HAB-015, competenciesDescrip:ATI-004
+		leadershipStyles:requer competenciesDescrip:ATI-04, competenciesDescrip:HAB-07, competenciesDescrip:ATI-02, competenciesDescrip:HAB-10
+		leadershipStyles:requer competenciesDescrip:ATI-04, competenciesDescrip:HAB-07, competenciesDescrip:ATI-02, competenciesDescrip:HAB-10
 		leadershipStyles:realiza activitiesDescrip:ATIV-002, activitiesDescrip:ATIV-TD-002
 		leadershipStyles:resulta impactsDescrip:IMP-002, impactsDescrip:IMP-003
 		leadershipStyles:tipoEstilo "transformacional"
@@ -25,7 +26,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		base:nome "Liderança Transformacional Aprimorada por IA"
 		base:id "LID-002"
 		base:descricao "Liderança transformacional que utiliza sistemas de IA para análise em tempo real e tomada de decisão informada"
-		leadershipStyles:requer competenciesDescrip:CONH-005, competenciesDescrip:HAB-005, competenciesDescrip:HAB-010
+		leadershipStyles:requer competenciesDescrip:CONH-08, competenciesDescrip:HAB-06, competenciesDescrip:HAB-07, competenciesDescrip:ATI-12
 		leadershipStyles:realiza activitiesDescrip:ATIV-001, activitiesDescrip:ATIV-003, activitiesDescrip:ATIV-007, activitiesDescrip:ATIV-008
 		leadershipStyles:resulta impactsDescrip:IMP-001
 		leadershipStyles:tipoEstilo "transformacional"
@@ -35,7 +36,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		base:nome "Liderança Empoderadora"
 		base:id "LID-003"
 		base:descricao "Estilo que promove autonomia, suporte ao desenvolvimento e capacitação das equipes"
-		leadershipStyles:requer competenciesDescrip:HAB-017, competenciesDescrip:HAB-019
+		leadershipStyles:requer competenciesDescrip:HAB-09, competenciesDescrip:ATI-09, competenciesDescrip:ATI-11, competenciesDescrip:CONH-06
 		leadershipStyles:realiza activitiesDescrip:ATIV-AP-001, activitiesDescrip:ATIV-TD-002
 		leadershipStyles:resulta impactsDescrip:IMP-004
 		leadershipStyles:tipoEstilo "empoderadora"
@@ -45,7 +46,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		base:nome "Liderança Generativa"
 		base:id "LID-004"
 		base:descricao "Estilo que promove laços interpessoais, participação ampla, assunção de riscos e uso de inteligência coletiva"
-		leadershipStyles:requer competenciesDescrip:HAB-011, competenciesDescrip:HAB-012, competenciesDescrip:ATI-009
+		leadershipStyles:requer competenciesDescrip:CONH-07, competenciesDescrip:CONH-11, competenciesDescrip:ATI-04, competenciesDescrip:ATI-07
 		leadershipStyles:realiza  activitiesDescrip:ATIV-IN-001, activitiesDescrip:ATIV-IN-002
 		leadershipStyles:resulta impactsDescrip:IMP-003, impactsDescrip:IMP-004 
 		leadershipStyles:tipoEstilo "generativa"
@@ -55,7 +56,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		base:nome "Liderança Ágil"
 		base:id "LID-005"
 		base:descricao "Liderança caracterizada por hiperconsciência, tomada de decisão informada e execução rápida"
-		leadershipStyles:requer competenciesDescrip:ATI-006, competenciesDescrip:ATI-007, competenciesDescrip:HAB-008, competenciesDescrip:HAB-018
+		leadershipStyles:requer competenciesDescrip:CONH-02, competenciesDescrip:HAB-06, competenciesDescrip:ATI-06, competenciesDescrip:ATI-02
 		leadershipStyles:realiza activitiesDescrip:ATIV-001, activitiesDescrip:ATIV-IN-001, activitiesDescrip:ATIV-TD-001, activitiesDescrip:ATIV-TD-002
 		leadershipStyles:resulta impactsDescrip:IMP-007
 		leadershipStyles:tipoEstilo "agil"
@@ -66,7 +67,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		base:id "LID-006"
 		base:descricao "Liderança baseada em autenticidade, integridade e valores genuínoscompondo 
 	— junto à liderança transacional e transformacional — as dimensões humanas da liderança digital"
-		leadershipStyles:requer competenciesDescrip:ATI-004
+		leadershipStyles:requer competenciesDescrip:HAB-03, competenciesDescrip:ATI-03, competenciesDescrip:HAB-10, competenciesDescrip:ATI-06
 		leadershipStyles:realiza activitiesDescrip:ATIV-AP-001, activitiesDescrip:ATIV-TD-002
 		leadershipStyles:resulta impactsDescrip:IMP-004
 		leadershipStyles:tipoEstilo "transacional"
@@ -76,7 +77,8 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		base:id "LID-007"
 		base:nome "Liderança Digital"
 		base:descricao "Estilo que combina perspicácia digital, tomada de decisão orientada por dados e cultura de inovação para guiar a transformação digital e gerar vantagem competitiva sustentável."
-		leadershipStyles:requer competenciesDescrip:CONH-001, competenciesDescrip:HAB-001, competenciesDescrip:HAB-002, competenciesDescrip:HAB-016, competenciesDescrip:ATI-006, competenciesDescrip:ATI-009
+		leadershipStyles:requer competenciesDescrip:CONH-07, competenciesDescrip:HAB-06, competenciesDescrip:HAB-11, competenciesDescrip:HAB-07,
+		 competenciesDescrip:ATI-07
 		leadershipStyles:realiza activitiesDescrip:ATIV-001, activitiesDescrip:ATIV-004, activitiesDescrip:ATIV-IN-001, activitiesDescrip:ATIV-IN-002,
 		 activitiesDescrip:ATIV-TD-001, activitiesDescrip:ATIV-TD-002
 		leadershipStyles:resulta impactsDescrip:IMP-003, impactsDescrip:IMP-005, impactsDescrip:IMP-006

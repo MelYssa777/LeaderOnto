@@ -64,443 +64,469 @@
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-001 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-01 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-001">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-01">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Atitude"/>
-        <base:descricao>Mentalidade que prioriza o bem-estar, autonomia e desenvolvimento humano na adoção de IA</base:descricao>
-        <base:id>ATI-001</base:id>
-        <base:nome>Mindset Centrado no Ser Humano</base:nome>
+        <base:descricao>Promover comunicação aberta; oferecer e receber feedback; estar aberto a críticas; alinhar metas organizacionais às demandas da força de trabalho; e encorajar a expressão de ideias e opiniões sobre o ambiente de trabalho e o comportamento de líderes e colegas</base:descricao>
+        <base:id>ATI-01</base:id>
+        <base:nome>Cultura de Transparência</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-002 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-02 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-002">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-02">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Atitude"/>
-        <base:descricao>Disposição para aprendizado contínuo, experimentação e aceitação de falhas como oportunidades</base:descricao>
-        <base:id>ATI-002</base:id>
-        <base:nome>Mentalidade de Crescimento</base:nome>
+        <base:descricao>Definir a estratégia; considerar diferentes cenários; manter diversas alternativas; identificar fragilidades; experimentar ideias; aprender com os erros; e incentivar feedback, adaptação e colaboração</base:descricao>
+        <base:id>ATI-02</base:id>
+        <base:nome>Orientação à Experimentação</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-003 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-03 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-003">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-03">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Atitude"/>
-        <base:descricao>Abertura para experimentação, eliminação do medo do fracasso e adaptabilidade</base:descricao>
-        <base:id>ATI-003</base:id>
-        <base:nome>Mentalidade Flexível e Experimental</base:nome>
+        <base:descricao>Demonstrar senso de justiça e transparência; promover um processo aberto e direto na resolução de conflitos; mostrar preocupação em apoiar e empoderar os subordinados; e oferecer oportunidades de participação da equipe na tomada de decisão</base:descricao>
+        <base:id>ATI-03</base:id>
+        <base:nome>Senso de Justiça</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-004 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-04 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-004">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-04">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Atitude"/>
-        <base:descricao>Valores éticos profundamente incorporados que guiam decisões sobre uso de IA</base:descricao>
-        <base:id>ATI-004</base:id>
-        <base:nome>Princípios Éticos</base:nome>
+        <base:descricao>Ouvir e tratar cada pessoa de forma única; compartilhar sentimentos e motivações; estimular exercícios de empatia na equipe; construir vínculos emocionais entre os membros; e fortalecer a identidade do grupo por meio de atitudes intergrupais mais positivas</base:descricao>
+        <base:id>ATI-04</base:id>
+        <base:nome>Criação de Vínculos Emocionais</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-005 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-05 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-005">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-05">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Atitude"/>
-        <base:descricao>Compromisso com práticas éticas, justas e transparentes no uso de tecnologias de IA</base:descricao>
-        <base:id>ATI-005</base:id>
-        <base:nome>Uso Ético da IA</base:nome>
+        <base:descricao>Estabelecer relações de confiança, usar a informação de forma ética e manter sigilo; e compartilhar recursos (informação, serviços, acesso e poder) de forma reciprocada para manter reputação, alianças e posição</base:descricao>
+        <base:id>ATI-05</base:id>
+        <base:nome>Ética na Informação</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-006 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-06 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-006">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-06">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Atitude"/>
-        <base:descricao>Consciência elevada sobre mudanças no ambiente e capacidade de antecipar tendências</base:descricao>
-        <base:id>ATI-006</base:id>
-        <base:nome>Hiperconsciência</base:nome>
+        <base:descricao>Reconhecer e incentivar competências relevantes dos subordinados, facilitando sua independência e adaptabilidade; alternar entre padrões de liderança mais ou menos centralizados conforme a necessidade do grupo; e demonstrar flexibilidade comportamental conforme tarefas e pessoas</base:descricao>
+        <base:id>ATI-06</base:id>
+        <base:nome>Flexibilidade de Padrão</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-007 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-07 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-007">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-07">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Atitude"/>
-        <base:descricao>Capacidade de implementar decisões e mudanças com velocidade e eficiência</base:descricao>
-        <base:id>ATI-007</base:id>
-        <base:nome>Execução Rápida</base:nome>
+        <base:descricao>Reduzir ou eliminar barreiras internas à inovação, como medo de riscos e falhas e centralização do conhecimento; apoiar e confiar no trabalho da equipe; valorizar contribuições individuais; promover indivíduos criativos; definir metas e desafios equilibrados; e desenvolver espaços físicos e psicológicos que incentivem a troca de ideias</base:descricao>
+        <base:id>ATI-07</base:id>
+        <base:nome>Redução de Barreiras</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-008 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-08 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-008">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-08">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Atitude"/>
-        <base:descricao>Capacidade de articular uma visão clara, inspiradora e orientada para o futuro</base:descricao>
-        <base:id>ATI-008</base:id>
-        <base:nome>Visão Inspiradora e de Futuro</base:nome>
+        <base:descricao>Adotar transparência na comunicação interna, baseada em informações honestas, relevantes e úteis para manter ou aprimorar relacionamentos; e buscar feedback da equipe</base:descricao>
+        <base:id>ATI-08</base:id>
+        <base:nome>Comunicação Honesta</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-009 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-09 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-009">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-09">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Atitude"/>
-        <base:descricao>Disposição proativa para promover e liderar transformações organizacionais</base:descricao>
-        <base:id>ATI-009</base:id>
-        <base:nome>Mentalidade de Agente de Mudança</base:nome>
+        <base:descricao>Delegar a tomada de decisão ao membro da equipe que possui a competência necessária para resolver problemas específicos; e fomentar confiança para a tomada de decisão dentro do time</base:descricao>
+        <base:id>ATI-09</base:id>
+        <base:nome>Confiança na Competência</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-001 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-10 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-001">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-10">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Atitude"/>
+        <base:descricao>Atuar como facilitador, gerenciando com foco em resultados e removendo obstáculos que dificultem o funcionamento de equipes autogeridas; e compreender as características e preferências individuais dos membros, identificando o que os motiva</base:descricao>
+        <base:id>ATI-10</base:id>
+        <base:nome>Facilitação de Resultados</base:nome>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-11 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-11">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Atitude"/>
+        <base:descricao>Colaborar ativamente com a equipe, aconselhando, dando feedback, apoiando, incentivando e removendo impedimentos; respeitar competências individuais; encorajar e nutrir o empoderamento e a tomada de riscos; e fomentar uma cultura de confiança onde as competências individuais fortalecem a equipe</base:descricao>
+        <base:id>ATI-11</base:id>
+        <base:nome>Empoderamento Coletivo</base:nome>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#ATI-12 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-12">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Atitude"/>
+        <base:descricao>Influenciar a equipe para que seja mais confiante ao lidar com falhas, assumir riscos e realizar ações inovadoras e criativas</base:descricao>
+        <base:id>ATI-12</base:id>
+        <base:nome>Influência na Autoconfiança</base:nome>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-01 -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-01">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
-        <base:descricao>Compreensão tecnológica fundamental para liderar na era digital</base:descricao>
-        <base:id>CONH-001</base:id>
-        <base:nome>Alfabetização Digital</base:nome>
+        <base:descricao>Conceitos e princípios de feedback, e ciclos contínuos de retroalimentação</base:descricao>
+        <base:id>CONH-01</base:id>
+        <base:nome>Princípios de Feedback</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-002 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-02 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-002">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-02">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
-        <base:descricao>Conhecimento sobre princípios éticos, justiça, transparência e explicabilidade no uso de IA</base:descricao>
-        <base:id>CONH-003</base:id>
-        <base:nome>Ética da IA</base:nome>
+        <base:descricao>Conceitos, práticas, princípios e valores ágeis, como entrega contínua de valor em curtos espaços de tempo, acomodação a mudanças, trabalho sustentável, gestão visual e autogerida, simplicidade e reflexões sobre o trabalho em equipe</base:descricao>
+        <base:id>CONH-02</base:id>
+        <base:nome>Fundamentos Ágeis</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-003 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-03 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-003">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-03">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
-        <base:descricao>Capacidade de desenvolver e comunicar uma visão clara para transformação digital</base:descricao>
-        <base:id>CONH-004</base:id>
-        <base:nome>Visão Estratégica Digital</base:nome>
+        <base:descricao>Inteligência social desenvolvida por meio das relações de trabalho</base:descricao>
+        <base:id>CONH-03</base:id>
+        <base:nome>Inteligência Social</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-004 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-04 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-004">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-04">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
-        <base:descricao>Entendimento sobre princípios éticos, funcionamento, capacidades e responsabilidade de sistemas de IA</base:descricao>
-        <base:id>CONH-005</base:id>
-        <base:nome>Compreensão da Ética em Sistemas de IA</base:nome>
+        <base:descricao>Compreensão da empatia como a capacidade de se imaginar no lugar do outro, entendendo seus sentimentos e perspectivas; interpretação precisa de sinais emocionais e comportamentais; e leitura da linguagem corporal</base:descricao>
+        <base:id>CONH-04</base:id>
+        <base:nome>Leitura Emocional e Corporal</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-005 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-05 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-005">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-05">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
-        <base:descricao>Conhecimento sobre gestão estratégica de recursos para vantagem competitiva</base:descricao>
-        <base:id>CONH-006</base:id>
-        <base:nome>Gestão de Recursos Baseada em Valor (RBV)</base:nome>
+        <base:descricao>Estrutura do trabalho e das relações profissionais e interpessoais existentes; e estruturação da rede profissional para compreender quem está envolvido e como aproveitá-la</base:descricao>
+        <base:id>CONH-05</base:id>
+        <base:nome>Estruturas de Rede</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-001 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-06 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-001">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Capacidade de utilizar e implementar ferramentas e tecnologias digitais</base:descricao>
-        <base:id>HAB-001</base:id>
-        <base:nome>Habilidades Técnicas Digitais</base:nome>
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-06">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+        <base:descricao>Métodos para aprimorar o desempenho comportamental, como feedback multifontes, modelagem comportamental, personas e coaching executivo; e o conceito de liderança adaptável</base:descricao>
+        <base:id>CONH-06</base:id>
+        <base:nome>Liderança Adaptável</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-002 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-07 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-002">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Capacidade de comunicar e colaborar efetivamente em ambientes digitais</base:descricao>
-        <base:id>HAB-002</base:id>
-        <base:nome>Interação Digital</base:nome>
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-07">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+        <base:descricao>Mentalidade, práticas, métodos e ferramentas de inovação; e abordagens práticas e experimentais</base:descricao>
+        <base:id>CONH-07</base:id>
+        <base:nome>Ecossistema de Inovação</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-003 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-08 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-003">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Habilidade de analisar dados e informações digitais para insights acionáveis</base:descricao>
-        <base:id>HAB-003</base:id>
-        <base:nome>Análise Digital</base:nome>
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-08">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+        <base:descricao>Domínio de diferentes meios e canais de comunicação; e recursos semióticos, verbais e não verbais</base:descricao>
+        <base:id>CONH-08</base:id>
+        <base:nome>Canais de Comunicação</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-004 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-09 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-004">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Capacidade de pensar estrategicamente sobre soluções digitais e inovação</base:descricao>
-        <base:id>HAB-004</base:id>
-        <base:nome>Pensamento Digital</base:nome>
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-09">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+        <base:descricao>Práticas de desenvolvimento de liderança; técnicas de seleção e identificação de perfis de liderança; e conceitos de liderança compartilhada</base:descricao>
+        <base:id>CONH-09</base:id>
+        <base:nome>Liderança Compartilhada</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-10 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Confiança e capacidade de aprender e utilizar sistemas de IA efetivamente</base:descricao>
-        <base:id>HAB-005</base:id>
-        <base:nome>Autoeficácia em Aprendizagem de IA</base:nome>
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-10">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+        <base:descricao>Práticas de orientação que oferecem estrutura de gestão sem instruções rígidas que impeçam a autogestão; e adoção de práticas ágeis para manter a equipe integrada, motivada e sem impedimentos</base:descricao>
+        <base:id>CONH-10</base:id>
+        <base:nome>Estruturas de Autogestão</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-006 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-11 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-006">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Capacidade de avaliar situações complexas e tomar decisões fundamentadas</base:descricao>
-        <base:id>HAB-006</base:id>
-        <base:nome>Pensamento Crítico</base:nome>
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-11">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+        <base:descricao>Práticas de gestão voltadas à criação de um ambiente propício e favorável ao trabalho colaborativo</base:descricao>
+        <base:id>CONH-11</base:id>
+        <base:nome>Dinâmicas de Colaboração</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-007 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#CONH-12 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-007">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Habilidade de identificar problemas e desenvolver soluções inovadoras</base:descricao>
-        <base:id>HAB-007</base:id>
-        <base:nome>Resolução de Problemas</base:nome>
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-12">
+        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Conhecimento"/>
+        <base:descricao>Medidas reativas e proativas para resolução de problemas, aprendidas a partir de experiências vividas e lições aprendidas</base:descricao>
+        <base:id>CONH-12</base:id>
+        <base:nome>Aprendizado com Erros</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-008 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-01 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-008">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-01">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Capacidade de tomar decisões baseadas em análise de dados e informações relevantes</base:descricao>
-        <base:id>HAB-008</base:id>
-        <base:nome>Tomada de Decisão Informada</base:nome>
+        <base:descricao>Promover ciclos de feedback e definir seu escopo no fluxo de trabalho da equipe; utilizar informações e lições aprendidas para o planejamento futuro; cultivar diálogos produtivos; e fomentar uma abertura que respeite as diferenças individuais sem comprometer o ambiente organizacional</base:descricao>
+        <base:id>HAB-01</base:id>
+        <base:nome>Gestão de Ciclos de Feedback</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-009 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-02 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-009">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-02">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Habilidade de tomar decisões estratégicas integrando resultados de IA com julgamento humano</base:descricao>
-        <base:id>HAB-009</base:id>
-        <base:nome>Capacidade de Decisão Estratégica</base:nome>
+        <base:descricao>Gerenciar mudanças com eficácia; empregar uma abordagem humanista na resolução de problemas; utilizar a capacidade coletiva de equipes autônomas; responder a resultados emergentes de equipes autogeridas; e remover obstáculos que impeçam a equipe de atingir seus objetivos</base:descricao>
+        <base:id>HAB-02</base:id>
+        <base:nome>Resolução Humanística de Problemas</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-010 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-03 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-010">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-03">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Capacidade de reconhecer e gerenciar emoções próprias e dos outros</base:descricao>
-        <base:id>HAB-010</base:id>
-        <base:nome>Inteligência Emocional</base:nome>
+        <base:descricao>Integridade para aderir a princípios éticos</base:descricao>
+        <base:id>HAB-03</base:id>
+        <base:nome>Adesão Ética</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-011 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-04 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-011">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-04">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Disposição para explorar, aprender e descobrir novas possibilidades</base:descricao>
-        <base:id>HAB-011</base:id>
-        <base:nome>Curiosidade</base:nome>
+        <base:descricao>Cognição, para observar e ser empático com as emoções dos outros; e comunicação, para responder apropriadamente à linguagem corporal das pessoas</base:descricao>
+        <base:id>HAB-04</base:id>
+        <base:nome>Resposta Empática</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-012 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-05 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-012">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-05">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Capacidade de gerar ideias inovadoras e soluções originais</base:descricao>
-        <base:id>HAB-012</base:id>
-        <base:nome>Criatividade</base:nome>
+        <base:descricao>Comunicar e conscientizar sobre como lidar com um problema; disseminar informações de forma precisa, oportuna e clara; negociar, sabendo o momento certo de avançar ou recuar; e gerenciar conflitos por meio de soluções ganha-ganha</base:descricao>
+        <base:id>HAB-05</base:id>
+        <base:nome>Negociação e Articulação</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-013 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-06 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-013">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-06">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Habilidade de comunicar de forma clara, aberta e honesta sobre tecnologias e mudanças</base:descricao>
-        <base:id>HAB-013</base:id>
-        <base:nome>Comunicação Transparente</base:nome>
+        <base:descricao>Diagnosticar situações adversas e ativar o comportamento adequado ao contexto; equilibrar valores conflitantes, como controle versus empoderamento; responder rapidamente a eventos inesperados; e ajustar estratégias e táticas frente a ameaças ou oportunidades</base:descricao>
+        <base:id>HAB-06</base:id>
+        <base:nome>Ajuste Estratégico Rápido</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-014 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-07 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-014">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-07">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Capacidade de compreender e atender necessidades individuais dos membros da equipe</base:descricao>
-        <base:id>HAB-014</base:id>
-        <base:nome>Consideração Individualizada</base:nome>
+        <base:descricao>Guiar e inspirar os subordinados a darem o seu melhor; apoiá-los na tomada de riscos e em atividades de mudança e inovação; e adotar sistemas de recompensa flexíveis e incrementais que valorizem pequenas conquistas</base:descricao>
+        <base:id>HAB-07</base:id>
+        <base:nome>Mentoria para Inovação</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-015 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-08 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-015">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-08">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Habilidade de orientar, desenvolver e capacitar membros da equipe</base:descricao>
-        <base:id>HAB-015</base:id>
-        <base:nome>Capacidade de Mentoria</base:nome>
+        <base:descricao>Usar recursos semióticos de acordo com os objetivos, situações e destinatários da mensagem; diagnosticar, mitigar e resolver falhas de comunicação; e empregar um estilo de interação positivo e favorável</base:descricao>
+        <base:id>HAB-08</base:id>
+        <base:nome>Otimização de Mensagens</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-016 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-09 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-016">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-09">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Capacidade de planejar e executar estratégias de transformação digital</base:descricao>
-        <base:id>HAB-016</base:id>
-        <base:nome>Planejamento Estratégico</base:nome>
+        <base:descricao>Identificar entre os membros da equipe aqueles com potencial de liderança e delegar tarefas de gestão quando apropriado; e encorajar a tomada de decisão compartilhada e espontânea, sem necessidade de supervisão estrita</base:descricao>
+        <base:id>HAB-09</base:id>
+        <base:nome>Delegação Participativa</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-017 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-10 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-017">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-10">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Habilidade de dar autonomia e suporte ao desenvolvimento das equipes</base:descricao>
-        <base:id>HAB-017</base:id>
-        <base:nome>Capacidade de Empoderar Equipes</base:nome>
+        <base:descricao>Inteligência emocional; reconhecimento e respeito à dinâmica de trabalho da equipe; manutenção da integração do time; promoção de um ambiente de trabalho saudável; e construção e transmissão eficaz da visão de futuro para guiar o trabalho autogerido</base:descricao>
+        <base:id>HAB-10</base:id>
+        <base:nome>Transmissão de Visão de Futuro</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-018 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-11 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-018">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-11">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Capacidade de adaptar rapidamente a organização a mudanças e novas demandas</base:descricao>
-        <base:id>HAB-018</base:id>
-        <base:nome>Agilidade Organizacional</base:nome>
+        <base:descricao>Avaliar o nível de maturidade da equipe e adotar o estilo de gestão adequado para fomentar colaboração e boas relações; e liderar pelo exemplo, exibindo comportamentos que apoiem a equipe</base:descricao>
+        <base:id>HAB-11</base:id>
+        <base:nome>Liderança pelo Exemplo</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-019 -->
+    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-12 -->
 
 
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-019">
+    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-12">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Habilidade de liderar processos de mudança organizacional e reduzir resistências</base:descricao>
-        <base:id>HAB-019</base:id>
-        <base:nome>Gestão de Mudança</base:nome>
-        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://example.com/LeaderOntology/description/competenciesDescrip#HAB-020 -->
-
-
-    <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-020">
-        <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/competencies#Habilidade"/>
-        <base:descricao>Capacidade de redesenhar funções e processos de trabalho com integração de IA</base:descricao>
-        <base:id>HAB-020</base:id>
-        <base:nome>Redesenho de Trabalho</base:nome>
+        <base:descricao>Resistir e responder positivamente a situações adversas ou mudanças, internas e externas, sem afetar a coesão e o desempenho da equipe; e transformar adversidades em oportunidades de desenvolvimento individual e coletivo</base:descricao>
+        <base:id>HAB-12</base:id>
+        <base:nome>Crescimento sob Adversidade</base:nome>
         <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
     </owl:NamedIndividual>
 </rdf:RDF>

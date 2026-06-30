@@ -97,8 +97,10 @@
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-001">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-009"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-12"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-07"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-08"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-12"/>
         <base:descricao>Estratégia de implementar e promover práticas de trabalho que utilizam IA para desenvolver resiliência</base:descricao>
         <base:id>EST-001</base:id>
         <base:nome>Promoção de Práticas Habilitadas por IA</base:nome>
@@ -113,8 +115,9 @@
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-002">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-002"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-012"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-02"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-07"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-07"/>
         <base:descricao>Cultivo de ambiente organizacional que valoriza experimentação, criatividade e inovação</base:descricao>
         <base:id>EST-002</base:id>
         <base:nome>Fomento de Cultura de Inovação e Inovação sustentável</base:nome>
@@ -129,10 +132,10 @@
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-003">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-001"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-002"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-001"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-018"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-02"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-06"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-07"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-07"/>
         <base:descricao>Programas estruturados de capacitação contínua em competências digitais e de IA, além da requalificação de colaboradores para lidar com automação e novas tecnologias</base:descricao>
         <base:id>EST-003</base:id>
         <base:nome>Treinamento Contínuo, Desenvolvimento e Capacitação de Funcionários</base:nome>
@@ -147,10 +150,10 @@
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-004">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-005"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-003"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-004"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-03"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-05"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-09"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-03"/>
         <base:descricao>Construção de confiança organizacional nas capacidades e uso ético de sistemas de IA</base:descricao>
         <base:id>EST-005</base:id>
         <base:nome>Promoção de Confiança na IA</base:nome>
@@ -165,8 +168,9 @@
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-005">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-005"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-009"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-05"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-11"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-11"/>
         <base:descricao>Estratégia de fomentar colaboração harmoniosa entre pessoas e sistemas de IA</base:descricao>
         <base:id>EST-006</base:id>
         <base:nome>Promoção de Colaboração Humano-Máquina</base:nome>
@@ -181,11 +185,11 @@
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-006">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-001"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-002"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-003"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-005"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-014"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-01"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-04"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-07"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-10"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-11"/>
         <base:descricao>Desenvolvimento de ambientes onde colaboradores se sintam seguros para experimentar e errar</base:descricao>
         <base:id>EST-007</base:id>
         <base:nome>Criação de Ambientes Psicologicamente Seguros</base:nome>
@@ -200,9 +204,9 @@
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-007">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-001"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-008"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-009"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-09"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-09"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-06"/>
         <base:descricao>Implementação de sistemas confirm-or-override para manter envolvimento humano na decisão</base:descricao>
         <base:id>EST-008</base:id>
         <base:nome>Uso de IA Parcialmente Automatizada</base:nome>
@@ -217,7 +221,9 @@
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-008">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-013"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-01"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-08"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-08"/>
         <base:descricao>Comunicação clara e aberta sobre implementação, benefícios e desafios da IA</base:descricao>
         <base:id>EST-009</base:id>
         <base:nome>Comunicação Transparente sobre IA</base:nome>
@@ -232,8 +238,10 @@
 
     <owl:NamedIndividual rdf:about="http://example.com/LeaderOntology/description/strategiesDescrip#EST-009">
         <rdf:type rdf:resource="http://example.com/LeaderOntology/vocabulary/strategies#Estrategia"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#CONH-001"/>
-        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-001"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#ATI-05"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-05"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-07"/>
+        <strategies:desenvolve rdf:resource="http://example.com/LeaderOntology/description/competenciesDescrip#HAB-11"/>
         <base:descricao>Líderes demonstram pessoalmente a adoção e uso efetivo de tecnologias digitais</base:descricao>
         <base:id>EST-010</base:id>
         <base:nome>Liderança pelo Exemplo</base:nome>

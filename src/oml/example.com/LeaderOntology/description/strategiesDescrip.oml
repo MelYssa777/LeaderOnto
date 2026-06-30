@@ -10,7 +10,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:nome "Promoção de Práticas Habilitadas por IA"
 		base:id "EST-001"
 		base:descricao "Estratégia de implementar e promover práticas de trabalho que utilizam IA para desenvolver resiliência"
-		strategies:desenvolve competenciesDescrip:HAB-005, competenciesDescrip:HAB-009
+		strategies:desenvolve competenciesDescrip:CONH-07, competenciesDescrip:CONH-08, competenciesDescrip:HAB-12, competenciesDescrip:ATI-12
 		strategies:tipoEstrategia "treinamento"
 	]
 	
@@ -18,7 +18,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:nome "Fomento de Cultura de Inovação e Inovação sustentável"
 		base:id "EST-002"
 		base:descricao "Cultivo de ambiente organizacional que valoriza experimentação, criatividade e inovação"
-		strategies:desenvolve competenciesDescrip:HAB-012, competenciesDescrip:ATI-002
+		strategies:desenvolve competenciesDescrip:CONH-07, competenciesDescrip:ATI-07, competenciesDescrip:ATI-02
 		strategies:tipoEstrategia "comunidade_pratica"
 	]
 	
@@ -26,7 +26,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:nome "Treinamento Contínuo, Desenvolvimento e Capacitação de Funcionários"
 		base:id "EST-003"
 		base:descricao "Programas estruturados de capacitação contínua em competências digitais e de IA, além da requalificação de colaboradores para lidar com automação e novas tecnologias"
-		strategies:desenvolve competenciesDescrip:HAB-001, competenciesDescrip:HAB-018, competenciesDescrip:CONH-001, competenciesDescrip:CONH-002
+		strategies:desenvolve competenciesDescrip:CONH-06, competenciesDescrip:CONH-02, competenciesDescrip:CONH-07, competenciesDescrip:HAB-07
 		strategies:tipoEstrategia "treinamento"
 	]
 	
@@ -34,7 +34,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:nome "Promoção de Confiança na IA"
 		base:id "EST-005"
 		base:descricao "Construção de confiança organizacional nas capacidades e uso ético de sistemas de IA"
-		strategies:desenvolve competenciesDescrip:CONH-003, competenciesDescrip:CONH-004, competenciesDescrip:HAB-005, competenciesDescrip:ATI-005
+		strategies:desenvolve competenciesDescrip:HAB-03, competenciesDescrip:ATI-03, competenciesDescrip:ATI-09, competenciesDescrip:ATI-05
 		strategies:tipoEstrategia "treinamento"
 	]
 	
@@ -42,7 +42,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:nome "Promoção de Colaboração Humano-Máquina"
 		base:id "EST-006"
 		base:descricao "Estratégia de fomentar colaboração harmoniosa entre pessoas e sistemas de IA"
-		strategies:desenvolve competenciesDescrip:CONH-005, competenciesDescrip:HAB-009
+		strategies:desenvolve competenciesDescrip:CONH-11, competenciesDescrip:ATI-05, competenciesDescrip:HAB-11
 		strategies:tipoEstrategia "comunidade_pratica"
 	]
 	
@@ -50,7 +50,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:nome "Criação de Ambientes Psicologicamente Seguros"
 		base:id "EST-007"
 		base:descricao "Desenvolvimento de ambientes onde colaboradores se sintam seguros para experimentar e errar"
-		strategies:desenvolve competenciesDescrip:HAB-005, competenciesDescrip:HAB-014, competenciesDescrip:ATI-001, competenciesDescrip:ATI-002, competenciesDescrip:ATI-003
+		strategies:desenvolve competenciesDescrip:ATI-01, competenciesDescrip:ATI-07, competenciesDescrip:ATI-04, competenciesDescrip:ATI-10, competenciesDescrip:ATI-11
 		strategies:tipoEstrategia "coaching"
 	]
 	
@@ -58,7 +58,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:nome "Uso de IA Parcialmente Automatizada"
 		base:id "EST-008"
 		base:descricao "Implementação de sistemas confirm-or-override para manter envolvimento humano na decisão"
-		strategies:desenvolve competenciesDescrip:ATI-001, competenciesDescrip:HAB-008, competenciesDescrip:HAB-009
+		strategies:desenvolve competenciesDescrip:CONH-09, competenciesDescrip:HAB-06, competenciesDescrip:ATI-09
 		strategies:tipoEstrategia "aprendizagem_continua"
 	]
 	
@@ -66,7 +66,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:nome "Comunicação Transparente sobre IA"
 		base:id "EST-009"
 		base:descricao "Comunicação clara e aberta sobre implementação, benefícios e desafios da IA"
-		strategies:desenvolve competenciesDescrip:HAB-013
+		strategies:desenvolve competenciesDescrip:ATI-08, competenciesDescrip:HAB-08, competenciesDescrip:ATI-01
 		strategies:tipoEstrategia "mentoria"
 	]
 	
@@ -74,7 +74,7 @@ description <http://example.com/LeaderOntology/description/strategiesDescrip#> a
 		base:nome "Liderança pelo Exemplo"
 		base:id "EST-010"
 		base:descricao "Líderes demonstram pessoalmente a adoção e uso efetivo de tecnologias digitais"
-		strategies:desenvolve competenciesDescrip:HAB-001, competenciesDescrip:CONH-001
+		strategies:desenvolve competenciesDescrip:HAB-11, competenciesDescrip:HAB-07, competenciesDescrip:HAB-05, competenciesDescrip:ATI-05
 		strategies:tipoEstrategia "mentoria"
 	]
 }
