@@ -8,9 +8,8 @@ vocabulary <http://example.com/LeaderOntology/vocabulary/leadershipStyles#> as l
 
 
 	aspect Lideranca_4.0 < base:EntidadeNomeavel, base:EntidadeDescritivel, base:EntidadeIdentificavel
-	
+
 	// Conceito central
-	
 	concept EstiloLideranca < Lideranca_4.0 [
 		restricts base:id to min 1
 	]
