@@ -1,0 +1,561 @@
+description <http://example.com/LeaderOntology/description/questionnaireDescrip#> as questionnaireDescrip {
+	
+	uses <http://example.com/LeaderOntology/vocabulary/base#> as base
+	uses <http://example.com/LeaderOntology/vocabulary/questionnaire#> as questionnaire
+
+	extends <http://example.com/LeaderOntology/description/competenciesDescrip#> as competenciesDescrip
+	extends <http://example.com/LeaderOntology/description/leaderstyleDescrip#> as leaderstyleDescrip
+	extends <http://example.com/LeaderOntology/description/activitiesDescrip#> as activitiesDescrip
+	extends <http://example.com/LeaderOntology/description/impactsDescrip#> as impactsDescrip
+	extends <http://example.com/LeaderOntology/description/decisionProcessDescrip#> as decisionProcessDescrip
+	extends <http://example.com/LeaderOntology/description/strategiesDescrip#> as strategiesDescrip
+
+	// BLOCOS TEMÁTICOS
+	
+	instance BlocoConectividade : questionnaire:BlocoEntrevista [
+		base:id "B-Conect"
+		base:nome "Bloco - Conectividade"
+		base:descricao "Avalia abertura, articulação e descentralização. Mapeamento HPI: Sociabilidade e Sensibilidade Interpessoal (Getting Along).
+ 	Big Five: Extroversão (Surgency) e Amabilidade (Agreeableness)."
+	]
+
+	instance BlocoVersatilidade : questionnaire:BlocoEntrevista [
+		base:id "B-Versat"
+		base:nome "Bloco — Versatilidade"
+		base:descricao "Avalia agilidade, adaptabilidade e auto-organização. Mapeamento HPI: Prudência e Ajuste (Adjustment/Inquisitive). 
+	Big Five: Abertura à Experiência (Intellect) e Estabilidade Emocional (Adjustment)."
+	]
+
+	instance BlocoDesenvolvimento : questionnaire:BlocoEntrevista [
+		base:id "B-Desenv"
+		base:nome "Bloco — Desenvolvimento"
+		base:descricao "Avalia confiança, inovação e colaboração. Mapeamento HPI: Prudência (Prudence) e Sensibilidade Interpessoal (Getting Along). 
+	Big Five: Conscienciosidade (Prudence) e Amabilidade (Agreeableness)."
+	]
+
+	instance BlocoPessoal : questionnaire:BlocoEntrevista [
+		base:id "B-Pessoal"
+		base:nome "Bloco D — Pessoal"
+		base:descricao "Avalia empatia, comunicação e resiliência. Mapeamento HPI: Ajuste Emocional (Adjustment) e Sensibilidade Interpessoal (Getting Along).
+	Big Five: Estabilidade Emocional (Adjustment) e Amabilidade (Agreeableness)."
+	]
+
+	instance BlocoOntologico : questionnaire:BlocoEntrevista [
+		base:id "B-Onto"
+		base:nome "Bloco Adicional — Construtos Ontológicos"
+		base:descricao "Perguntas adicionais para identificação direta de construtos da ontologia: EstiloLideranca, AtividadeChave, Estrategia, ImpactoOrganizacional e ProcessoDecisao."
+	]
+
+	// BLOCO A — CONECTIVIDADE
+	// Q-A1 — Abertura | Nível: Cultura Digital
+
+	instance Q-A1 : questionnaire:PerguntaEntrevista [
+		base:id "Q-A1"
+		base:nome "Como você estrutura os ciclos de feedback na sua equipe — que princípios guiam esse processo — e me conte uma situação em que
+		precisou abrir espaço para uma crítica difícil sobre sua própria liderança: como reagiu e o que mudou a partir daí?"
+		questionnaire:nivelMaturidade "cultura_digital"
+		questionnaire:blocoPerfil "A_conectividade"
+		questionnaire:pertenceABloco BlocoConectividade
+		questionnaire:temEvidenciaCHA Q-A1.CONH
+		questionnaire:temEvidenciaCHA Q-A1.HAB
+		questionnaire:temEvidenciaCHA Q-A1.ATI
+		questionnaire:temInferencia Q-A1.INF
+		questionnaire:avaliaCompetencia competenciesDescrip:CONH-01
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-01
+		questionnaire:avaliaCompetencia competenciesDescrip:ATI-01
+	]
+	instance Q-A1.CONH : questionnaire:EvidenciaCHA [
+		base:id "Q-A1.CONH"
+		base:descricao "Revela o domínio conceitual sobre feedback contínuo e ciclos de retroalimentação — CONH-001 (Alfabetização Digital e de Dados)."
+		questionnaire:dimensaoCHA "CONH"
+	]
+	instance Q-A1.HAB : questionnaire:EvidenciaCHA [
+		base:id "Q-A1.HAB"
+		base:descricao "Evidencia a habilidade de gerir diálogos produtivos e transformar críticas em ação concreta — HAB-013 (Comunicação Digital Transparente)."
+		questionnaire:dimensaoCHA "HAB"
+	]
+	instance Q-A1.ATI : questionnaire:EvidenciaCHA [
+		base:id "Q-A1.ATI"
+		base:descricao "Expõe a disposição genuína para comunicação aberta, incluindo sobre o próprio comportamento — MIND-002 (Mentalidade de Crescimento e Aprendizagem Contínua)."
+		questionnaire:dimensaoCHA "ATI"
+	]
+	instance Q-A1.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-A1.INF"
+		base:descricao "Distingue abertura declarada de abertura praticada; mede tolerância à crítica e desejo de cooperação. Mapeamento HPI: Amabilidade / Baixo Neuroticismo."
+	]
+
+	
+	// Q-A2 — Articulação | Nível: Atitude Digital
+	
+	instance Q-A2 : questionnaire:PerguntaEntrevista [
+		base:id "Q-A2"
+		base:nome "Como você mapeia as competências externas à sua equipe que podem complementar as lacunas internas — 
+		e me conte uma situação em que precisou negociar recursos ou informações com outra área: como construiu confiança nessa relação mantendo seus compromissos éticos?"
+		questionnaire:nivelMaturidade "atitude_digital"
+		questionnaire:blocoPerfil "A_conectividade"
+		questionnaire:pertenceABloco BlocoConectividade
+		questionnaire:temEvidenciaCHA Q-A2.CONH
+		questionnaire:temEvidenciaCHA Q-A2.HAB
+		questionnaire:temEvidenciaCHA Q-A2.ATI
+		questionnaire:temInferencia Q-A2.INF
+		questionnaire:avaliaCompetencia competenciesDescrip:CONH-05
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-05
+		questionnaire:avaliaCompetencia competenciesDescrip:ATI-05
+	]
+	instance Q-A2.CONH : questionnaire:EvidenciaCHA [
+		base:id "Q-A2.CONH"
+		base:descricao "Avalia o conhecimento sobre redes de competências internas e externas — CONH-004 (Governança e Responsabilidade na IA)."
+		questionnaire:dimensaoCHA "CONH"
+	]
+	instance Q-A2.HAB : questionnaire:EvidenciaCHA [
+		base:id "Q-A2.HAB"
+		base:descricao "Mede a habilidade de negociar, disseminar informações e gerir conflitos por soluções mutuamente vantajosas — HAB-003 (Pensamento Crítico e Resolução de Problemas)."
+		questionnaire:dimensaoCHA "HAB"
+	]
+	instance Q-A2.ATI : questionnaire:EvidenciaCHA [
+		base:id "Q-A2.ATI"
+		base:descricao "Evidencia a disposição para uso ético da informação e reciprocidade como base das alianças profissionais — MIND-005 (Uso Ético da IA)."
+		questionnaire:dimensaoCHA "ATI"
+	]
+	instance Q-A2.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-A2.INF"
+		base:descricao "Mede a capacidade de influenciar por meio de redes, negociação e confiança, sem instrumentalizar relações. Mapeamento HPI: Extroversão / Amabilidade."
+	]
+
+	
+	// Q-A3 — Descentralização | Nível: Transformação Digital
+
+	instance Q-A3 : questionnaire:PerguntaEntrevista [
+		base:id "Q-A3"
+		base:nome "Que critérios você usa para identificar membros com potencial de liderança e como os prepara para assumir decisões que antes dependiam de você — me conte um exemplo em que deliberadamente não interveio em uma decisão importante: o que pesou nessa escolha?"
+		questionnaire:nivelMaturidade "transformacao_digital"
+		questionnaire:blocoPerfil "A_conectividade"
+		questionnaire:pertenceABloco BlocoConectividade
+		questionnaire:temEvidenciaCHA Q-A3.CONH
+		questionnaire:temEvidenciaCHA Q-A3.HAB
+		questionnaire:temEvidenciaCHA Q-A3.ATI
+		questionnaire:temInferencia Q-A3.INF
+		questionnaire:avaliaCompetencia competenciesDescrip:CONH-09
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-09
+		questionnaire:avaliaCompetencia competenciesDescrip:ATI-09
+	]
+	instance Q-A3.CONH : questionnaire:EvidenciaCHA [
+		base:id "Q-A3.CONH"
+		base:descricao "Avalia o conhecimento sobre práticas de liderança compartilhada e identificação de perfis líderes — CONH-006 (Visão Estratégica Digital)."
+		questionnaire:dimensaoCHA "CONH"
+	]
+	instance Q-A3.HAB : questionnaire:EvidenciaCHA [
+		base:id "Q-A3.HAB"
+		base:descricao "Mede a habilidade de delegar com autonomia real, sem microgestão disfarçada de suporte — HAB-014 (Empoderamento e Capacitação de Equipes)."
+		questionnaire:dimensaoCHA "HAB"
+	]
+	instance Q-A3.ATI : questionnaire:EvidenciaCHA [
+		base:id "Q-A3.ATI"
+		base:descricao "Revela a disposição de confiar nas competências alheias e cultivar decisão espontânea no time — MIND-004 (Integridade e Intenção)."
+		questionnaire:dimensaoCHA "ATI"
+	]
+	instance Q-A3.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-A3.INF"
+		base:descricao "Distingue delegação formal de empoderamento genuíno; evidencia confiança no outro. Mapeamento HPI: Amabilidade."
+	]
+
+	
+	// BLOCO B — VERSATILIDADE
+	// Q-B1 — Agilidade | Nível: Cultura Digital
+	
+	instance Q-B1 : questionnaire:PerguntaEntrevista [
+		base:id "Q-B1"
+		base:nome "Que princípios ágeis orientam sua leitura do ambiente e a forma como mantém a equipe entregando valor continuamente — e me conte como conduziu uma mudança inesperada de escopo: o que tentou, o que não funcionou e o que esse episódio mudou permanentemente na sua abordagem?"
+		questionnaire:nivelMaturidade "cultura_digital"
+		questionnaire:blocoPerfil "B_versatilidade"
+		questionnaire:pertenceABloco BlocoVersatilidade
+		questionnaire:temEvidenciaCHA Q-B1.CONH
+		questionnaire:temEvidenciaCHA Q-B1.HAB
+		questionnaire:temEvidenciaCHA Q-B1.ATI
+		questionnaire:temInferencia Q-B1.INF
+		questionnaire:revelaConstrutoEstilo leaderstyleDescrip:LID-005
+		questionnaire:avaliaCompetencia competenciesDescrip:CONH-02
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-06
+		questionnaire:avaliaCompetencia competenciesDescrip:ATI-02
+	]
+	instance Q-B1.CONH : questionnaire:EvidenciaCHA [
+		base:id "Q-B1.CONH"
+		base:descricao "Revela o domínio dos fundamentos ágeis e a capacidade de antecipar cenários de mudança — CONH-002 (Conhecimento sobre Automação e IA)."
+		 questionnaire:dimensaoCHA "CONH"
+	]
+	instance Q-B1.HAB : questionnaire:EvidenciaCHA [
+		base:id "Q-B1.HAB"
+		base:descricao "Evidencia a habilidade de gerenciar mudanças de forma humanista e remover obstáculos com o time — HAB-007 (Execução Rápida e Adaptabilidade)."
+		 questionnaire:dimensaoCHA "HAB"
+	]
+	instance Q-B1.ATI : questionnaire:EvidenciaCHA [
+		base:id "Q-B1.ATI"
+		base:descricao "Mede a disposição para experimentar, tolerar falhas e aprender sistematicamente com elas — MIND-002 (Mentalidade de Crescimento e Aprendizagem Contínua)."
+		 questionnaire:dimensaoCHA "ATI"
+	]
+	instance Q-B1.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-B1.INF"
+		base:descricao "Diferencia conhecimento teórico do ágil de uma mentalidade ágil real incorporada ao comportamento. Mapeamento HPI: Abertura à Experiência / Baixa Prudência rígida."
+	]
+
+	// Q-B2 — Adaptabilidade | Nível: Atitude Digital
+	instance Q-B2 : questionnaire:PerguntaEntrevista [
+		base:id "Q-B2"
+		base:nome "Como você percebe quando seu estilo habitual de liderança está deixando de funcionar para um contexto ou pessoa específica — e me descreva uma situação em que precisou mudar radicalmente sua abordagem para equilibrar controle e autonomia: o que você fez de diferente?"
+		questionnaire:nivelMaturidade "atitude_digital"
+		questionnaire:blocoPerfil "B_versatilidade"
+		questionnaire:pertenceABloco BlocoVersatilidade
+		questionnaire:temEvidenciaCHA Q-B2.CONH
+		questionnaire:temEvidenciaCHA Q-B2.HAB
+		questionnaire:temEvidenciaCHA Q-B2.ATI
+		questionnaire:temInferencia Q-B2.INF
+		questionnaire:avaliaCompetencia competenciesDescrip:CONH-06
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-06
+		questionnaire:avaliaCompetencia competenciesDescrip:ATI-06
+	]
+	instance Q-B2.CONH : questionnaire:EvidenciaCHA [
+		base:id "Q-B2.CONH"
+		base:descricao "Avalia o conhecimento sobre métodos de diagnóstico comportamental e o conceito de liderança adaptável — CONH-005 (Conhecimento sobre Sistemas de IA para Decisão)."
+		questionnaire:dimensaoCHA "CONH"
+	]
+	instance Q-B2.HAB : questionnaire:EvidenciaCHA [
+		base:id "Q-B2.HAB"
+		base:descricao "Mede a habilidade de diagnosticar a situação e ajustar estratégias rapidamente frente a adversidades — HAB-017 (Redução da Resistência à Mudança)."
+		questionnaire:dimensaoCHA "HAB"
+	]
+	instance Q-B2.ATI : questionnaire:EvidenciaCHA [
+		base:id "Q-B2.ATI"
+		base:descricao "Revela a disposição para variar o padrão de liderança conforme o grupo, não a preferência pessoal do líder — MIND-007 (Flexibilidade e Mudança de Mentalidade)."
+		questionnaire:dimensaoCHA "ATI"
+	]
+	instance Q-B2.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-B2.INF"
+		base:descricao "Mede resiliência e capacidade de permanecer funcional sob alta volatilidade sem escalar o estresse do time. Mapeamento HPI: Estabilidade Emocional."
+	]
+
+	
+	// Q-B3 — Auto-organização | Nível: Transformação Digital
+
+	instance Q-B3 : questionnaire:PerguntaEntrevista [
+		base:id "Q-B3"
+		base:nome "Como você constrói e transmite uma visão de futuro que guia o trabalho da equipe sem precisar controlar cada decisão — e me conte uma situação em que atuou como facilitador removendo um obstáculo que impedia o time de se organizar autonomamente?"
+		questionnaire:nivelMaturidade "transformacao_digital"
+		questionnaire:blocoPerfil "B_versatilidade"
+		questionnaire:pertenceABloco BlocoVersatilidade
+		questionnaire:temEvidenciaCHA Q-B3.CONH
+		questionnaire:temEvidenciaCHA Q-B3.HAB
+		questionnaire:temEvidenciaCHA Q-B3.ATI
+		questionnaire:temInferencia Q-B3.INF
+		questionnaire:avaliaCompetencia competenciesDescrip:CONH-10
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-10
+		questionnaire:avaliaCompetencia competenciesDescrip:ATI-10
+	]
+	instance Q-B3.CONH : questionnaire:EvidenciaCHA [
+		base:id "Q-B3.CONH"
+		base:descricao "Avalia o domínio de práticas de orientação que evitam instruções rígidas e mantêm a equipe motivada — CONH-006 (Visão Estratégica Digital)."
+		questionnaire:dimensaoCHA "CONH"
+	]
+	instance Q-B3.HAB : questionnaire:EvidenciaCHA [
+		base:id "Q-B3.HAB"
+		base:descricao "Mede a habilidade de exercer liderança por visão e propósito, respeitando a dinâmica própria do time — HAB-008 (Hiperconsciência Situacional)."
+		questionnaire:dimensaoCHA "HAB"
+	]
+	instance Q-B3.ATI : questionnaire:EvidenciaCHA [
+		base:id "Q-B3.ATI"
+		base:descricao "Revela a disposição para abrir mão do controle direto e confiar na autogestão coletiva — MIND-009 (Orientação Colaborativa e Cooperativa)."
+		questionnaire:dimensaoCHA "ATI"
+	]
+	instance Q-B3.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-B3.INF"
+		base:descricao "Diferencia o líder que facilita do que supervisiona; avalia confiança real na inteligência coletiva do time. Mapeamento HPI: Abertura / Estabilidade Emocional."
+	]
+
+	// BLOCO C — DESENVOLVIMENTO
+	// Q-C1 — Confiança | Nível: Cultura Digital
+	
+	instance Q-C1 : questionnaire:PerguntaEntrevista [
+		base:id "Q-C1"
+		base:nome "Como você percebe — nos comportamentos e dinâmicas do dia a dia — quando a confiança está sendo construída ou erodida na sua equipe, e me conte uma situação em que manteve seus princípios éticos e sua transparência mesmo sob pressão para agir diferente?"
+		questionnaire:nivelMaturidade "cultura_digital"
+		questionnaire:blocoPerfil "C_desenvolvimento"
+		questionnaire:pertenceABloco BlocoDesenvolvimento
+		questionnaire:temEvidenciaCHA Q-C1.CONH
+		questionnaire:temEvidenciaCHA Q-C1.HAB
+		questionnaire:temEvidenciaCHA Q-C1.ATI
+		questionnaire:temInferencia Q-C1.INF
+		questionnaire:revelaConstrutoEstilo leaderstyleDescrip:LID-006
+		questionnaire:avaliaCompetencia competenciesDescrip:CONH-03
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-03
+		questionnaire:avaliaCompetencia competenciesDescrip:ATI-03
+	]
+	instance Q-C1.CONH : questionnaire:EvidenciaCHA [
+		base:id "Q-C1.CONH"
+		base:descricao "Avalia a inteligência social desenvolvida nas relações de trabalho e a leitura de sinais de confiança — CONH-004 (Governança e Responsabilidade na IA)."
+		questionnaire:dimensaoCHA "CONH"
+	]
+	instance Q-C1.HAB : questionnaire:EvidenciaCHA [
+		base:id "Q-C1.HAB"
+		base:descricao "Mede a integridade comportamental: coerência entre valores declarados e ações sob pressão — HAB-013 (Comunicação Digital Transparente)."
+		questionnaire:dimensaoCHA "HAB"
+	]
+	instance Q-C1.ATI : questionnaire:EvidenciaCHA [
+		base:id "Q-C1.ATI"
+		base:descricao "Revela o senso de justiça e a disposição para transparência mesmo quando inconveniente — MIND-004 (Integridade e Intenção)."
+		questionnaire:dimensaoCHA "ATI"
+	]
+	instance Q-C1.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-C1.INF"
+		base:descricao "Distingue confiança gerenciada instrumentalmente de confiança como valor central da liderança. Mapeamento HPI: Conscienciosidade / Amabilidade."
+	]
+
+	// Q-C2 — Inovação | Nível: Atitude Digital
+	instance Q-C2 : questionnaire:PerguntaEntrevista [
+		base:id "Q-C2"
+		base:nome "Que mentalidade e ferramentas você usa para cultivar inovação na equipe — e me conte como apoiou um liderado a assumir um risco que poderia ter falhado: como você removeu as barreiras internas para que ele tentasse e como reconheceu o esforço, independente do resultado?"
+		questionnaire:nivelMaturidade "atitude_digital"
+		questionnaire:blocoPerfil "C_desenvolvimento"
+		questionnaire:pertenceABloco BlocoDesenvolvimento
+		questionnaire:temEvidenciaCHA Q-C2.CONH
+		questionnaire:temEvidenciaCHA Q-C2.HAB
+		questionnaire:temEvidenciaCHA Q-C2.ATI
+		questionnaire:temInferencia Q-C2.INF
+		questionnaire:revelaConstrutoEstilo leaderstyleDescrip:LID-004
+		questionnaire:revelaConstrutoAtividadeChave activitiesDescrip:ATIV-IN-002
+		questionnaire:avaliaCompetencia competenciesDescrip:CONH-07
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-07
+		questionnaire:avaliaCompetencia competenciesDescrip:ATI-07
+	]
+	instance Q-C2.CONH : questionnaire:EvidenciaCHA [
+		base:id "Q-C2.CONH"
+		base:descricao "Avalia o domínio de práticas, métodos e abordagens experimentais de inovação — CONH-002 (Conhecimento sobre Automação e IA)."
+		questionnaire:dimensaoCHA "CONH"
+	]
+	instance Q-C2.HAB : questionnaire:EvidenciaCHA [
+		base:id "Q-C2.HAB"
+		base:descricao "Mede a habilidade de inspirar e apoiar a tomada de riscos com sistemas de recompensa incrementais — HAB-012 (Criatividade e Inovatividade)."
+		questionnaire:dimensaoCHA "HAB"
+	]
+	instance Q-C2.ATI : questionnaire:EvidenciaCHA [
+		base:id "Q-C2.ATI"
+		base:descricao "Revela a disposição para eliminar o medo de errar e criar espaços psicológicos seguros para novas ideias — MIND-003 (Eliminação do Medo do Fracasso)."
+		questionnaire:dimensaoCHA "ATI"
+	]
+	instance Q-C2.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-C2.INF"
+		base:descricao "Diferencia o líder que fala em inovação do que remove ativamente as barreiras que a impedem. Mapeamento HPI: Abertura / Baixa Prudência restritiva."
+	]
+
+	// ---------------------------------------------------------
+	// Q-C3 — Colaboração | Nível: Transformação Digital
+	// ---------------------------------------------------------
+	instance Q-C3 : questionnaire:PerguntaEntrevista [
+		base:id "Q-C3"
+		base:nome "Como você avalia o nível de maturidade colaborativa da equipe para ajustar seu estilo de gestão — e me descreva uma situação em que liderou pelo exemplo para construir uma cultura em que cada pessoa sente que sua contribuição individual fortalece o time como um todo?"
+		questionnaire:nivelMaturidade "transformacao_digital"
+		questionnaire:blocoPerfil "C_desenvolvimento"
+		questionnaire:pertenceABloco BlocoDesenvolvimento
+		questionnaire:temEvidenciaCHA Q-C3.CONH
+		questionnaire:temEvidenciaCHA Q-C3.HAB
+		questionnaire:temEvidenciaCHA Q-C3.ATI
+		questionnaire:temInferencia Q-C3.INF
+		questionnaire:revelaConstrutoEstilo leaderstyleDescrip:LID-004
+		questionnaire:revelaConstrutoAtividadeChave activitiesDescrip:ATIV-IN-001
+		questionnaire:avaliaCompetencia competenciesDescrip:CONH-11
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-11
+		questionnaire:avaliaCompetencia competenciesDescrip:ATI-11
+	]
+	instance Q-C3.CONH : questionnaire:EvidenciaCHA [
+		base:id "Q-C3.CONH"
+		base:descricao "Conhecimento de práticas de gestão colaborativa. Correspondência com CONH-11 — Dinâmicas de Colaboração."
+		questionnaire:dimensaoCHA "CONH"
+	]
+	instance Q-C3.HAB : questionnaire:EvidenciaCHA [
+		base:id "Q-C3.HAB"
+		base:descricao "Avaliar maturidade da equipe e liderar pelo exemplo. Correspondência com HAB-11 — Liderança pelo Exemplo."
+		questionnaire:dimensaoCHA "HAB"
+	]
+	instance Q-C3.ATI : questionnaire:EvidenciaCHA [
+		base:id "Q-C3.ATI"
+		base:descricao "Empoderamento e orientação a objetivos coletivos. Correspondência com ATI-11 — Empoderamento Coletivo."
+		questionnaire:dimensaoCHA "ATI"
+	]
+	instance Q-C3.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-C3.INF"
+		base:descricao "Distingue colaboração superficial de cultura colaborativa genuína construída pelo exemplo do líder. Mapeamento HPI: Amabilidade / Extroversão."
+	]
+
+	// BLOCO D — PESSOAL
+	// Q-D1 — Empatia | Nível: Cultura Digital
+	instance Q-D1 : questionnaire:PerguntaEntrevista [
+		base:id "Q-D1"
+		base:nome "Como você lê os sinais emocionais e comportamentais da sua equipe — especialmente em ambiente remoto — e me conte uma situação em que essa leitura mudou concretamente sua forma de tratar uma pessoa: o que você percebeu, o que fez diferente e o que isso gerou na relação?"
+		questionnaire:nivelMaturidade "cultura_digital"
+		questionnaire:blocoPerfil "D_pessoal"
+		questionnaire:pertenceABloco BlocoPessoal
+		questionnaire:temEvidenciaCHA Q-D1.CONH
+		questionnaire:temEvidenciaCHA Q-D1.HAB
+		questionnaire:temEvidenciaCHA Q-D1.ATI
+		questionnaire:temInferencia Q-D1.INF
+		questionnaire:revelaConstrutoEstilo leaderstyleDescrip:LID-001
+		questionnaire:avaliaCompetencia competenciesDescrip:CONH-04
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-04
+		questionnaire:avaliaCompetencia competenciesDescrip:ATI-04
+	]
+	instance Q-D1.CONH : questionnaire:EvidenciaCHA [
+		base:id "Q-D1.CONH"
+		base:descricao "Interpretar sinais emocionais e comportamentais. Correspondência com CONH-04 — Leitura Emocional e Corporal."
+		questionnaire:dimensaoCHA "CONH"
+	]
+	instance Q-D1.HAB : questionnaire:EvidenciaCHA [
+		base:id "Q-D1.HAB"
+		base:descricao "Responder empaticamente aos sinais de outra pessoa. Correspondência com HAB-04 — Resposta Empática."
+		questionnaire:dimensaoCHA "HAB"
+	]
+	instance Q-D1.ATI : questionnaire:EvidenciaCHA [
+		base:id "Q-D1.ATI"
+		base:descricao "Tratar pessoas individualmente e construir vínculos emocionais. Correspondência com ATI-04 — Criação de Vínculos Emocionais."
+		questionnaire:dimensaoCHA "ATI"
+	]
+	instance Q-D1.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-D1.INF"
+		base:descricao "Distingue empatia performática de empatia ativa que altera comportamentos e fortalece vínculos. Mapeamento HPI: Amabilidade."
+	]
+
+	// Q-D2 — Comunicação | Nível: Atitude Digital
+	instance Q-D2 : questionnaire:PerguntaEntrevista [
+		base:id "Q-D2"
+		base:nome "Que meios e recursos você usa para adaptar a mesma mensagem a públicos muito diferentes — e me conte uma situação em que identificou uma falha de comunicação antes que ela causasse um problema maior: o que você fez, o que funcionou e o que aprendeu sobre sua própria comunicação?"
+		questionnaire:nivelMaturidade "atitude_digital"
+		questionnaire:blocoPerfil "D_pessoal"
+		questionnaire:pertenceABloco BlocoPessoal
+		questionnaire:temEvidenciaCHA Q-D2.CONH
+		questionnaire:temEvidenciaCHA Q-D2.HAB
+		questionnaire:temEvidenciaCHA Q-D2.ATI
+		questionnaire:temInferencia Q-D2.INF
+		questionnaire:revelaConstrutoAtividadeChave activitiesDescrip:ATIV-AP-001
+		questionnaire:avaliaCompetencia competenciesDescrip:CONH-08
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-08
+		questionnaire:avaliaCompetencia competenciesDescrip:ATI-08
+	]
+	instance Q-D2.CONH : questionnaire:EvidenciaCHA [
+		base:id "Q-D2.CONH"
+		base:descricao "Conhecimento de canais e recursos de comunicação. Correspondência com CONH-08 — Canais de Comunicação."
+		questionnaire:dimensaoCHA "CONH"
+	]
+	instance Q-D2.HAB : questionnaire:EvidenciaCHA [
+		base:id "Q-D2.HAB"
+		base:descricao "Adaptar mensagens e prevenir/corrigir falhas de comunicação. Correspondência com HAB-08 — Otimização de Mensagens."
+		questionnaire:dimensaoCHA "HAB"
+	]
+	instance Q-D2.ATI : questionnaire:EvidenciaCHA [
+		base:id "Q-D2.ATI"
+		base:descricao "Disposição para comunicação interna aberta e honesta e para considerar feedback. Correspondência com ATI-08 — Comunicação Honesta."
+		questionnaire:dimensaoCHA "ATI"
+	]
+	instance Q-D2.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-D2.INF"
+		base:descricao "Verifica fluidez verbal, capacidade de conectar públicos distintos e autopercepção comunicacional. Mapeamento HPI: Extroversão / Amabilidade."
+	]
+
+	// Q-D3 — Resiliência | Nível: Transformação Digital
+	instance Q-D3 : questionnaire:PerguntaEntrevista [
+		base:id "Q-D3"
+		base:nome "Que aprendizados de falhas passadas você incorporou permanentemente ao seu repertório de liderança — e me descreva como conduziu a equipe após uma falha significativa: o que comunicou, como influenciou a confiança do time para assumir novos riscos e o que transformou nessa adversidade?"
+		questionnaire:nivelMaturidade "transformacao_digital"
+		questionnaire:blocoPerfil "D_pessoal"
+		questionnaire:pertenceABloco BlocoPessoal
+		questionnaire:temEvidenciaCHA Q-D3.CONH
+		questionnaire:temEvidenciaCHA Q-D3.HAB
+		questionnaire:temEvidenciaCHA Q-D3.ATI
+		questionnaire:temInferencia Q-D3.INF
+		questionnaire:revelaConstrutoEstilo leaderstyleDescrip:LID-003
+		questionnaire:avaliaCompetencia competenciesDescrip:CONH-12
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-12
+		questionnaire:avaliaCompetencia competenciesDescrip:ATI-12
+	]
+	instance Q-D3.CONH : questionnaire:EvidenciaCHA [
+		base:id "Q-D3.CONH"
+		base:descricao "Conhecimento derivado de medidas e lições aprendidas com erros. Correspondência com CONH-12 — Aprendizado com Erros."
+		questionnaire:dimensaoCHA "CONH"
+	]
+	instance Q-D3.HAB : questionnaire:EvidenciaCHA [
+		base:id "Q-D3.HAB"
+		base:descricao "Responder positivamente à adversidade e converter falhas em desenvolvimento. Correspondência com HAB-12 — Crescimento sob Adversidade."
+		questionnaire:dimensaoCHA "HAB"
+	]
+	instance Q-D3.ATI : questionnaire:EvidenciaCHA [
+		base:id "Q-D3.ATI"
+		base:descricao "Encorajar confiança coletiva para lidar com falhas e assumir riscos. Correspondência com ATI-12 — Influência na Autoconfiança."
+		questionnaire:dimensaoCHA "ATI"
+	]
+	instance Q-D3.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-D3.INF"
+		base:descricao "Identifica a estabilidade emocional e a capacidade de modelar resiliência coletiva nos momentos mais críticos. Mapeamento HPI: Estabilidade Emocional."
+	]
+
+	// BLOCO ADICIONAL — CONSTRUTOS ONTOLÓGICOS
+
+	// Q-AD1 — Ferramenta de IA e Processo Decisório
+	// Revela: EstiloLideranca, ProcessoDecisao, Ferramentas
+	instance Q-AD1 : questionnaire:PerguntaEntrevista [
+		base:id "Q-AD1"
+		base:nome "Há alguma ferramenta ou análise baseada em dados ou IA que já mudou uma decisão que você teria tomado diferente? O que foi diferente no processo?"
+		questionnaire:nivelMaturidade "transformacao_digital"
+		questionnaire:blocoPerfil "conceitos_ontologia"
+		questionnaire:pertenceABloco BlocoOntologico
+		questionnaire:temInferencia Q-AD1.INF
+		questionnaire:revelaConstrutoEstilo leaderstyleDescrip:LID-002
+		questionnaire:revelaConstrutoEstilo leaderstyleDescrip:LID-007
+		questionnaire:revelaConstrutoDecisao decisionProcessDescrip:PROC-001
+		questionnaire:revelaConstrutoDecisao decisionProcessDescrip:PROC-005
+		questionnaire:revelaConstrutoDecisao decisionProcessDescrip:PROC-008
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-06
+	]
+	instance Q-AD1.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-AD1.INF"
+		base:descricao "Detecta o EstiloLideranca e o uso de IA como assistente ou barreira à decisão. Identifica o ProcessoDecisao predominante (DDDM, informada, ágil) e o grau de autonomia concedido à IA pelo líder."
+	]
+
+	// Q-AD2 — AtividadeChave e EstrategiaDesenvolvimento
+	// Revela: AtividadeChave priorizada, Estrategia aplicada
+	instance Q-AD2 : questionnaire:PerguntaEntrevista [
+		base:id "Q-AD2"
+		base:nome "Pense em uma situação recente em que sua equipe enfrentou um obstáculo importante para entregar um resultado. Como essa situação evoluiu e qual foi exatamente sua participação?"
+		questionnaire:nivelMaturidade "atitude_digital"
+		questionnaire:blocoPerfil "conceitos_ontologia"
+		questionnaire:pertenceABloco BlocoOntologico
+		questionnaire:temInferencia Q-AD2.INF
+		questionnaire:revelaConstrutoAtividadeChave activitiesDescrip:ATIV-002
+		questionnaire:revelaConstrutoAtividadeChave activitiesDescrip:ATIV-AP-001
+		questionnaire:revelaConstrutoAtividadeChave activitiesDescrip:ATIV-TD-002
+		questionnaire:revelaConstrutoEstrategia strategiesDescrip:EST-001
+		questionnaire:revelaConstrutoEstrategia strategiesDescrip:EST-002
+		questionnaire:avaliaCompetencia competenciesDescrip:HAB-02
+		questionnaire:avaliaCompetencia competenciesDescrip:ATI-10
+	]
+	instance Q-AD2.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-AD2.INF"
+		base:descricao "Identifica a AtividadeChave que o líder realmente prioriza (mentoria, articulação, remoção de barreiras) e a EstrategiaDesenvolvimento que aplica para superar obstáculos. Revela clareza de rumo e método de desenvolvimento da equipe."
+	]
+
+	// Q-AD3 — ImpactoOrganizacional
+	// Revela: impactos percebidos e duradouros da liderança
+	instance Q-AD3 : questionnaire:PerguntaEntrevista [
+		base:id "Q-AD3"
+		base:nome "Conte um projeto em que você percebeu mudanças duradouras depois da conclusão."
+		questionnaire:nivelMaturidade "transformacao_digital"
+		questionnaire:blocoPerfil "conceitos_ontologia"
+		questionnaire:pertenceABloco BlocoOntologico
+		questionnaire:temInferencia Q-AD3.INF
+		questionnaire:revelaConstrutoImpacto impactsDescrip:IMP-003
+		questionnaire:revelaConstrutoImpacto impactsDescrip:IMP-004
+		questionnaire:revelaConstrutoImpacto impactsDescrip:IMP-005
+		questionnaire:revelaConstrutoImpacto impactsDescrip:IMP-006
+
+	]
+	instance Q-AD3.INF : questionnaire:InferenciaDiagnostica [
+		base:id "Q-AD3.INF"
+		base:descricao "Captura o ImpactoOrganizacional percebido pelo líder — inovação, engajamento, criatividade, vantagem competitiva — e avalia se o líder conecta suas ações a resultados concretos e duradouros na organização."
+	]
+	
+}

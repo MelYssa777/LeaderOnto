@@ -70,7 +70,7 @@ description <http://example.com/LeaderOntology/description/leaderstyleDescrip#> 
 		leadershipStyles:requer competenciesDescrip:HAB-03, competenciesDescrip:ATI-03, competenciesDescrip:HAB-10, competenciesDescrip:ATI-06
 		leadershipStyles:realiza activitiesDescrip:ATIV-AP-001, activitiesDescrip:ATIV-TD-002
 		leadershipStyles:resulta impactsDescrip:IMP-004
-		leadershipStyles:tipoEstilo "transacional"
+		leadershipStyles:tipoEstilo "transformacional"
 	]
 	
 	instance LID-007 : leadershipStyles:EstiloLideranca [

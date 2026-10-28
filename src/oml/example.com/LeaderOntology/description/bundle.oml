@@ -7,6 +7,7 @@ description bundle <http://example.com/LeaderOntology/description/bundle#> as ^b
 	includes <http://example.com/LeaderOntology/description/leaderstyleDescrip#>
 	includes <http://example.com/LeaderOntology/description/strategiesDescrip#>
 	includes <http://example.com/LeaderOntology/description/toolsDescrip#>
+	includes <http://example.com/LeaderOntology/description/questionnaireDescrip#> 
 	uses <http://example.com/LeaderOntology/vocabulary/bundle#>
 	
 }
